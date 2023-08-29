@@ -1,0 +1,154 @@
+12:48:48.300 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+12:48:49.854 [main] INFO  com.intuit.karate - karate.env system property was: null 
+12:48:49.928 [main] INFO  com.intuit.karate - [print] INSERT INTO pizzas (name, price) VALUES ('PizzaTestAGABA', 320) 
+12:48:49.934 [main] INFO  com.intuit.karate - after scenario: Create a pizza 
+12:48:49.950 [main] INFO  com.intuit.karate - karate.env system property was: null 
+12:48:49.972 [main] INFO  com.intuit.karate - [print] INSERT INTO toppings (name, price, is_internal) VALUES ('toppingtestGABA', 400, false) 
+12:48:49.974 [main] INFO  com.intuit.karate - after scenario: Create a Topping 
+12:48:49.984 [main] INFO  com.intuit.karate - karate.env system property was: null 
+12:48:50.610 [main] INFO  com.intuit.karate - [print] 2000 
+12:48:50.612 [main] INFO  com.intuit.karate - [print] Margharita 
+12:48:50.613 [main] INFO  com.intuit.karate - [print] Executing and Testing 
+12:48:50.615 [main] INFO  com.intuit.karate - [print] name--- someValue 
+12:48:50.616 [main] INFO  com.intuit.karate - after scenario: Get a Pizza by Ids 
+12:48:51.584 [main] INFO  com.intuit.karate - karate.env system property was: null 
+12:48:51.589 [main] INFO  com.intuit.karate - [print] Receienve Message: 
+12:48:51.702 [main] INFO  com.intuit.karate - karate.env system property was: null 
+12:48:51.705 [main] INFO  com.intuit.karate - [print] opd Message: 
+12:53:59.442 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+12:54:01.153 [main] INFO  com.intuit.karate - karate.env system property was: null 
+12:54:01.228 [main] INFO  com.intuit.karate - [print] INSERT INTO pizzas (name, price) VALUES ('PizzaTestAGABA', 320) 
+12:54:01.238 [main] INFO  com.intuit.karate - after scenario: Create a pizza 
+12:54:01.262 [main] INFO  com.intuit.karate - karate.env system property was: null 
+12:54:01.287 [main] INFO  com.intuit.karate - [print] INSERT INTO toppings (name, price, is_internal) VALUES ('toppingtestGABA', 400, false) 
+12:54:01.289 [main] INFO  com.intuit.karate - after scenario: Create a Topping 
+12:54:01.302 [main] INFO  com.intuit.karate - karate.env system property was: null 
+12:54:01.904 [main] INFO  com.intuit.karate - [print] 2000 
+12:54:01.906 [main] INFO  com.intuit.karate - [print] Margharita 
+12:54:01.908 [main] INFO  com.intuit.karate - [print] Executing and Testing 
+12:54:01.910 [main] INFO  com.intuit.karate - [print] name--- someValue 
+12:54:01.911 [main] INFO  com.intuit.karate - after scenario: Get a Pizza by Ids 
+12:54:02.778 [main] INFO  com.intuit.karate - karate.env system property was: null 
+12:54:02.782 [main] INFO  com.intuit.karate - [print] Receienve Message: 
+12:54:02.866 [main] INFO  com.intuit.karate - karate.env system property was: null 
+12:54:02.869 [main] INFO  com.intuit.karate - [print] opd Message: 
+12:55:39.568 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+12:55:40.809 [main] INFO  com.intuit.karate - karate.env system property was: null 
+12:55:40.882 [main] INFO  com.intuit.karate - [print] INSERT INTO pizzas (name, price) VALUES ('PizzaTestAGABA', 320) 
+12:55:40.888 [main] INFO  com.intuit.karate - after scenario: Create a pizza 
+12:55:40.913 [main] INFO  com.intuit.karate - karate.env system property was: null 
+12:55:40.934 [main] INFO  com.intuit.karate - [print] INSERT INTO toppings (name, price, is_internal) VALUES ('toppingtestGABA', 400, false) 
+12:55:40.936 [main] INFO  com.intuit.karate - after scenario: Create a Topping 
+12:55:40.951 [main] INFO  com.intuit.karate - karate.env system property was: null 
+12:55:41.363 [main] INFO  com.intuit.karate - [print] 2000 
+12:55:41.365 [main] INFO  com.intuit.karate - [print] Margharita 
+12:55:41.367 [main] INFO  com.intuit.karate - [print] Executing and Testing 
+12:55:41.368 [main] INFO  com.intuit.karate - [print] name--- someValue 
+12:55:41.369 [main] INFO  com.intuit.karate - after scenario: Get a Pizza by Ids 
+12:55:42.190 [main] INFO  com.intuit.karate - karate.env system property was: null 
+12:55:42.194 [main] INFO  com.intuit.karate - [print] Receienve Message: 
+12:55:42.304 [main] INFO  com.intuit.karate - karate.env system property was: null 
+12:55:42.313 [main] INFO  com.intuit.karate - [print] opd Message: 
+13:21:21.972 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+13:21:21.979 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1693036281975
+13:21:23.447 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:21:23.535 [main] INFO  com.intuit.karate - [print] INSERT INTO pizzas (name, price) VALUES ('PizzaTestAGABA', 320) 
+13:21:23.545 [main] INFO  com.intuit.karate - after scenario: Create a pizza 
+13:21:23.556 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:21:23.580 [main] INFO  com.intuit.karate - [print] INSERT INTO toppings (name, price, is_internal) VALUES ('toppingtestGABA', 400, false) 
+13:21:23.581 [main] INFO  com.intuit.karate - after scenario: Create a Topping 
+13:21:23.593 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:21:24.029 [main] INFO  com.intuit.karate - [print] 2000 
+13:21:24.031 [main] INFO  com.intuit.karate - [print] Margharita 
+13:21:24.032 [main] INFO  com.intuit.karate - [print] Executing and Testing 
+13:21:24.033 [main] INFO  com.intuit.karate - [print] name--- someValue 
+13:21:24.034 [main] INFO  com.intuit.karate - after scenario: Get a Pizza by Ids 
+13:21:24.036 [main] INFO  com.intuit.karate - Hey this is after feature....running after every feature. 
+13:21:24.912 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 3 (0 remaining) classpath:features/handler.feature
+13:21:24.926 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:21:24.934 [main] INFO  com.intuit.karate - [print] Receienve Message: 
+13:21:24.937 [main] INFO  com.intuit.karate - Hey this is after feature....running after every feature. 
+13:21:25.093 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 2 of 3 (0 remaining) classpath:features/my.feature
+13:21:25.107 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:21:25.111 [main] INFO  com.intuit.karate - [print] opd Message: 
+13:21:25.112 [main] INFO  com.intuit.karate - Hey this is after feature....running after every feature. 
+13:21:25.351 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 3 of 3 (0 remaining) classpath:features/opd/opd.feature
+13:21:25.353 [main] DEBUG com.intuit.karate.Suite - waiting for 3 features to complete
+13:22:25.388 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+13:22:25.395 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1693036345390
+13:22:26.698 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:22:26.777 [main] INFO  com.intuit.karate - [print] INSERT INTO pizzas (name, price) VALUES ('PizzaTestAGABA', 320) 
+13:22:26.787 [main] INFO  com.intuit.karate - after scenario: Create a pizza 
+13:22:26.798 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:22:26.819 [main] INFO  com.intuit.karate - [print] INSERT INTO toppings (name, price, is_internal) VALUES ('toppingtestGABA', 400, false) 
+13:22:26.820 [main] INFO  com.intuit.karate - after scenario: Create a Topping 
+13:22:26.831 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:22:27.240 [main] INFO  com.intuit.karate - [print] 2000 
+13:22:27.242 [main] INFO  com.intuit.karate - [print] Margharita 
+13:22:27.244 [main] INFO  com.intuit.karate - [print] Executing and Testing 
+13:22:27.246 [main] INFO  com.intuit.karate - [print] name--- someValue 
+13:22:27.247 [main] INFO  com.intuit.karate - after scenario: Get a Pizza by Ids 
+13:22:27.249 [main] INFO  com.intuit.karate - after feature: work with DB again 
+13:22:28.184 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 3 (0 remaining) classpath:features/handler.feature
+13:22:28.193 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:22:28.199 [main] INFO  com.intuit.karate - [print] Receienve Message: 
+13:22:28.200 [main] INFO  com.intuit.karate - Hey this is after feature....running after every feature. 
+13:22:28.339 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 2 of 3 (0 remaining) classpath:features/my.feature
+13:22:28.349 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:22:28.354 [main] INFO  com.intuit.karate - [print] opd Message: 
+13:22:28.355 [main] INFO  com.intuit.karate - Hey this is after feature....running after every feature. 
+13:22:28.479 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 3 of 3 (0 remaining) classpath:features/opd/opd.feature
+13:22:28.480 [main] DEBUG com.intuit.karate.Suite - waiting for 3 features to complete
+13:36:30.184 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+13:36:30.191 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1693037190187
+13:36:31.538 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:36:31.614 [main] INFO  com.intuit.karate - [print] INSERT INTO pizzas (name, price) VALUES ('PizzaTestAGABA', 320) 
+13:36:31.624 [main] INFO  com.intuit.karate - after scenario: Create a pizza 
+13:36:31.636 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:36:31.662 [main] INFO  com.intuit.karate - [print] INSERT INTO toppings (name, price, is_internal) VALUES ('toppingtestGABA', 400, false) 
+13:36:31.664 [main] INFO  com.intuit.karate - after scenario: Create a Topping 
+13:36:31.674 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:36:32.071 [main] INFO  com.intuit.karate - [print] 2000 
+13:36:32.073 [main] INFO  com.intuit.karate - [print] Margharita 
+13:36:32.075 [main] INFO  com.intuit.karate - [print] Executing and Testing 
+13:36:32.077 [main] INFO  com.intuit.karate - [print] name--- someValue 
+13:36:32.078 [main] INFO  com.intuit.karate - after scenario: Get a Pizza by Ids 
+13:36:32.080 [main] INFO  com.intuit.karate - after feature: work with DB again 
+13:36:32.979 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 3 (0 remaining) classpath:features/handler.feature
+13:36:32.989 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:36:32.993 [main] INFO  com.intuit.karate - [print] Receienve Message: 
+13:36:32.995 [main] INFO  com.intuit.karate - Hey this is after feature....running after every feature. 
+13:36:33.049 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 2 of 3 (0 remaining) classpath:features/my.feature
+13:36:33.055 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:36:33.057 [main] INFO  com.intuit.karate - [print] opd Message: 
+13:36:33.057 [main] INFO  com.intuit.karate - Hey this is after feature....running after every feature. 
+13:36:33.104 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 3 of 3 (0 remaining) classpath:features/opd/opd.feature
+13:36:33.105 [main] DEBUG com.intuit.karate.Suite - waiting for 3 features to complete
+13:38:10.578 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+13:38:10.585 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1693037290581
+13:38:11.938 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:38:12.008 [main] INFO  com.intuit.karate - [print] INSERT INTO pizzas (name, price) VALUES ('PizzaTestAGABA', 320) 
+13:38:12.021 [main] INFO  com.intuit.karate - after scenario: Create a pizza 
+13:38:12.036 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:38:12.436 [main] INFO  com.intuit.karate - [print] 2000 
+13:38:12.438 [main] INFO  com.intuit.karate - [print] Margharita 
+13:38:12.440 [main] INFO  com.intuit.karate - [print] Executing and Testing 
+13:38:12.441 [main] INFO  com.intuit.karate - [print] name--- someValue 
+13:38:12.443 [main] INFO  com.intuit.karate - after scenario: Get a Pizza by Ids 
+13:38:12.445 [main] INFO  com.intuit.karate - after feature: work with DB again 
+13:38:13.276 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 3 (0 remaining) classpath:features/handler.feature
+13:38:13.284 [main] DEBUG com.intuit.karate.Suite - waiting for 3 features to complete
+13:41:11.015 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+13:41:11.024 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1693037471019
+13:41:12.324 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:41:12.393 [main] INFO  com.intuit.karate - [print] INSERT INTO pizzas (name, price) VALUES ('PizzaTestAGABA', 320) 
+13:41:12.403 [main] INFO  com.intuit.karate - after scenario: Create a pizza 
+13:41:12.417 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:41:12.810 [main] INFO  com.intuit.karate - [print] 2000 
+13:41:12.813 [main] INFO  com.intuit.karate - [print] Margharita 
+13:41:12.814 [main] INFO  com.intuit.karate - [print] Executing and Testing 
+13:41:12.816 [main] INFO  com.intuit.karate - [print] name--- someValue 
+13:41:12.818 [main] INFO  com.intuit.karate - after scenario: Get a Pizza by Ids 
+13:41:12.820 [main] INFO  com.intuit.karate - after feature: work with DB again 
+13:41:13.674 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 3 (0 remaining) classpath:features/handler.feature
+13:41:13.679 [main] DEBUG com.intuit.karate.Suite - waiting for 3 features to complete

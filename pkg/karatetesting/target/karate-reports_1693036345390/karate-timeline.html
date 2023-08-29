@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+      .page-heading { padding: 0.5em; margin-bottom: 0.5em; background-color: lightcyan; border: 1px solid gray; }
+    </style>
+    <script src="res/vis.min.js"></script>
+    <link href="res/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="page-heading">
+      <a href="karate-summary.html">Summary</a>
+    </div>     
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"main","id":1}];
+var items = [{"id":1,"group":1,"content":"features\/handler[1:18]","start":1693036283276,"end":1693036283535,"title":"features\/handler[1:18] 13:21:23.276-13:21:23.535 Create a pizza"},{"id":2,"group":1,"content":"features\/handler[2:25]","start":1693036283555,"end":1693036283579,"title":"features\/handler[2:25] 13:21:23.555-13:21:23.579 Create a Topping"},{"id":3,"group":1,"content":"features\/handler[3:33]","start":1693036283592,"end":1693036284033,"title":"features\/handler[3:33] 13:21:23.592-13:21:24.033 Get a Pizza by Ids"},{"id":4,"group":1,"content":"features\/my[1:6]","start":1693036284922,"end":1693036284935,"title":"features\/my[1:6] 13:21:24.922-13:21:24.935 Create a pizza"},{"id":5,"group":1,"content":"features\/opd\/opd[1:6]","start":1693036285106,"end":1693036285111,"title":"features\/opd\/opd[1:6] 13:21:25.106-13:21:25.111 Create a pizza"}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>

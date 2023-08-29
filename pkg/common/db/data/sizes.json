@@ -1,0 +1,5 @@
+[
+  { "name": "S", "multiplier": 1.0 },
+  { "name": "M", "multiplier": 1.5 },
+  { "name": "L", "multiplier": 1.8 }
+]

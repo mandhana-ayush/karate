@@ -1,0 +1,5 @@
+11:53:29.561 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate - Karate version: 1.4.0
+11:53:29.949 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+11:53:31.256 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate - karate.env system property was: null 
+11:53:31.307 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate - [print] someValue 
+11:53:31.935 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) karatetesting/src/test/java/features/my.feature
