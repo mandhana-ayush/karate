@@ -1,154 +1,2335 @@
-12:48:48.300 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
-12:48:49.854 [main] INFO  com.intuit.karate - karate.env system property was: null 
-12:48:49.928 [main] INFO  com.intuit.karate - [print] INSERT INTO pizzas (name, price) VALUES ('PizzaTestAGABA', 320) 
-12:48:49.934 [main] INFO  com.intuit.karate - after scenario: Create a pizza 
-12:48:49.950 [main] INFO  com.intuit.karate - karate.env system property was: null 
-12:48:49.972 [main] INFO  com.intuit.karate - [print] INSERT INTO toppings (name, price, is_internal) VALUES ('toppingtestGABA', 400, false) 
-12:48:49.974 [main] INFO  com.intuit.karate - after scenario: Create a Topping 
-12:48:49.984 [main] INFO  com.intuit.karate - karate.env system property was: null 
-12:48:50.610 [main] INFO  com.intuit.karate - [print] 2000 
-12:48:50.612 [main] INFO  com.intuit.karate - [print] Margharita 
-12:48:50.613 [main] INFO  com.intuit.karate - [print] Executing and Testing 
-12:48:50.615 [main] INFO  com.intuit.karate - [print] name--- someValue 
-12:48:50.616 [main] INFO  com.intuit.karate - after scenario: Get a Pizza by Ids 
-12:48:51.584 [main] INFO  com.intuit.karate - karate.env system property was: null 
-12:48:51.589 [main] INFO  com.intuit.karate - [print] Receienve Message: 
-12:48:51.702 [main] INFO  com.intuit.karate - karate.env system property was: null 
-12:48:51.705 [main] INFO  com.intuit.karate - [print] opd Message: 
-12:53:59.442 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
-12:54:01.153 [main] INFO  com.intuit.karate - karate.env system property was: null 
-12:54:01.228 [main] INFO  com.intuit.karate - [print] INSERT INTO pizzas (name, price) VALUES ('PizzaTestAGABA', 320) 
-12:54:01.238 [main] INFO  com.intuit.karate - after scenario: Create a pizza 
-12:54:01.262 [main] INFO  com.intuit.karate - karate.env system property was: null 
-12:54:01.287 [main] INFO  com.intuit.karate - [print] INSERT INTO toppings (name, price, is_internal) VALUES ('toppingtestGABA', 400, false) 
-12:54:01.289 [main] INFO  com.intuit.karate - after scenario: Create a Topping 
-12:54:01.302 [main] INFO  com.intuit.karate - karate.env system property was: null 
-12:54:01.904 [main] INFO  com.intuit.karate - [print] 2000 
-12:54:01.906 [main] INFO  com.intuit.karate - [print] Margharita 
-12:54:01.908 [main] INFO  com.intuit.karate - [print] Executing and Testing 
-12:54:01.910 [main] INFO  com.intuit.karate - [print] name--- someValue 
-12:54:01.911 [main] INFO  com.intuit.karate - after scenario: Get a Pizza by Ids 
-12:54:02.778 [main] INFO  com.intuit.karate - karate.env system property was: null 
-12:54:02.782 [main] INFO  com.intuit.karate - [print] Receienve Message: 
-12:54:02.866 [main] INFO  com.intuit.karate - karate.env system property was: null 
-12:54:02.869 [main] INFO  com.intuit.karate - [print] opd Message: 
-12:55:39.568 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
-12:55:40.809 [main] INFO  com.intuit.karate - karate.env system property was: null 
-12:55:40.882 [main] INFO  com.intuit.karate - [print] INSERT INTO pizzas (name, price) VALUES ('PizzaTestAGABA', 320) 
-12:55:40.888 [main] INFO  com.intuit.karate - after scenario: Create a pizza 
-12:55:40.913 [main] INFO  com.intuit.karate - karate.env system property was: null 
-12:55:40.934 [main] INFO  com.intuit.karate - [print] INSERT INTO toppings (name, price, is_internal) VALUES ('toppingtestGABA', 400, false) 
-12:55:40.936 [main] INFO  com.intuit.karate - after scenario: Create a Topping 
-12:55:40.951 [main] INFO  com.intuit.karate - karate.env system property was: null 
-12:55:41.363 [main] INFO  com.intuit.karate - [print] 2000 
-12:55:41.365 [main] INFO  com.intuit.karate - [print] Margharita 
-12:55:41.367 [main] INFO  com.intuit.karate - [print] Executing and Testing 
-12:55:41.368 [main] INFO  com.intuit.karate - [print] name--- someValue 
-12:55:41.369 [main] INFO  com.intuit.karate - after scenario: Get a Pizza by Ids 
-12:55:42.190 [main] INFO  com.intuit.karate - karate.env system property was: null 
-12:55:42.194 [main] INFO  com.intuit.karate - [print] Receienve Message: 
-12:55:42.304 [main] INFO  com.intuit.karate - karate.env system property was: null 
-12:55:42.313 [main] INFO  com.intuit.karate - [print] opd Message: 
-13:21:21.972 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
-13:21:21.979 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1693036281975
-13:21:23.447 [main] INFO  com.intuit.karate - karate.env system property was: null 
-13:21:23.535 [main] INFO  com.intuit.karate - [print] INSERT INTO pizzas (name, price) VALUES ('PizzaTestAGABA', 320) 
-13:21:23.545 [main] INFO  com.intuit.karate - after scenario: Create a pizza 
-13:21:23.556 [main] INFO  com.intuit.karate - karate.env system property was: null 
-13:21:23.580 [main] INFO  com.intuit.karate - [print] INSERT INTO toppings (name, price, is_internal) VALUES ('toppingtestGABA', 400, false) 
-13:21:23.581 [main] INFO  com.intuit.karate - after scenario: Create a Topping 
-13:21:23.593 [main] INFO  com.intuit.karate - karate.env system property was: null 
-13:21:24.029 [main] INFO  com.intuit.karate - [print] 2000 
-13:21:24.031 [main] INFO  com.intuit.karate - [print] Margharita 
-13:21:24.032 [main] INFO  com.intuit.karate - [print] Executing and Testing 
-13:21:24.033 [main] INFO  com.intuit.karate - [print] name--- someValue 
-13:21:24.034 [main] INFO  com.intuit.karate - after scenario: Get a Pizza by Ids 
-13:21:24.036 [main] INFO  com.intuit.karate - Hey this is after feature....running after every feature. 
-13:21:24.912 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 3 (0 remaining) classpath:features/handler.feature
-13:21:24.926 [main] INFO  com.intuit.karate - karate.env system property was: null 
-13:21:24.934 [main] INFO  com.intuit.karate - [print] Receienve Message: 
-13:21:24.937 [main] INFO  com.intuit.karate - Hey this is after feature....running after every feature. 
-13:21:25.093 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 2 of 3 (0 remaining) classpath:features/my.feature
-13:21:25.107 [main] INFO  com.intuit.karate - karate.env system property was: null 
-13:21:25.111 [main] INFO  com.intuit.karate - [print] opd Message: 
-13:21:25.112 [main] INFO  com.intuit.karate - Hey this is after feature....running after every feature. 
-13:21:25.351 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 3 of 3 (0 remaining) classpath:features/opd/opd.feature
-13:21:25.353 [main] DEBUG com.intuit.karate.Suite - waiting for 3 features to complete
-13:22:25.388 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
-13:22:25.395 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1693036345390
-13:22:26.698 [main] INFO  com.intuit.karate - karate.env system property was: null 
-13:22:26.777 [main] INFO  com.intuit.karate - [print] INSERT INTO pizzas (name, price) VALUES ('PizzaTestAGABA', 320) 
-13:22:26.787 [main] INFO  com.intuit.karate - after scenario: Create a pizza 
-13:22:26.798 [main] INFO  com.intuit.karate - karate.env system property was: null 
-13:22:26.819 [main] INFO  com.intuit.karate - [print] INSERT INTO toppings (name, price, is_internal) VALUES ('toppingtestGABA', 400, false) 
-13:22:26.820 [main] INFO  com.intuit.karate - after scenario: Create a Topping 
-13:22:26.831 [main] INFO  com.intuit.karate - karate.env system property was: null 
-13:22:27.240 [main] INFO  com.intuit.karate - [print] 2000 
-13:22:27.242 [main] INFO  com.intuit.karate - [print] Margharita 
-13:22:27.244 [main] INFO  com.intuit.karate - [print] Executing and Testing 
-13:22:27.246 [main] INFO  com.intuit.karate - [print] name--- someValue 
-13:22:27.247 [main] INFO  com.intuit.karate - after scenario: Get a Pizza by Ids 
-13:22:27.249 [main] INFO  com.intuit.karate - after feature: work with DB again 
-13:22:28.184 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 3 (0 remaining) classpath:features/handler.feature
-13:22:28.193 [main] INFO  com.intuit.karate - karate.env system property was: null 
-13:22:28.199 [main] INFO  com.intuit.karate - [print] Receienve Message: 
-13:22:28.200 [main] INFO  com.intuit.karate - Hey this is after feature....running after every feature. 
-13:22:28.339 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 2 of 3 (0 remaining) classpath:features/my.feature
-13:22:28.349 [main] INFO  com.intuit.karate - karate.env system property was: null 
-13:22:28.354 [main] INFO  com.intuit.karate - [print] opd Message: 
-13:22:28.355 [main] INFO  com.intuit.karate - Hey this is after feature....running after every feature. 
-13:22:28.479 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 3 of 3 (0 remaining) classpath:features/opd/opd.feature
-13:22:28.480 [main] DEBUG com.intuit.karate.Suite - waiting for 3 features to complete
-13:36:30.184 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
-13:36:30.191 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1693037190187
-13:36:31.538 [main] INFO  com.intuit.karate - karate.env system property was: null 
-13:36:31.614 [main] INFO  com.intuit.karate - [print] INSERT INTO pizzas (name, price) VALUES ('PizzaTestAGABA', 320) 
-13:36:31.624 [main] INFO  com.intuit.karate - after scenario: Create a pizza 
-13:36:31.636 [main] INFO  com.intuit.karate - karate.env system property was: null 
-13:36:31.662 [main] INFO  com.intuit.karate - [print] INSERT INTO toppings (name, price, is_internal) VALUES ('toppingtestGABA', 400, false) 
-13:36:31.664 [main] INFO  com.intuit.karate - after scenario: Create a Topping 
-13:36:31.674 [main] INFO  com.intuit.karate - karate.env system property was: null 
-13:36:32.071 [main] INFO  com.intuit.karate - [print] 2000 
-13:36:32.073 [main] INFO  com.intuit.karate - [print] Margharita 
-13:36:32.075 [main] INFO  com.intuit.karate - [print] Executing and Testing 
-13:36:32.077 [main] INFO  com.intuit.karate - [print] name--- someValue 
-13:36:32.078 [main] INFO  com.intuit.karate - after scenario: Get a Pizza by Ids 
-13:36:32.080 [main] INFO  com.intuit.karate - after feature: work with DB again 
-13:36:32.979 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 3 (0 remaining) classpath:features/handler.feature
-13:36:32.989 [main] INFO  com.intuit.karate - karate.env system property was: null 
-13:36:32.993 [main] INFO  com.intuit.karate - [print] Receienve Message: 
-13:36:32.995 [main] INFO  com.intuit.karate - Hey this is after feature....running after every feature. 
-13:36:33.049 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 2 of 3 (0 remaining) classpath:features/my.feature
-13:36:33.055 [main] INFO  com.intuit.karate - karate.env system property was: null 
-13:36:33.057 [main] INFO  com.intuit.karate - [print] opd Message: 
-13:36:33.057 [main] INFO  com.intuit.karate - Hey this is after feature....running after every feature. 
-13:36:33.104 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 3 of 3 (0 remaining) classpath:features/opd/opd.feature
-13:36:33.105 [main] DEBUG com.intuit.karate.Suite - waiting for 3 features to complete
-13:38:10.578 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
-13:38:10.585 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1693037290581
-13:38:11.938 [main] INFO  com.intuit.karate - karate.env system property was: null 
-13:38:12.008 [main] INFO  com.intuit.karate - [print] INSERT INTO pizzas (name, price) VALUES ('PizzaTestAGABA', 320) 
-13:38:12.021 [main] INFO  com.intuit.karate - after scenario: Create a pizza 
-13:38:12.036 [main] INFO  com.intuit.karate - karate.env system property was: null 
-13:38:12.436 [main] INFO  com.intuit.karate - [print] 2000 
-13:38:12.438 [main] INFO  com.intuit.karate - [print] Margharita 
-13:38:12.440 [main] INFO  com.intuit.karate - [print] Executing and Testing 
-13:38:12.441 [main] INFO  com.intuit.karate - [print] name--- someValue 
-13:38:12.443 [main] INFO  com.intuit.karate - after scenario: Get a Pizza by Ids 
-13:38:12.445 [main] INFO  com.intuit.karate - after feature: work with DB again 
-13:38:13.276 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 3 (0 remaining) classpath:features/handler.feature
-13:38:13.284 [main] DEBUG com.intuit.karate.Suite - waiting for 3 features to complete
-13:41:11.015 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
-13:41:11.024 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1693037471019
-13:41:12.324 [main] INFO  com.intuit.karate - karate.env system property was: null 
-13:41:12.393 [main] INFO  com.intuit.karate - [print] INSERT INTO pizzas (name, price) VALUES ('PizzaTestAGABA', 320) 
-13:41:12.403 [main] INFO  com.intuit.karate - after scenario: Create a pizza 
-13:41:12.417 [main] INFO  com.intuit.karate - karate.env system property was: null 
-13:41:12.810 [main] INFO  com.intuit.karate - [print] 2000 
-13:41:12.813 [main] INFO  com.intuit.karate - [print] Margharita 
-13:41:12.814 [main] INFO  com.intuit.karate - [print] Executing and Testing 
-13:41:12.816 [main] INFO  com.intuit.karate - [print] name--- someValue 
-13:41:12.818 [main] INFO  com.intuit.karate - after scenario: Get a Pizza by Ids 
-13:41:12.820 [main] INFO  com.intuit.karate - after feature: work with DB again 
-13:41:13.674 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 3 (0 remaining) classpath:features/handler.feature
-13:41:13.679 [main] DEBUG com.intuit.karate.Suite - waiting for 3 features to complete
+00:58:46.053 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+00:58:47.570 [main] INFO  com.intuit.karate - karate.env system property was: null 
+00:58:47.613 [main] ERROR com.intuit.karate - classpath:features/handler.feature:4
+* def dbHandler = Java.type('helpers.DbHandler')
+>> classpath:features/handler.feature:20
+>> karate-config.js failed
+>> ReferenceError: "v" is not defined
+js failed:
+>>>>
+01: function fn() {
+02:   var env = karate.env; 
+03:   karate.log("karate.env system property was:", env);
+04:   if (!env) {
+05:     env = "dev";
+06:   }
+07: 
+08:   var config = {
+09:     env: env,
+10:     myVarName: "someValue",
+11:     accessToken: v,
+12:   };
+13: 
+14:   return config;
+15: }
+16: 
+17: // karate.configure("afterFeature", function () {
+18: //   karate.log("Hey this is after feature....running after every feature.");
+19: // });
+20: 
+21: // karate.configure('beforeScenario', function () {
+22: 
+23: //   karate.log("Inside before scenarios")
+24: //     // Make a POST request to obtain an access token
+25: //     // var accessTokenRequest = {
+26: //     //     method: 'GET',
+27: //     //     url: 'http://194.233.85.132:9000/api/v1/refresh-token'
+28: //     // };
+29: 
+30: //     // var response = karate.call(accessTokenRequest);
+31: 
+32: //     // // Check if the access token was successfully obtained
+33: //     // if (response.status == 200) {
+34: //     //     // var accessToken = response.body.access_token; // Assuming the access token is in the response body
+35: //     //     // karate.configure('headers', { 'Authorization': 'Bearer ' + accessToken });
+36: 
+37: //     //     karate.log(response)
+38: //     // } else {
+39: //     //     karate.log('Failed to obtain access token');
+40: //     // }
+41: // })
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "v" is not defined
+- <js>.fn(Unnamed:11)
+
+classpath:features/handler.feature:4
+00:58:47.638 [main] ERROR com.intuit.karate - classpath:features/handler.feature:5
+* url 'http://localhost:3000'
+>> classpath:features/handler.feature:20
+>> karate-config.js failed
+>> ReferenceError: "v" is not defined
+js failed:
+>>>>
+01: function fn() {
+02:   var env = karate.env; 
+03:   karate.log("karate.env system property was:", env);
+04:   if (!env) {
+05:     env = "dev";
+06:   }
+07: 
+08:   var config = {
+09:     env: env,
+10:     myVarName: "someValue",
+11:     accessToken: v,
+12:   };
+13: 
+14:   return config;
+15: }
+16: 
+17: // karate.configure("afterFeature", function () {
+18: //   karate.log("Hey this is after feature....running after every feature.");
+19: // });
+20: 
+21: // karate.configure('beforeScenario', function () {
+22: 
+23: //   karate.log("Inside before scenarios")
+24: //     // Make a POST request to obtain an access token
+25: //     // var accessTokenRequest = {
+26: //     //     method: 'GET',
+27: //     //     url: 'http://194.233.85.132:9000/api/v1/refresh-token'
+28: //     // };
+29: 
+30: //     // var response = karate.call(accessTokenRequest);
+31: 
+32: //     // // Check if the access token was successfully obtained
+33: //     // if (response.status == 200) {
+34: //     //     // var accessToken = response.body.access_token; // Assuming the access token is in the response body
+35: //     //     // karate.configure('headers', { 'Authorization': 'Bearer ' + accessToken });
+36: 
+37: //     //     karate.log(response)
+38: //     // } else {
+39: //     //     karate.log('Failed to obtain access token');
+40: //     // }
+41: // })
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "v" is not defined
+- <js>.fn(Unnamed:11)
+
+classpath:features/handler.feature:4
+classpath:features/handler.feature:5
+00:58:47.638 [main] ERROR com.intuit.karate - classpath:features/handler.feature:18
+* def sqlAddPizza = ""
+>> classpath:features/handler.feature:20
+>> karate-config.js failed
+>> ReferenceError: "v" is not defined
+js failed:
+>>>>
+01: function fn() {
+02:   var env = karate.env; 
+03:   karate.log("karate.env system property was:", env);
+04:   if (!env) {
+05:     env = "dev";
+06:   }
+07: 
+08:   var config = {
+09:     env: env,
+10:     myVarName: "someValue",
+11:     accessToken: v,
+12:   };
+13: 
+14:   return config;
+15: }
+16: 
+17: // karate.configure("afterFeature", function () {
+18: //   karate.log("Hey this is after feature....running after every feature.");
+19: // });
+20: 
+21: // karate.configure('beforeScenario', function () {
+22: 
+23: //   karate.log("Inside before scenarios")
+24: //     // Make a POST request to obtain an access token
+25: //     // var accessTokenRequest = {
+26: //     //     method: 'GET',
+27: //     //     url: 'http://194.233.85.132:9000/api/v1/refresh-token'
+28: //     // };
+29: 
+30: //     // var response = karate.call(accessTokenRequest);
+31: 
+32: //     // // Check if the access token was successfully obtained
+33: //     // if (response.status == 200) {
+34: //     //     // var accessToken = response.body.access_token; // Assuming the access token is in the response body
+35: //     //     // karate.configure('headers', { 'Authorization': 'Bearer ' + accessToken });
+36: 
+37: //     //     karate.log(response)
+38: //     // } else {
+39: //     //     karate.log('Failed to obtain access token');
+40: //     // }
+41: // })
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "v" is not defined
+- <js>.fn(Unnamed:11)
+
+classpath:features/handler.feature:4
+classpath:features/handler.feature:5
+classpath:features/handler.feature:18
+00:58:47.639 [main] ERROR com.intuit.karate - classpath:features/handler.feature:21
+* def pizzaName = "PizzaTestAGABA"
+>> classpath:features/handler.feature:20
+>> karate-config.js failed
+>> ReferenceError: "v" is not defined
+js failed:
+>>>>
+01: function fn() {
+02:   var env = karate.env; 
+03:   karate.log("karate.env system property was:", env);
+04:   if (!env) {
+05:     env = "dev";
+06:   }
+07: 
+08:   var config = {
+09:     env: env,
+10:     myVarName: "someValue",
+11:     accessToken: v,
+12:   };
+13: 
+14:   return config;
+15: }
+16: 
+17: // karate.configure("afterFeature", function () {
+18: //   karate.log("Hey this is after feature....running after every feature.");
+19: // });
+20: 
+21: // karate.configure('beforeScenario', function () {
+22: 
+23: //   karate.log("Inside before scenarios")
+24: //     // Make a POST request to obtain an access token
+25: //     // var accessTokenRequest = {
+26: //     //     method: 'GET',
+27: //     //     url: 'http://194.233.85.132:9000/api/v1/refresh-token'
+28: //     // };
+29: 
+30: //     // var response = karate.call(accessTokenRequest);
+31: 
+32: //     // // Check if the access token was successfully obtained
+33: //     // if (response.status == 200) {
+34: //     //     // var accessToken = response.body.access_token; // Assuming the access token is in the response body
+35: //     //     // karate.configure('headers', { 'Authorization': 'Bearer ' + accessToken });
+36: 
+37: //     //     karate.log(response)
+38: //     // } else {
+39: //     //     karate.log('Failed to obtain access token');
+40: //     // }
+41: // })
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "v" is not defined
+- <js>.fn(Unnamed:11)
+
+classpath:features/handler.feature:4
+classpath:features/handler.feature:5
+classpath:features/handler.feature:18
+classpath:features/handler.feature:21
+00:58:47.639 [main] ERROR com.intuit.karate - classpath:features/handler.feature:22
+* def price = 320
+>> classpath:features/handler.feature:20
+>> karate-config.js failed
+>> ReferenceError: "v" is not defined
+js failed:
+>>>>
+01: function fn() {
+02:   var env = karate.env; 
+03:   karate.log("karate.env system property was:", env);
+04:   if (!env) {
+05:     env = "dev";
+06:   }
+07: 
+08:   var config = {
+09:     env: env,
+10:     myVarName: "someValue",
+11:     accessToken: v,
+12:   };
+13: 
+14:   return config;
+15: }
+16: 
+17: // karate.configure("afterFeature", function () {
+18: //   karate.log("Hey this is after feature....running after every feature.");
+19: // });
+20: 
+21: // karate.configure('beforeScenario', function () {
+22: 
+23: //   karate.log("Inside before scenarios")
+24: //     // Make a POST request to obtain an access token
+25: //     // var accessTokenRequest = {
+26: //     //     method: 'GET',
+27: //     //     url: 'http://194.233.85.132:9000/api/v1/refresh-token'
+28: //     // };
+29: 
+30: //     // var response = karate.call(accessTokenRequest);
+31: 
+32: //     // // Check if the access token was successfully obtained
+33: //     // if (response.status == 200) {
+34: //     //     // var accessToken = response.body.access_token; // Assuming the access token is in the response body
+35: //     //     // karate.configure('headers', { 'Authorization': 'Bearer ' + accessToken });
+36: 
+37: //     //     karate.log(response)
+38: //     // } else {
+39: //     //     karate.log('Failed to obtain access token');
+40: //     // }
+41: // })
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "v" is not defined
+- <js>.fn(Unnamed:11)
+
+classpath:features/handler.feature:4
+classpath:features/handler.feature:5
+classpath:features/handler.feature:18
+classpath:features/handler.feature:21
+classpath:features/handler.feature:22
+00:58:47.640 [main] ERROR com.intuit.karate - classpath:features/handler.feature:23
+* eval sqlAddPizza = "INSERT INTO pizzas (name, price) VALUES ('" + pizzaName + "', " + price + ")"
+>> classpath:features/handler.feature:20
+>> karate-config.js failed
+>> ReferenceError: "v" is not defined
+js failed:
+>>>>
+01: function fn() {
+02:   var env = karate.env; 
+03:   karate.log("karate.env system property was:", env);
+04:   if (!env) {
+05:     env = "dev";
+06:   }
+07: 
+08:   var config = {
+09:     env: env,
+10:     myVarName: "someValue",
+11:     accessToken: v,
+12:   };
+13: 
+14:   return config;
+15: }
+16: 
+17: // karate.configure("afterFeature", function () {
+18: //   karate.log("Hey this is after feature....running after every feature.");
+19: // });
+20: 
+21: // karate.configure('beforeScenario', function () {
+22: 
+23: //   karate.log("Inside before scenarios")
+24: //     // Make a POST request to obtain an access token
+25: //     // var accessTokenRequest = {
+26: //     //     method: 'GET',
+27: //     //     url: 'http://194.233.85.132:9000/api/v1/refresh-token'
+28: //     // };
+29: 
+30: //     // var response = karate.call(accessTokenRequest);
+31: 
+32: //     // // Check if the access token was successfully obtained
+33: //     // if (response.status == 200) {
+34: //     //     // var accessToken = response.body.access_token; // Assuming the access token is in the response body
+35: //     //     // karate.configure('headers', { 'Authorization': 'Bearer ' + accessToken });
+36: 
+37: //     //     karate.log(response)
+38: //     // } else {
+39: //     //     karate.log('Failed to obtain access token');
+40: //     // }
+41: // })
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "v" is not defined
+- <js>.fn(Unnamed:11)
+
+classpath:features/handler.feature:4
+classpath:features/handler.feature:5
+classpath:features/handler.feature:18
+classpath:features/handler.feature:21
+classpath:features/handler.feature:22
+classpath:features/handler.feature:23
+00:58:47.687 [main] INFO  com.intuit.karate - karate.env system property was: null 
+00:58:47.699 [main] ERROR com.intuit.karate - classpath:features/handler.feature:4
+* def dbHandler = Java.type('helpers.DbHandler')
+>> classpath:features/handler.feature:27
+>> karate-config.js failed
+>> ReferenceError: "v" is not defined
+js failed:
+>>>>
+01: function fn() {
+02:   var env = karate.env; 
+03:   karate.log("karate.env system property was:", env);
+04:   if (!env) {
+05:     env = "dev";
+06:   }
+07: 
+08:   var config = {
+09:     env: env,
+10:     myVarName: "someValue",
+11:     accessToken: v,
+12:   };
+13: 
+14:   return config;
+15: }
+16: 
+17: // karate.configure("afterFeature", function () {
+18: //   karate.log("Hey this is after feature....running after every feature.");
+19: // });
+20: 
+21: // karate.configure('beforeScenario', function () {
+22: 
+23: //   karate.log("Inside before scenarios")
+24: //     // Make a POST request to obtain an access token
+25: //     // var accessTokenRequest = {
+26: //     //     method: 'GET',
+27: //     //     url: 'http://194.233.85.132:9000/api/v1/refresh-token'
+28: //     // };
+29: 
+30: //     // var response = karate.call(accessTokenRequest);
+31: 
+32: //     // // Check if the access token was successfully obtained
+33: //     // if (response.status == 200) {
+34: //     //     // var accessToken = response.body.access_token; // Assuming the access token is in the response body
+35: //     //     // karate.configure('headers', { 'Authorization': 'Bearer ' + accessToken });
+36: 
+37: //     //     karate.log(response)
+38: //     // } else {
+39: //     //     karate.log('Failed to obtain access token');
+40: //     // }
+41: // })
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "v" is not defined
+- <js>.fn(Unnamed:11)
+
+classpath:features/handler.feature:4
+00:58:47.700 [main] ERROR com.intuit.karate - classpath:features/handler.feature:5
+* url 'http://localhost:3000'
+>> classpath:features/handler.feature:27
+>> karate-config.js failed
+>> ReferenceError: "v" is not defined
+js failed:
+>>>>
+01: function fn() {
+02:   var env = karate.env; 
+03:   karate.log("karate.env system property was:", env);
+04:   if (!env) {
+05:     env = "dev";
+06:   }
+07: 
+08:   var config = {
+09:     env: env,
+10:     myVarName: "someValue",
+11:     accessToken: v,
+12:   };
+13: 
+14:   return config;
+15: }
+16: 
+17: // karate.configure("afterFeature", function () {
+18: //   karate.log("Hey this is after feature....running after every feature.");
+19: // });
+20: 
+21: // karate.configure('beforeScenario', function () {
+22: 
+23: //   karate.log("Inside before scenarios")
+24: //     // Make a POST request to obtain an access token
+25: //     // var accessTokenRequest = {
+26: //     //     method: 'GET',
+27: //     //     url: 'http://194.233.85.132:9000/api/v1/refresh-token'
+28: //     // };
+29: 
+30: //     // var response = karate.call(accessTokenRequest);
+31: 
+32: //     // // Check if the access token was successfully obtained
+33: //     // if (response.status == 200) {
+34: //     //     // var accessToken = response.body.access_token; // Assuming the access token is in the response body
+35: //     //     // karate.configure('headers', { 'Authorization': 'Bearer ' + accessToken });
+36: 
+37: //     //     karate.log(response)
+38: //     // } else {
+39: //     //     karate.log('Failed to obtain access token');
+40: //     // }
+41: // })
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "v" is not defined
+- <js>.fn(Unnamed:11)
+
+classpath:features/handler.feature:4
+classpath:features/handler.feature:5
+00:58:47.701 [main] ERROR com.intuit.karate - classpath:features/handler.feature:18
+* def sqlAddPizza = ""
+>> classpath:features/handler.feature:27
+>> karate-config.js failed
+>> ReferenceError: "v" is not defined
+js failed:
+>>>>
+01: function fn() {
+02:   var env = karate.env; 
+03:   karate.log("karate.env system property was:", env);
+04:   if (!env) {
+05:     env = "dev";
+06:   }
+07: 
+08:   var config = {
+09:     env: env,
+10:     myVarName: "someValue",
+11:     accessToken: v,
+12:   };
+13: 
+14:   return config;
+15: }
+16: 
+17: // karate.configure("afterFeature", function () {
+18: //   karate.log("Hey this is after feature....running after every feature.");
+19: // });
+20: 
+21: // karate.configure('beforeScenario', function () {
+22: 
+23: //   karate.log("Inside before scenarios")
+24: //     // Make a POST request to obtain an access token
+25: //     // var accessTokenRequest = {
+26: //     //     method: 'GET',
+27: //     //     url: 'http://194.233.85.132:9000/api/v1/refresh-token'
+28: //     // };
+29: 
+30: //     // var response = karate.call(accessTokenRequest);
+31: 
+32: //     // // Check if the access token was successfully obtained
+33: //     // if (response.status == 200) {
+34: //     //     // var accessToken = response.body.access_token; // Assuming the access token is in the response body
+35: //     //     // karate.configure('headers', { 'Authorization': 'Bearer ' + accessToken });
+36: 
+37: //     //     karate.log(response)
+38: //     // } else {
+39: //     //     karate.log('Failed to obtain access token');
+40: //     // }
+41: // })
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "v" is not defined
+- <js>.fn(Unnamed:11)
+
+classpath:features/handler.feature:4
+classpath:features/handler.feature:5
+classpath:features/handler.feature:18
+00:58:47.701 [main] ERROR com.intuit.karate - classpath:features/handler.feature:29
+* def toppingName = "toppingtestGABA"
+>> classpath:features/handler.feature:27
+>> karate-config.js failed
+>> ReferenceError: "v" is not defined
+js failed:
+>>>>
+01: function fn() {
+02:   var env = karate.env; 
+03:   karate.log("karate.env system property was:", env);
+04:   if (!env) {
+05:     env = "dev";
+06:   }
+07: 
+08:   var config = {
+09:     env: env,
+10:     myVarName: "someValue",
+11:     accessToken: v,
+12:   };
+13: 
+14:   return config;
+15: }
+16: 
+17: // karate.configure("afterFeature", function () {
+18: //   karate.log("Hey this is after feature....running after every feature.");
+19: // });
+20: 
+21: // karate.configure('beforeScenario', function () {
+22: 
+23: //   karate.log("Inside before scenarios")
+24: //     // Make a POST request to obtain an access token
+25: //     // var accessTokenRequest = {
+26: //     //     method: 'GET',
+27: //     //     url: 'http://194.233.85.132:9000/api/v1/refresh-token'
+28: //     // };
+29: 
+30: //     // var response = karate.call(accessTokenRequest);
+31: 
+32: //     // // Check if the access token was successfully obtained
+33: //     // if (response.status == 200) {
+34: //     //     // var accessToken = response.body.access_token; // Assuming the access token is in the response body
+35: //     //     // karate.configure('headers', { 'Authorization': 'Bearer ' + accessToken });
+36: 
+37: //     //     karate.log(response)
+38: //     // } else {
+39: //     //     karate.log('Failed to obtain access token');
+40: //     // }
+41: // })
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "v" is not defined
+- <js>.fn(Unnamed:11)
+
+classpath:features/handler.feature:4
+classpath:features/handler.feature:5
+classpath:features/handler.feature:18
+classpath:features/handler.feature:29
+00:58:47.703 [main] ERROR com.intuit.karate - classpath:features/handler.feature:30
+* def price = 400
+>> classpath:features/handler.feature:27
+>> karate-config.js failed
+>> ReferenceError: "v" is not defined
+js failed:
+>>>>
+01: function fn() {
+02:   var env = karate.env; 
+03:   karate.log("karate.env system property was:", env);
+04:   if (!env) {
+05:     env = "dev";
+06:   }
+07: 
+08:   var config = {
+09:     env: env,
+10:     myVarName: "someValue",
+11:     accessToken: v,
+12:   };
+13: 
+14:   return config;
+15: }
+16: 
+17: // karate.configure("afterFeature", function () {
+18: //   karate.log("Hey this is after feature....running after every feature.");
+19: // });
+20: 
+21: // karate.configure('beforeScenario', function () {
+22: 
+23: //   karate.log("Inside before scenarios")
+24: //     // Make a POST request to obtain an access token
+25: //     // var accessTokenRequest = {
+26: //     //     method: 'GET',
+27: //     //     url: 'http://194.233.85.132:9000/api/v1/refresh-token'
+28: //     // };
+29: 
+30: //     // var response = karate.call(accessTokenRequest);
+31: 
+32: //     // // Check if the access token was successfully obtained
+33: //     // if (response.status == 200) {
+34: //     //     // var accessToken = response.body.access_token; // Assuming the access token is in the response body
+35: //     //     // karate.configure('headers', { 'Authorization': 'Bearer ' + accessToken });
+36: 
+37: //     //     karate.log(response)
+38: //     // } else {
+39: //     //     karate.log('Failed to obtain access token');
+40: //     // }
+41: // })
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "v" is not defined
+- <js>.fn(Unnamed:11)
+
+classpath:features/handler.feature:4
+classpath:features/handler.feature:5
+classpath:features/handler.feature:18
+classpath:features/handler.feature:29
+classpath:features/handler.feature:30
+00:58:47.704 [main] ERROR com.intuit.karate - classpath:features/handler.feature:31
+* def is_internal = false
+>> classpath:features/handler.feature:27
+>> karate-config.js failed
+>> ReferenceError: "v" is not defined
+js failed:
+>>>>
+01: function fn() {
+02:   var env = karate.env; 
+03:   karate.log("karate.env system property was:", env);
+04:   if (!env) {
+05:     env = "dev";
+06:   }
+07: 
+08:   var config = {
+09:     env: env,
+10:     myVarName: "someValue",
+11:     accessToken: v,
+12:   };
+13: 
+14:   return config;
+15: }
+16: 
+17: // karate.configure("afterFeature", function () {
+18: //   karate.log("Hey this is after feature....running after every feature.");
+19: // });
+20: 
+21: // karate.configure('beforeScenario', function () {
+22: 
+23: //   karate.log("Inside before scenarios")
+24: //     // Make a POST request to obtain an access token
+25: //     // var accessTokenRequest = {
+26: //     //     method: 'GET',
+27: //     //     url: 'http://194.233.85.132:9000/api/v1/refresh-token'
+28: //     // };
+29: 
+30: //     // var response = karate.call(accessTokenRequest);
+31: 
+32: //     // // Check if the access token was successfully obtained
+33: //     // if (response.status == 200) {
+34: //     //     // var accessToken = response.body.access_token; // Assuming the access token is in the response body
+35: //     //     // karate.configure('headers', { 'Authorization': 'Bearer ' + accessToken });
+36: 
+37: //     //     karate.log(response)
+38: //     // } else {
+39: //     //     karate.log('Failed to obtain access token');
+40: //     // }
+41: // })
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "v" is not defined
+- <js>.fn(Unnamed:11)
+
+classpath:features/handler.feature:4
+classpath:features/handler.feature:5
+classpath:features/handler.feature:18
+classpath:features/handler.feature:29
+classpath:features/handler.feature:30
+classpath:features/handler.feature:31
+00:58:47.706 [main] ERROR com.intuit.karate - classpath:features/handler.feature:32
+* def sqlAddTopping = "INSERT INTO toppings (name, price, is_internal) VALUES ('" + toppingName + "', " + price + ", " + is_internal + ")"
+>> classpath:features/handler.feature:27
+>> karate-config.js failed
+>> ReferenceError: "v" is not defined
+js failed:
+>>>>
+01: function fn() {
+02:   var env = karate.env; 
+03:   karate.log("karate.env system property was:", env);
+04:   if (!env) {
+05:     env = "dev";
+06:   }
+07: 
+08:   var config = {
+09:     env: env,
+10:     myVarName: "someValue",
+11:     accessToken: v,
+12:   };
+13: 
+14:   return config;
+15: }
+16: 
+17: // karate.configure("afterFeature", function () {
+18: //   karate.log("Hey this is after feature....running after every feature.");
+19: // });
+20: 
+21: // karate.configure('beforeScenario', function () {
+22: 
+23: //   karate.log("Inside before scenarios")
+24: //     // Make a POST request to obtain an access token
+25: //     // var accessTokenRequest = {
+26: //     //     method: 'GET',
+27: //     //     url: 'http://194.233.85.132:9000/api/v1/refresh-token'
+28: //     // };
+29: 
+30: //     // var response = karate.call(accessTokenRequest);
+31: 
+32: //     // // Check if the access token was successfully obtained
+33: //     // if (response.status == 200) {
+34: //     //     // var accessToken = response.body.access_token; // Assuming the access token is in the response body
+35: //     //     // karate.configure('headers', { 'Authorization': 'Bearer ' + accessToken });
+36: 
+37: //     //     karate.log(response)
+38: //     // } else {
+39: //     //     karate.log('Failed to obtain access token');
+40: //     // }
+41: // })
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "v" is not defined
+- <js>.fn(Unnamed:11)
+
+classpath:features/handler.feature:4
+classpath:features/handler.feature:5
+classpath:features/handler.feature:18
+classpath:features/handler.feature:29
+classpath:features/handler.feature:30
+classpath:features/handler.feature:31
+classpath:features/handler.feature:32
+00:58:47.720 [main] INFO  com.intuit.karate - karate.env system property was: null 
+00:58:47.725 [main] ERROR com.intuit.karate - classpath:features/handler.feature:4
+* def dbHandler = Java.type('helpers.DbHandler')
+>> classpath:features/handler.feature:36
+>> karate-config.js failed
+>> ReferenceError: "v" is not defined
+js failed:
+>>>>
+01: function fn() {
+02:   var env = karate.env; 
+03:   karate.log("karate.env system property was:", env);
+04:   if (!env) {
+05:     env = "dev";
+06:   }
+07: 
+08:   var config = {
+09:     env: env,
+10:     myVarName: "someValue",
+11:     accessToken: v,
+12:   };
+13: 
+14:   return config;
+15: }
+16: 
+17: // karate.configure("afterFeature", function () {
+18: //   karate.log("Hey this is after feature....running after every feature.");
+19: // });
+20: 
+21: // karate.configure('beforeScenario', function () {
+22: 
+23: //   karate.log("Inside before scenarios")
+24: //     // Make a POST request to obtain an access token
+25: //     // var accessTokenRequest = {
+26: //     //     method: 'GET',
+27: //     //     url: 'http://194.233.85.132:9000/api/v1/refresh-token'
+28: //     // };
+29: 
+30: //     // var response = karate.call(accessTokenRequest);
+31: 
+32: //     // // Check if the access token was successfully obtained
+33: //     // if (response.status == 200) {
+34: //     //     // var accessToken = response.body.access_token; // Assuming the access token is in the response body
+35: //     //     // karate.configure('headers', { 'Authorization': 'Bearer ' + accessToken });
+36: 
+37: //     //     karate.log(response)
+38: //     // } else {
+39: //     //     karate.log('Failed to obtain access token');
+40: //     // }
+41: // })
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "v" is not defined
+- <js>.fn(Unnamed:11)
+
+classpath:features/handler.feature:4
+00:58:47.731 [main] ERROR com.intuit.karate - classpath:features/handler.feature:5
+* url 'http://localhost:3000'
+>> classpath:features/handler.feature:36
+>> karate-config.js failed
+>> ReferenceError: "v" is not defined
+js failed:
+>>>>
+01: function fn() {
+02:   var env = karate.env; 
+03:   karate.log("karate.env system property was:", env);
+04:   if (!env) {
+05:     env = "dev";
+06:   }
+07: 
+08:   var config = {
+09:     env: env,
+10:     myVarName: "someValue",
+11:     accessToken: v,
+12:   };
+13: 
+14:   return config;
+15: }
+16: 
+17: // karate.configure("afterFeature", function () {
+18: //   karate.log("Hey this is after feature....running after every feature.");
+19: // });
+20: 
+21: // karate.configure('beforeScenario', function () {
+22: 
+23: //   karate.log("Inside before scenarios")
+24: //     // Make a POST request to obtain an access token
+25: //     // var accessTokenRequest = {
+26: //     //     method: 'GET',
+27: //     //     url: 'http://194.233.85.132:9000/api/v1/refresh-token'
+28: //     // };
+29: 
+30: //     // var response = karate.call(accessTokenRequest);
+31: 
+32: //     // // Check if the access token was successfully obtained
+33: //     // if (response.status == 200) {
+34: //     //     // var accessToken = response.body.access_token; // Assuming the access token is in the response body
+35: //     //     // karate.configure('headers', { 'Authorization': 'Bearer ' + accessToken });
+36: 
+37: //     //     karate.log(response)
+38: //     // } else {
+39: //     //     karate.log('Failed to obtain access token');
+40: //     // }
+41: // })
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "v" is not defined
+- <js>.fn(Unnamed:11)
+
+classpath:features/handler.feature:4
+classpath:features/handler.feature:5
+00:58:47.733 [main] ERROR com.intuit.karate - classpath:features/handler.feature:18
+* def sqlAddPizza = ""
+>> classpath:features/handler.feature:36
+>> karate-config.js failed
+>> ReferenceError: "v" is not defined
+js failed:
+>>>>
+01: function fn() {
+02:   var env = karate.env; 
+03:   karate.log("karate.env system property was:", env);
+04:   if (!env) {
+05:     env = "dev";
+06:   }
+07: 
+08:   var config = {
+09:     env: env,
+10:     myVarName: "someValue",
+11:     accessToken: v,
+12:   };
+13: 
+14:   return config;
+15: }
+16: 
+17: // karate.configure("afterFeature", function () {
+18: //   karate.log("Hey this is after feature....running after every feature.");
+19: // });
+20: 
+21: // karate.configure('beforeScenario', function () {
+22: 
+23: //   karate.log("Inside before scenarios")
+24: //     // Make a POST request to obtain an access token
+25: //     // var accessTokenRequest = {
+26: //     //     method: 'GET',
+27: //     //     url: 'http://194.233.85.132:9000/api/v1/refresh-token'
+28: //     // };
+29: 
+30: //     // var response = karate.call(accessTokenRequest);
+31: 
+32: //     // // Check if the access token was successfully obtained
+33: //     // if (response.status == 200) {
+34: //     //     // var accessToken = response.body.access_token; // Assuming the access token is in the response body
+35: //     //     // karate.configure('headers', { 'Authorization': 'Bearer ' + accessToken });
+36: 
+37: //     //     karate.log(response)
+38: //     // } else {
+39: //     //     karate.log('Failed to obtain access token');
+40: //     // }
+41: // })
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "v" is not defined
+- <js>.fn(Unnamed:11)
+
+classpath:features/handler.feature:4
+classpath:features/handler.feature:5
+classpath:features/handler.feature:18
+00:58:47.733 [main] ERROR com.intuit.karate - classpath:features/handler.feature:37
+* def level = dbHandler.getPizzasById(1)
+>> classpath:features/handler.feature:36
+>> karate-config.js failed
+>> ReferenceError: "v" is not defined
+js failed:
+>>>>
+01: function fn() {
+02:   var env = karate.env; 
+03:   karate.log("karate.env system property was:", env);
+04:   if (!env) {
+05:     env = "dev";
+06:   }
+07: 
+08:   var config = {
+09:     env: env,
+10:     myVarName: "someValue",
+11:     accessToken: v,
+12:   };
+13: 
+14:   return config;
+15: }
+16: 
+17: // karate.configure("afterFeature", function () {
+18: //   karate.log("Hey this is after feature....running after every feature.");
+19: // });
+20: 
+21: // karate.configure('beforeScenario', function () {
+22: 
+23: //   karate.log("Inside before scenarios")
+24: //     // Make a POST request to obtain an access token
+25: //     // var accessTokenRequest = {
+26: //     //     method: 'GET',
+27: //     //     url: 'http://194.233.85.132:9000/api/v1/refresh-token'
+28: //     // };
+29: 
+30: //     // var response = karate.call(accessTokenRequest);
+31: 
+32: //     // // Check if the access token was successfully obtained
+33: //     // if (response.status == 200) {
+34: //     //     // var accessToken = response.body.access_token; // Assuming the access token is in the response body
+35: //     //     // karate.configure('headers', { 'Authorization': 'Bearer ' + accessToken });
+36: 
+37: //     //     karate.log(response)
+38: //     // } else {
+39: //     //     karate.log('Failed to obtain access token');
+40: //     // }
+41: // })
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "v" is not defined
+- <js>.fn(Unnamed:11)
+
+classpath:features/handler.feature:4
+classpath:features/handler.feature:5
+classpath:features/handler.feature:18
+classpath:features/handler.feature:37
+00:58:47.750 [main] INFO  com.intuit.karate - karate.env system property was: null 
+00:58:47.758 [main] ERROR com.intuit.karate - classpath:features/handler.feature:4
+* def dbHandler = Java.type('helpers.DbHandler')
+>> classpath:features/handler.feature:43
+>> karate-config.js failed
+>> ReferenceError: "v" is not defined
+js failed:
+>>>>
+01: function fn() {
+02:   var env = karate.env; 
+03:   karate.log("karate.env system property was:", env);
+04:   if (!env) {
+05:     env = "dev";
+06:   }
+07: 
+08:   var config = {
+09:     env: env,
+10:     myVarName: "someValue",
+11:     accessToken: v,
+12:   };
+13: 
+14:   return config;
+15: }
+16: 
+17: // karate.configure("afterFeature", function () {
+18: //   karate.log("Hey this is after feature....running after every feature.");
+19: // });
+20: 
+21: // karate.configure('beforeScenario', function () {
+22: 
+23: //   karate.log("Inside before scenarios")
+24: //     // Make a POST request to obtain an access token
+25: //     // var accessTokenRequest = {
+26: //     //     method: 'GET',
+27: //     //     url: 'http://194.233.85.132:9000/api/v1/refresh-token'
+28: //     // };
+29: 
+30: //     // var response = karate.call(accessTokenRequest);
+31: 
+32: //     // // Check if the access token was successfully obtained
+33: //     // if (response.status == 200) {
+34: //     //     // var accessToken = response.body.access_token; // Assuming the access token is in the response body
+35: //     //     // karate.configure('headers', { 'Authorization': 'Bearer ' + accessToken });
+36: 
+37: //     //     karate.log(response)
+38: //     // } else {
+39: //     //     karate.log('Failed to obtain access token');
+40: //     // }
+41: // })
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "v" is not defined
+- <js>.fn(Unnamed:11)
+
+classpath:features/handler.feature:4
+00:58:47.802 [main] ERROR com.intuit.karate - classpath:features/handler.feature:5
+* url 'http://localhost:3000'
+>> classpath:features/handler.feature:43
+>> karate-config.js failed
+>> ReferenceError: "v" is not defined
+js failed:
+>>>>
+01: function fn() {
+02:   var env = karate.env; 
+03:   karate.log("karate.env system property was:", env);
+04:   if (!env) {
+05:     env = "dev";
+06:   }
+07: 
+08:   var config = {
+09:     env: env,
+10:     myVarName: "someValue",
+11:     accessToken: v,
+12:   };
+13: 
+14:   return config;
+15: }
+16: 
+17: // karate.configure("afterFeature", function () {
+18: //   karate.log("Hey this is after feature....running after every feature.");
+19: // });
+20: 
+21: // karate.configure('beforeScenario', function () {
+22: 
+23: //   karate.log("Inside before scenarios")
+24: //     // Make a POST request to obtain an access token
+25: //     // var accessTokenRequest = {
+26: //     //     method: 'GET',
+27: //     //     url: 'http://194.233.85.132:9000/api/v1/refresh-token'
+28: //     // };
+29: 
+30: //     // var response = karate.call(accessTokenRequest);
+31: 
+32: //     // // Check if the access token was successfully obtained
+33: //     // if (response.status == 200) {
+34: //     //     // var accessToken = response.body.access_token; // Assuming the access token is in the response body
+35: //     //     // karate.configure('headers', { 'Authorization': 'Bearer ' + accessToken });
+36: 
+37: //     //     karate.log(response)
+38: //     // } else {
+39: //     //     karate.log('Failed to obtain access token');
+40: //     // }
+41: // })
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "v" is not defined
+- <js>.fn(Unnamed:11)
+
+classpath:features/handler.feature:4
+classpath:features/handler.feature:5
+00:58:47.803 [main] ERROR com.intuit.karate - classpath:features/handler.feature:18
+* def sqlAddPizza = ""
+>> classpath:features/handler.feature:43
+>> karate-config.js failed
+>> ReferenceError: "v" is not defined
+js failed:
+>>>>
+01: function fn() {
+02:   var env = karate.env; 
+03:   karate.log("karate.env system property was:", env);
+04:   if (!env) {
+05:     env = "dev";
+06:   }
+07: 
+08:   var config = {
+09:     env: env,
+10:     myVarName: "someValue",
+11:     accessToken: v,
+12:   };
+13: 
+14:   return config;
+15: }
+16: 
+17: // karate.configure("afterFeature", function () {
+18: //   karate.log("Hey this is after feature....running after every feature.");
+19: // });
+20: 
+21: // karate.configure('beforeScenario', function () {
+22: 
+23: //   karate.log("Inside before scenarios")
+24: //     // Make a POST request to obtain an access token
+25: //     // var accessTokenRequest = {
+26: //     //     method: 'GET',
+27: //     //     url: 'http://194.233.85.132:9000/api/v1/refresh-token'
+28: //     // };
+29: 
+30: //     // var response = karate.call(accessTokenRequest);
+31: 
+32: //     // // Check if the access token was successfully obtained
+33: //     // if (response.status == 200) {
+34: //     //     // var accessToken = response.body.access_token; // Assuming the access token is in the response body
+35: //     //     // karate.configure('headers', { 'Authorization': 'Bearer ' + accessToken });
+36: 
+37: //     //     karate.log(response)
+38: //     // } else {
+39: //     //     karate.log('Failed to obtain access token');
+40: //     // }
+41: // })
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "v" is not defined
+- <js>.fn(Unnamed:11)
+
+classpath:features/handler.feature:4
+classpath:features/handler.feature:5
+classpath:features/handler.feature:18
+00:58:47.805 [main] ERROR com.intuit.karate - classpath:features/handler.feature:45
+Given path '/ping'
+>> classpath:features/handler.feature:43
+>> karate-config.js failed
+>> ReferenceError: "v" is not defined
+js failed:
+>>>>
+01: function fn() {
+02:   var env = karate.env; 
+03:   karate.log("karate.env system property was:", env);
+04:   if (!env) {
+05:     env = "dev";
+06:   }
+07: 
+08:   var config = {
+09:     env: env,
+10:     myVarName: "someValue",
+11:     accessToken: v,
+12:   };
+13: 
+14:   return config;
+15: }
+16: 
+17: // karate.configure("afterFeature", function () {
+18: //   karate.log("Hey this is after feature....running after every feature.");
+19: // });
+20: 
+21: // karate.configure('beforeScenario', function () {
+22: 
+23: //   karate.log("Inside before scenarios")
+24: //     // Make a POST request to obtain an access token
+25: //     // var accessTokenRequest = {
+26: //     //     method: 'GET',
+27: //     //     url: 'http://194.233.85.132:9000/api/v1/refresh-token'
+28: //     // };
+29: 
+30: //     // var response = karate.call(accessTokenRequest);
+31: 
+32: //     // // Check if the access token was successfully obtained
+33: //     // if (response.status == 200) {
+34: //     //     // var accessToken = response.body.access_token; // Assuming the access token is in the response body
+35: //     //     // karate.configure('headers', { 'Authorization': 'Bearer ' + accessToken });
+36: 
+37: //     //     karate.log(response)
+38: //     // } else {
+39: //     //     karate.log('Failed to obtain access token');
+40: //     // }
+41: // })
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "v" is not defined
+- <js>.fn(Unnamed:11)
+
+classpath:features/handler.feature:4
+classpath:features/handler.feature:5
+classpath:features/handler.feature:18
+classpath:features/handler.feature:45
+00:58:47.806 [main] ERROR com.intuit.karate - classpath:features/handler.feature:46
+When method GET
+>> classpath:features/handler.feature:43
+>> karate-config.js failed
+>> ReferenceError: "v" is not defined
+js failed:
+>>>>
+01: function fn() {
+02:   var env = karate.env; 
+03:   karate.log("karate.env system property was:", env);
+04:   if (!env) {
+05:     env = "dev";
+06:   }
+07: 
+08:   var config = {
+09:     env: env,
+10:     myVarName: "someValue",
+11:     accessToken: v,
+12:   };
+13: 
+14:   return config;
+15: }
+16: 
+17: // karate.configure("afterFeature", function () {
+18: //   karate.log("Hey this is after feature....running after every feature.");
+19: // });
+20: 
+21: // karate.configure('beforeScenario', function () {
+22: 
+23: //   karate.log("Inside before scenarios")
+24: //     // Make a POST request to obtain an access token
+25: //     // var accessTokenRequest = {
+26: //     //     method: 'GET',
+27: //     //     url: 'http://194.233.85.132:9000/api/v1/refresh-token'
+28: //     // };
+29: 
+30: //     // var response = karate.call(accessTokenRequest);
+31: 
+32: //     // // Check if the access token was successfully obtained
+33: //     // if (response.status == 200) {
+34: //     //     // var accessToken = response.body.access_token; // Assuming the access token is in the response body
+35: //     //     // karate.configure('headers', { 'Authorization': 'Bearer ' + accessToken });
+36: 
+37: //     //     karate.log(response)
+38: //     // } else {
+39: //     //     karate.log('Failed to obtain access token');
+40: //     // }
+41: // })
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "v" is not defined
+- <js>.fn(Unnamed:11)
+
+classpath:features/handler.feature:4
+classpath:features/handler.feature:5
+classpath:features/handler.feature:18
+classpath:features/handler.feature:45
+classpath:features/handler.feature:46
+00:58:47.806 [main] ERROR com.intuit.karate - classpath:features/handler.feature:47
+Then status 200
+>> classpath:features/handler.feature:43
+>> karate-config.js failed
+>> ReferenceError: "v" is not defined
+js failed:
+>>>>
+01: function fn() {
+02:   var env = karate.env; 
+03:   karate.log("karate.env system property was:", env);
+04:   if (!env) {
+05:     env = "dev";
+06:   }
+07: 
+08:   var config = {
+09:     env: env,
+10:     myVarName: "someValue",
+11:     accessToken: v,
+12:   };
+13: 
+14:   return config;
+15: }
+16: 
+17: // karate.configure("afterFeature", function () {
+18: //   karate.log("Hey this is after feature....running after every feature.");
+19: // });
+20: 
+21: // karate.configure('beforeScenario', function () {
+22: 
+23: //   karate.log("Inside before scenarios")
+24: //     // Make a POST request to obtain an access token
+25: //     // var accessTokenRequest = {
+26: //     //     method: 'GET',
+27: //     //     url: 'http://194.233.85.132:9000/api/v1/refresh-token'
+28: //     // };
+29: 
+30: //     // var response = karate.call(accessTokenRequest);
+31: 
+32: //     // // Check if the access token was successfully obtained
+33: //     // if (response.status == 200) {
+34: //     //     // var accessToken = response.body.access_token; // Assuming the access token is in the response body
+35: //     //     // karate.configure('headers', { 'Authorization': 'Bearer ' + accessToken });
+36: 
+37: //     //     karate.log(response)
+38: //     // } else {
+39: //     //     karate.log('Failed to obtain access token');
+40: //     // }
+41: // })
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "v" is not defined
+- <js>.fn(Unnamed:11)
+
+classpath:features/handler.feature:4
+classpath:features/handler.feature:5
+classpath:features/handler.feature:18
+classpath:features/handler.feature:45
+classpath:features/handler.feature:46
+classpath:features/handler.feature:47
+00:58:47.807 [main] ERROR com.intuit.karate - classpath:features/handler.feature:48
+And response.message == "pong"
+>> classpath:features/handler.feature:43
+>> karate-config.js failed
+>> ReferenceError: "v" is not defined
+js failed:
+>>>>
+01: function fn() {
+02:   var env = karate.env; 
+03:   karate.log("karate.env system property was:", env);
+04:   if (!env) {
+05:     env = "dev";
+06:   }
+07: 
+08:   var config = {
+09:     env: env,
+10:     myVarName: "someValue",
+11:     accessToken: v,
+12:   };
+13: 
+14:   return config;
+15: }
+16: 
+17: // karate.configure("afterFeature", function () {
+18: //   karate.log("Hey this is after feature....running after every feature.");
+19: // });
+20: 
+21: // karate.configure('beforeScenario', function () {
+22: 
+23: //   karate.log("Inside before scenarios")
+24: //     // Make a POST request to obtain an access token
+25: //     // var accessTokenRequest = {
+26: //     //     method: 'GET',
+27: //     //     url: 'http://194.233.85.132:9000/api/v1/refresh-token'
+28: //     // };
+29: 
+30: //     // var response = karate.call(accessTokenRequest);
+31: 
+32: //     // // Check if the access token was successfully obtained
+33: //     // if (response.status == 200) {
+34: //     //     // var accessToken = response.body.access_token; // Assuming the access token is in the response body
+35: //     //     // karate.configure('headers', { 'Authorization': 'Bearer ' + accessToken });
+36: 
+37: //     //     karate.log(response)
+38: //     // } else {
+39: //     //     karate.log('Failed to obtain access token');
+40: //     // }
+41: // })
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "v" is not defined
+- <js>.fn(Unnamed:11)
+
+classpath:features/handler.feature:4
+classpath:features/handler.feature:5
+classpath:features/handler.feature:18
+classpath:features/handler.feature:45
+classpath:features/handler.feature:46
+classpath:features/handler.feature:47
+classpath:features/handler.feature:48
+00:58:47.807 [main] ERROR com.intuit.karate - classpath:features/handler.feature:51
+Given path '/piang'
+>> classpath:features/handler.feature:43
+>> karate-config.js failed
+>> ReferenceError: "v" is not defined
+js failed:
+>>>>
+01: function fn() {
+02:   var env = karate.env; 
+03:   karate.log("karate.env system property was:", env);
+04:   if (!env) {
+05:     env = "dev";
+06:   }
+07: 
+08:   var config = {
+09:     env: env,
+10:     myVarName: "someValue",
+11:     accessToken: v,
+12:   };
+13: 
+14:   return config;
+15: }
+16: 
+17: // karate.configure("afterFeature", function () {
+18: //   karate.log("Hey this is after feature....running after every feature.");
+19: // });
+20: 
+21: // karate.configure('beforeScenario', function () {
+22: 
+23: //   karate.log("Inside before scenarios")
+24: //     // Make a POST request to obtain an access token
+25: //     // var accessTokenRequest = {
+26: //     //     method: 'GET',
+27: //     //     url: 'http://194.233.85.132:9000/api/v1/refresh-token'
+28: //     // };
+29: 
+30: //     // var response = karate.call(accessTokenRequest);
+31: 
+32: //     // // Check if the access token was successfully obtained
+33: //     // if (response.status == 200) {
+34: //     //     // var accessToken = response.body.access_token; // Assuming the access token is in the response body
+35: //     //     // karate.configure('headers', { 'Authorization': 'Bearer ' + accessToken });
+36: 
+37: //     //     karate.log(response)
+38: //     // } else {
+39: //     //     karate.log('Failed to obtain access token');
+40: //     // }
+41: // })
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "v" is not defined
+- <js>.fn(Unnamed:11)
+
+classpath:features/handler.feature:4
+classpath:features/handler.feature:5
+classpath:features/handler.feature:18
+classpath:features/handler.feature:45
+classpath:features/handler.feature:46
+classpath:features/handler.feature:47
+classpath:features/handler.feature:48
+classpath:features/handler.feature:51
+00:58:47.810 [main] ERROR com.intuit.karate - classpath:features/handler.feature:52
+When method GET
+>> classpath:features/handler.feature:43
+>> karate-config.js failed
+>> ReferenceError: "v" is not defined
+js failed:
+>>>>
+01: function fn() {
+02:   var env = karate.env; 
+03:   karate.log("karate.env system property was:", env);
+04:   if (!env) {
+05:     env = "dev";
+06:   }
+07: 
+08:   var config = {
+09:     env: env,
+10:     myVarName: "someValue",
+11:     accessToken: v,
+12:   };
+13: 
+14:   return config;
+15: }
+16: 
+17: // karate.configure("afterFeature", function () {
+18: //   karate.log("Hey this is after feature....running after every feature.");
+19: // });
+20: 
+21: // karate.configure('beforeScenario', function () {
+22: 
+23: //   karate.log("Inside before scenarios")
+24: //     // Make a POST request to obtain an access token
+25: //     // var accessTokenRequest = {
+26: //     //     method: 'GET',
+27: //     //     url: 'http://194.233.85.132:9000/api/v1/refresh-token'
+28: //     // };
+29: 
+30: //     // var response = karate.call(accessTokenRequest);
+31: 
+32: //     // // Check if the access token was successfully obtained
+33: //     // if (response.status == 200) {
+34: //     //     // var accessToken = response.body.access_token; // Assuming the access token is in the response body
+35: //     //     // karate.configure('headers', { 'Authorization': 'Bearer ' + accessToken });
+36: 
+37: //     //     karate.log(response)
+38: //     // } else {
+39: //     //     karate.log('Failed to obtain access token');
+40: //     // }
+41: // })
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "v" is not defined
+- <js>.fn(Unnamed:11)
+
+classpath:features/handler.feature:4
+classpath:features/handler.feature:5
+classpath:features/handler.feature:18
+classpath:features/handler.feature:45
+classpath:features/handler.feature:46
+classpath:features/handler.feature:47
+classpath:features/handler.feature:48
+classpath:features/handler.feature:51
+classpath:features/handler.feature:52
+00:58:47.812 [main] ERROR com.intuit.karate - classpath:features/handler.feature:53
+Then status 200
+>> classpath:features/handler.feature:43
+>> karate-config.js failed
+>> ReferenceError: "v" is not defined
+js failed:
+>>>>
+01: function fn() {
+02:   var env = karate.env; 
+03:   karate.log("karate.env system property was:", env);
+04:   if (!env) {
+05:     env = "dev";
+06:   }
+07: 
+08:   var config = {
+09:     env: env,
+10:     myVarName: "someValue",
+11:     accessToken: v,
+12:   };
+13: 
+14:   return config;
+15: }
+16: 
+17: // karate.configure("afterFeature", function () {
+18: //   karate.log("Hey this is after feature....running after every feature.");
+19: // });
+20: 
+21: // karate.configure('beforeScenario', function () {
+22: 
+23: //   karate.log("Inside before scenarios")
+24: //     // Make a POST request to obtain an access token
+25: //     // var accessTokenRequest = {
+26: //     //     method: 'GET',
+27: //     //     url: 'http://194.233.85.132:9000/api/v1/refresh-token'
+28: //     // };
+29: 
+30: //     // var response = karate.call(accessTokenRequest);
+31: 
+32: //     // // Check if the access token was successfully obtained
+33: //     // if (response.status == 200) {
+34: //     //     // var accessToken = response.body.access_token; // Assuming the access token is in the response body
+35: //     //     // karate.configure('headers', { 'Authorization': 'Bearer ' + accessToken });
+36: 
+37: //     //     karate.log(response)
+38: //     // } else {
+39: //     //     karate.log('Failed to obtain access token');
+40: //     // }
+41: // })
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "v" is not defined
+- <js>.fn(Unnamed:11)
+
+classpath:features/handler.feature:4
+classpath:features/handler.feature:5
+classpath:features/handler.feature:18
+classpath:features/handler.feature:45
+classpath:features/handler.feature:46
+classpath:features/handler.feature:47
+classpath:features/handler.feature:48
+classpath:features/handler.feature:51
+classpath:features/handler.feature:52
+classpath:features/handler.feature:53
+00:58:47.815 [main] ERROR com.intuit.karate - classpath:features/handler.feature:54
+And response.message == "poang"
+>> classpath:features/handler.feature:43
+>> karate-config.js failed
+>> ReferenceError: "v" is not defined
+js failed:
+>>>>
+01: function fn() {
+02:   var env = karate.env; 
+03:   karate.log("karate.env system property was:", env);
+04:   if (!env) {
+05:     env = "dev";
+06:   }
+07: 
+08:   var config = {
+09:     env: env,
+10:     myVarName: "someValue",
+11:     accessToken: v,
+12:   };
+13: 
+14:   return config;
+15: }
+16: 
+17: // karate.configure("afterFeature", function () {
+18: //   karate.log("Hey this is after feature....running after every feature.");
+19: // });
+20: 
+21: // karate.configure('beforeScenario', function () {
+22: 
+23: //   karate.log("Inside before scenarios")
+24: //     // Make a POST request to obtain an access token
+25: //     // var accessTokenRequest = {
+26: //     //     method: 'GET',
+27: //     //     url: 'http://194.233.85.132:9000/api/v1/refresh-token'
+28: //     // };
+29: 
+30: //     // var response = karate.call(accessTokenRequest);
+31: 
+32: //     // // Check if the access token was successfully obtained
+33: //     // if (response.status == 200) {
+34: //     //     // var accessToken = response.body.access_token; // Assuming the access token is in the response body
+35: //     //     // karate.configure('headers', { 'Authorization': 'Bearer ' + accessToken });
+36: 
+37: //     //     karate.log(response)
+38: //     // } else {
+39: //     //     karate.log('Failed to obtain access token');
+40: //     // }
+41: // })
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "v" is not defined
+- <js>.fn(Unnamed:11)
+
+classpath:features/handler.feature:4
+classpath:features/handler.feature:5
+classpath:features/handler.feature:18
+classpath:features/handler.feature:45
+classpath:features/handler.feature:46
+classpath:features/handler.feature:47
+classpath:features/handler.feature:48
+classpath:features/handler.feature:51
+classpath:features/handler.feature:52
+classpath:features/handler.feature:53
+classpath:features/handler.feature:54
+00:58:48.903 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) classpath:features/handler.feature
+00:59:33.773 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+00:59:33.782 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1694028573777
+00:59:35.154 [main] INFO  com.intuit.karate - karate.env system property was: null 
+00:59:35.235 [main] INFO  com.intuit.karate - karate.env system property was: null 
+00:59:35.269 [main] INFO  com.intuit.karate - karate.env system property was: null 
+00:59:35.824 [main] INFO  com.intuit.karate - karate.env system property was: null 
+00:59:36.062 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:3000/ping
+1 > Host: localhost:3000
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:59:36.102 [main] ERROR com.intuit.karate - org.apache.http.conn.HttpHostConnectException: Connect to localhost:3000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information, http call failed after 259 milliseconds for url: http://localhost:3000/ping
+00:59:36.112 [main] ERROR com.intuit.karate - classpath:features/handler.feature:46
+When method GET
+http call failed after 259 milliseconds for url: http://localhost:3000/ping
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:3000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+classpath:features/handler.feature:46
+00:59:37.132 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) classpath:features/handler.feature
+01:00:39.170 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+01:00:39.178 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1694028639174
+01:00:40.507 [main] INFO  com.intuit.karate - karate.env system property was: null 
+01:00:40.586 [main] INFO  com.intuit.karate - karate.env system property was: null 
+01:00:40.611 [main] INFO  com.intuit.karate - karate.env system property was: null 
+01:00:41.894 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:features/handler.feature
+01:05:19.403 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+01:05:19.410 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1694028919406
+01:05:20.759 [main] INFO  com.intuit.karate - karate.env system property was: null 
+01:05:20.846 [main] INFO  com.intuit.karate - karate.env system property was: null 
+01:05:20.881 [main] INFO  com.intuit.karate - karate.env system property was: null 
+01:05:22.341 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:features/handler.feature
+01:21:14.934 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+01:21:14.943 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1694029874938
+01:21:16.294 [main] INFO  com.intuit.karate - karate.env system property was: null 
+01:21:16.372 [main] INFO  com.intuit.karate - karate.env system property was: null 
+01:21:16.399 [main] INFO  com.intuit.karate - karate.env system property was: null 
+01:21:17.828 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:features/handler.feature
+01:26:59.308 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+01:26:59.321 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1694030219313
+01:27:01.580 [main] INFO  com.intuit.karate - karate.env system property was: null 
+01:27:01.694 [main] INFO  com.intuit.karate - karate.env system property was: null 
+01:27:01.729 [main] INFO  com.intuit.karate - karate.env system property was: null 
+01:27:03.820 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:features/handler.feature
+01:27:51.092 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+01:27:51.103 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1694030271097
+01:27:53.098 [main] INFO  com.intuit.karate - karate.env system property was: null 
+01:27:53.244 [main] INFO  com.intuit.karate - karate.env system property was: null 
+01:27:53.287 [main] INFO  com.intuit.karate - karate.env system property was: null 
+01:27:55.282 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:features/handler.feature
+02:03:23.299 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+02:03:23.411 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1694032403401
+02:03:25.902 [main] INFO  com.intuit.karate - karate.env system property was: null 
+02:03:26.039 [main] INFO  com.intuit.karate - [print] http://194.233.85.132:9000 
+02:03:26.042 [main] INFO  com.intuit.karate - [print] eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJjdXN0b21fa2V5IjoiZjU0NWJkNmE1OTkwZDg3NjY0MzdhZDUwOWQyMWU2NGRjZTUwOGVkOTA5NTZjMmM3NGE0YjA2MmQzOTE3YTAzMyIsImtleV90eXBlIjoicmVmcmVzaCIsImlzcyI6ImJvb2tpdGUuYXV0aC5zZXJ2aWNlIn0.G6NxB9LGGszVoUXNpnZGadrBMbbhjRsAFGcTI5TINnDErTbfmsC-bqGuD2yvE7sr0NLtj4si5gtg8TfUxYekX5A_Te334p-Q4NyrWOArS_i48-CHKiA9G76gRVu82J0XpeMULr0crUYHBAtK2L1mYbQiQh1aXmnYw_KfYcA8dr5C6UJiI-aJLLycJWmzIUN_aFe3DI_u2ce0P-7fjfb5dNAgKrV3hZkbPLFJur0SVN3G-CGRgBFh9g7CKUvOTJkD13I0L3jvPzgWTEf7O_11LfYE3hIz5ltYc0bCoLd7DmC9lJLgo5gtkUbDbzwrIcDHlOztVWRL550LnKUCf6m5Ig 
+02:03:26.086 [main] ERROR com.intuit.karate - classpath:features/handler.feature:8
+* eval TokenFetch.getAccessToken(url, refreshToken)
+js failed:
+>>>>
+01: TokenFetch.getAccessToken(url, refreshToken)
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "TokenFetch" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:features/handler.feature:8
+02:03:26.132 [main] INFO  com.intuit.karate - karate.env system property was: null 
+02:03:26.146 [main] INFO  com.intuit.karate - [print] http://194.233.85.132:9000 
+02:03:26.148 [main] INFO  com.intuit.karate - [print] eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJjdXN0b21fa2V5IjoiZjU0NWJkNmE1OTkwZDg3NjY0MzdhZDUwOWQyMWU2NGRjZTUwOGVkOTA5NTZjMmM3NGE0YjA2MmQzOTE3YTAzMyIsImtleV90eXBlIjoicmVmcmVzaCIsImlzcyI6ImJvb2tpdGUuYXV0aC5zZXJ2aWNlIn0.G6NxB9LGGszVoUXNpnZGadrBMbbhjRsAFGcTI5TINnDErTbfmsC-bqGuD2yvE7sr0NLtj4si5gtg8TfUxYekX5A_Te334p-Q4NyrWOArS_i48-CHKiA9G76gRVu82J0XpeMULr0crUYHBAtK2L1mYbQiQh1aXmnYw_KfYcA8dr5C6UJiI-aJLLycJWmzIUN_aFe3DI_u2ce0P-7fjfb5dNAgKrV3hZkbPLFJur0SVN3G-CGRgBFh9g7CKUvOTJkD13I0L3jvPzgWTEf7O_11LfYE3hIz5ltYc0bCoLd7DmC9lJLgo5gtkUbDbzwrIcDHlOztVWRL550LnKUCf6m5Ig 
+02:03:26.152 [main] ERROR com.intuit.karate - classpath:features/handler.feature:8
+* eval TokenFetch.getAccessToken(url, refreshToken)
+js failed:
+>>>>
+01: TokenFetch.getAccessToken(url, refreshToken)
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "TokenFetch" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:features/handler.feature:8
+02:03:26.174 [main] INFO  com.intuit.karate - karate.env system property was: null 
+02:03:26.183 [main] INFO  com.intuit.karate - [print] http://194.233.85.132:9000 
+02:03:26.185 [main] INFO  com.intuit.karate - [print] eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJjdXN0b21fa2V5IjoiZjU0NWJkNmE1OTkwZDg3NjY0MzdhZDUwOWQyMWU2NGRjZTUwOGVkOTA5NTZjMmM3NGE0YjA2MmQzOTE3YTAzMyIsImtleV90eXBlIjoicmVmcmVzaCIsImlzcyI6ImJvb2tpdGUuYXV0aC5zZXJ2aWNlIn0.G6NxB9LGGszVoUXNpnZGadrBMbbhjRsAFGcTI5TINnDErTbfmsC-bqGuD2yvE7sr0NLtj4si5gtg8TfUxYekX5A_Te334p-Q4NyrWOArS_i48-CHKiA9G76gRVu82J0XpeMULr0crUYHBAtK2L1mYbQiQh1aXmnYw_KfYcA8dr5C6UJiI-aJLLycJWmzIUN_aFe3DI_u2ce0P-7fjfb5dNAgKrV3hZkbPLFJur0SVN3G-CGRgBFh9g7CKUvOTJkD13I0L3jvPzgWTEf7O_11LfYE3hIz5ltYc0bCoLd7DmC9lJLgo5gtkUbDbzwrIcDHlOztVWRL550LnKUCf6m5Ig 
+02:03:26.191 [main] ERROR com.intuit.karate - classpath:features/handler.feature:8
+* eval TokenFetch.getAccessToken(url, refreshToken)
+js failed:
+>>>>
+01: TokenFetch.getAccessToken(url, refreshToken)
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "TokenFetch" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:features/handler.feature:8
+02:03:27.705 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) classpath:features/handler.feature
+02:07:46.082 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+02:07:46.092 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1694032666086
+02:07:47.936 [main] INFO  com.intuit.karate - karate.env system property was: null 
+02:07:49.278 [main] INFO  com.intuit.karate - karate.env system property was: null 
+02:07:49.660 [main] INFO  com.intuit.karate - karate.env system property was: null 
+02:07:51.982 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:features/handler.feature
+02:08:37.395 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+02:08:37.410 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1694032717402
+02:08:39.217 [main] INFO  com.intuit.karate - karate.env system property was: null 
+02:08:40.392 [main] INFO  com.intuit.karate - karate.env system property was: null 
+02:08:40.739 [main] INFO  com.intuit.karate - karate.env system property was: null 
+02:08:43.154 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:features/handler.feature
+02:10:11.410 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+02:10:11.431 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1694032811421
+02:10:14.041 [main] INFO  com.intuit.karate - karate.env system property was: null 
+02:10:15.446 [main] INFO  com.intuit.karate - karate.env system property was: null 
+02:10:15.879 [main] INFO  com.intuit.karate - karate.env system property was: null 
+02:10:18.682 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:features/handler.feature
+02:10:52.021 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+02:10:52.030 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1694032852026
+02:10:54.010 [main] INFO  com.intuit.karate - karate.env system property was: null 
+02:10:55.049 [main] INFO  com.intuit.karate - karate.env system property was: null 
+02:10:55.423 [main] INFO  com.intuit.karate - karate.env system property was: null 
+02:10:57.496 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:features/handler.feature
+02:15:08.592 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+02:15:08.603 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1694033108598
+02:15:10.708 [main] INFO  com.intuit.karate - karate.env system property was: null 
+02:15:10.856 [main] ERROR com.intuit.karate - classpath:features/handler.feature:6
+* eval tokenFetch.getAccessToken(url, refreshToken)
+js failed:
+>>>>
+01: tokenFetch.getAccessToken(url, refreshToken)
+<<<<
+org.graalvm.polyglot.PolyglotException: Unresolved compilation problem: 
+	The method println(String) in the type PrintStream is not applicable for the arguments (String, String)
+
+- helpers.TokenFetch.getAccessToken(TokenFetch.java:33)
+- <js>.:program(Unnamed:1)
+
+classpath:features/handler.feature:6
+02:15:10.881 [main] INFO  com.intuit.karate - karate.env system property was: null 
+02:15:10.892 [main] ERROR com.intuit.karate - classpath:features/handler.feature:6
+* eval tokenFetch.getAccessToken(url, refreshToken)
+js failed:
+>>>>
+01: tokenFetch.getAccessToken(url, refreshToken)
+<<<<
+org.graalvm.polyglot.PolyglotException: Unresolved compilation problem: 
+	The method println(String) in the type PrintStream is not applicable for the arguments (String, String)
+
+- helpers.TokenFetch.getAccessToken(TokenFetch.java:33)
+- <js>.:program(Unnamed:1)
+
+classpath:features/handler.feature:6
+02:15:10.910 [main] INFO  com.intuit.karate - karate.env system property was: null 
+02:15:10.923 [main] ERROR com.intuit.karate - classpath:features/handler.feature:6
+* eval tokenFetch.getAccessToken(url, refreshToken)
+js failed:
+>>>>
+01: tokenFetch.getAccessToken(url, refreshToken)
+<<<<
+org.graalvm.polyglot.PolyglotException: Unresolved compilation problem: 
+	The method println(String) in the type PrintStream is not applicable for the arguments (String, String)
+
+- helpers.TokenFetch.getAccessToken(TokenFetch.java:33)
+- <js>.:program(Unnamed:1)
+
+classpath:features/handler.feature:6
+02:15:12.157 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) classpath:features/handler.feature
+02:15:44.961 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+02:15:44.973 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1694033144966
+02:15:46.884 [main] INFO  com.intuit.karate - karate.env system property was: null 
+02:15:47.937 [main] INFO  com.intuit.karate - karate.env system property was: null 
+02:15:48.349 [main] INFO  com.intuit.karate - karate.env system property was: null 
+02:15:50.360 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:features/handler.feature
+02:16:55.397 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+02:16:55.407 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1694033215401
+02:16:57.402 [main] INFO  com.intuit.karate - karate.env system property was: null 
+02:16:58.577 [main] INFO  com.intuit.karate - karate.env system property was: null 
+02:16:59.039 [main] INFO  com.intuit.karate - karate.env system property was: null 
+02:17:01.389 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:features/handler.feature
+02:17:33.318 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+02:17:33.329 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1694033253323
+02:17:35.317 [main] INFO  com.intuit.karate - karate.env system property was: null 
+02:17:36.451 [main] INFO  com.intuit.karate - karate.env system property was: null 
+02:17:36.706 [main] INFO  com.intuit.karate - karate.env system property was: null 
+02:17:38.507 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:features/handler.feature
+02:23:12.117 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+02:23:12.125 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1694033592121
+02:23:13.519 [main] INFO  com.intuit.karate - karate.env system property was: null 
+02:23:14.272 [main] INFO  com.intuit.karate - karate.env system property was: null 
+02:23:14.572 [main] INFO  com.intuit.karate - karate.env system property was: null 
+02:23:16.548 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:features/handler.feature
+02:27:12.920 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+02:27:12.927 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1694033832923
+02:27:14.342 [main] INFO  com.intuit.karate - karate.env system property was: null 
+02:27:15.081 [main] INFO  com.intuit.karate - [print] null 
+02:27:15.118 [main] INFO  com.intuit.karate - karate.env system property was: null 
+02:27:15.328 [main] INFO  com.intuit.karate - [print] null 
+02:27:15.369 [main] INFO  com.intuit.karate - karate.env system property was: null 
+02:27:15.577 [main] INFO  com.intuit.karate - [print] null 
+02:27:17.135 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:features/handler.feature
+02:27:32.645 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+02:27:32.653 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1694033852648
+02:27:34.117 [main] INFO  com.intuit.karate - karate.env system property was: null 
+02:27:34.848 [main] INFO  com.intuit.karate - [print] {
+  "data": {
+    "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJncm91cCI6ImFkbWluIiwia2V5X3R5cGUiOiJhY2Nlc3MiLCJleHAiOjE2OTQwMDA1NTgsImlzcyI6ImJvb2tpdGUuYXV0aC5zZXJ2aWNlIn0.pBtC8WQMKa0DDJ8p3t5olqj03av5mUQbVLEGyOcTaAgsYtmnYqq3YP_ErTgliQYoNtU9O8H-aUatP39mSWws27RHkivtax2fpsKe-y-xAejprkB23tsmmb8lPLxq_hPe-XNYbQp0pktrt3waigU1b4_LFvk_OpC_n94LRHVKFh1qG9QgotlH6e5maivpF3N7jQ4a5jbdfC6okSoHpCgXjAkmYZrSfycIvoiWd-aC6wTiHTbQaA-Gg4XgYVqmfWHGYY_VgW8zCpovDs-j9bazKNiHDnZOPCvOVw6Tz-zmUYWfvWPGUugPfOYm4KTcV7OsHykgCANWbXuHCOiZMyzgcg",
+    "refresh_token": ""
+  },
+  "message": "Success"
+}
+ 
+02:27:34.894 [main] INFO  com.intuit.karate - karate.env system property was: null 
+02:27:35.100 [main] INFO  com.intuit.karate - [print] {
+  "data": {
+    "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJncm91cCI6ImFkbWluIiwia2V5X3R5cGUiOiJhY2Nlc3MiLCJleHAiOjE2OTQwMDA1NTgsImlzcyI6ImJvb2tpdGUuYXV0aC5zZXJ2aWNlIn0.pBtC8WQMKa0DDJ8p3t5olqj03av5mUQbVLEGyOcTaAgsYtmnYqq3YP_ErTgliQYoNtU9O8H-aUatP39mSWws27RHkivtax2fpsKe-y-xAejprkB23tsmmb8lPLxq_hPe-XNYbQp0pktrt3waigU1b4_LFvk_OpC_n94LRHVKFh1qG9QgotlH6e5maivpF3N7jQ4a5jbdfC6okSoHpCgXjAkmYZrSfycIvoiWd-aC6wTiHTbQaA-Gg4XgYVqmfWHGYY_VgW8zCpovDs-j9bazKNiHDnZOPCvOVw6Tz-zmUYWfvWPGUugPfOYm4KTcV7OsHykgCANWbXuHCOiZMyzgcg",
+    "refresh_token": ""
+  },
+  "message": "Success"
+}
+ 
+02:27:35.143 [main] INFO  com.intuit.karate - karate.env system property was: null 
+02:27:35.385 [main] INFO  com.intuit.karate - [print] {
+  "data": {
+    "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJncm91cCI6ImFkbWluIiwia2V5X3R5cGUiOiJhY2Nlc3MiLCJleHAiOjE2OTQwMDA1NTgsImlzcyI6ImJvb2tpdGUuYXV0aC5zZXJ2aWNlIn0.pBtC8WQMKa0DDJ8p3t5olqj03av5mUQbVLEGyOcTaAgsYtmnYqq3YP_ErTgliQYoNtU9O8H-aUatP39mSWws27RHkivtax2fpsKe-y-xAejprkB23tsmmb8lPLxq_hPe-XNYbQp0pktrt3waigU1b4_LFvk_OpC_n94LRHVKFh1qG9QgotlH6e5maivpF3N7jQ4a5jbdfC6okSoHpCgXjAkmYZrSfycIvoiWd-aC6wTiHTbQaA-Gg4XgYVqmfWHGYY_VgW8zCpovDs-j9bazKNiHDnZOPCvOVw6Tz-zmUYWfvWPGUugPfOYm4KTcV7OsHykgCANWbXuHCOiZMyzgcg",
+    "refresh_token": ""
+  },
+  "message": "Success"
+}
+ 
+02:27:37.012 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:features/handler.feature
+02:27:55.584 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+02:27:55.592 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1694033875587
+02:27:56.961 [main] INFO  com.intuit.karate - karate.env system property was: null 
+02:27:57.643 [main] INFO  com.intuit.karate - [print] eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJncm91cCI6ImFkbWluIiwia2V5X3R5cGUiOiJhY2Nlc3MiLCJleHAiOjE2OTQwMDA1ODEsImlzcyI6ImJvb2tpdGUuYXV0aC5zZXJ2aWNlIn0.XTeWH2giuAK0Os-34s0ejZ1sovXuguVPjjxnzdJhwYlk-E2oBeNDd98kU5LDQEA-oCJZNtve29_FkiqMenW9UyB5eh1WlMA8d2Srt_I7IlBWjEYKCnRklIMw94mwQVyVtVHiWr3d7lTUJSLCoVRSnFiMLxmjYWfoZNE4JCQXrLLak05TtwaI2w0KAXLduFQMLFUwGlra9dIrnF_vHTjf6EqSfKUgYrUzouTH9bsiHJuSqnSUh4KpmR8mmgov1XVeXaL8Bc258liy084iAeiCNECabPxvohHzK_v3BNywXQwphIbAkV-16RtHn8mDTf0ztTQSS8Gb-HHzloSNaCMERQ 
+02:27:57.680 [main] INFO  com.intuit.karate - karate.env system property was: null 
+02:27:57.888 [main] INFO  com.intuit.karate - [print] eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJncm91cCI6ImFkbWluIiwia2V5X3R5cGUiOiJhY2Nlc3MiLCJleHAiOjE2OTQwMDA1ODEsImlzcyI6ImJvb2tpdGUuYXV0aC5zZXJ2aWNlIn0.XTeWH2giuAK0Os-34s0ejZ1sovXuguVPjjxnzdJhwYlk-E2oBeNDd98kU5LDQEA-oCJZNtve29_FkiqMenW9UyB5eh1WlMA8d2Srt_I7IlBWjEYKCnRklIMw94mwQVyVtVHiWr3d7lTUJSLCoVRSnFiMLxmjYWfoZNE4JCQXrLLak05TtwaI2w0KAXLduFQMLFUwGlra9dIrnF_vHTjf6EqSfKUgYrUzouTH9bsiHJuSqnSUh4KpmR8mmgov1XVeXaL8Bc258liy084iAeiCNECabPxvohHzK_v3BNywXQwphIbAkV-16RtHn8mDTf0ztTQSS8Gb-HHzloSNaCMERQ 
+02:27:57.923 [main] INFO  com.intuit.karate - karate.env system property was: null 
+02:27:58.140 [main] INFO  com.intuit.karate - [print] eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJncm91cCI6ImFkbWluIiwia2V5X3R5cGUiOiJhY2Nlc3MiLCJleHAiOjE2OTQwMDA1ODEsImlzcyI6ImJvb2tpdGUuYXV0aC5zZXJ2aWNlIn0.XTeWH2giuAK0Os-34s0ejZ1sovXuguVPjjxnzdJhwYlk-E2oBeNDd98kU5LDQEA-oCJZNtve29_FkiqMenW9UyB5eh1WlMA8d2Srt_I7IlBWjEYKCnRklIMw94mwQVyVtVHiWr3d7lTUJSLCoVRSnFiMLxmjYWfoZNE4JCQXrLLak05TtwaI2w0KAXLduFQMLFUwGlra9dIrnF_vHTjf6EqSfKUgYrUzouTH9bsiHJuSqnSUh4KpmR8mmgov1XVeXaL8Bc258liy084iAeiCNECabPxvohHzK_v3BNywXQwphIbAkV-16RtHn8mDTf0ztTQSS8Gb-HHzloSNaCMERQ 
+02:27:59.447 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:features/handler.feature
+02:31:03.433 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+02:31:03.633 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1694034063437
+02:31:05.097 [main] INFO  com.intuit.karate - karate.env system property was: null 
+02:31:05.135 [main] ERROR com.intuit.karate - classpath:features/handler.feature:4
+* def dbHandler = Java.type('helpers.DbHandler')
+>> classpath:features/handler.feature:22
+>> karate-config.js failed
+>> ReferenceError: "config" is not defined
+js failed:
+>>>>
+01: function fn() {
+02:   var env = karate.env; 
+03:   karate.log("karate.env system property was:", env);
+04:   if (!env) {
+05:     env = "dev";
+06:   }
+07:   let tokenFetch = Java.type('helpers.TokenFetch');
+08:   let v = tokenFetch.getAccessToken(config.url, config.refreshToken);
+09: 
+10:   config.accessToken = v.data.access_token
+11: 
+12:   karate.log(v.data.access_token)
+13:   let config = {
+14:     env: env,
+15:     myVarName: "someValue",
+16:     refreshToken: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJjdXN0b21fa2V5IjoiZjU0NWJkNmE1OTkwZDg3NjY0MzdhZDUwOWQyMWU2NGRjZTUwOGVkOTA5NTZjMmM3NGE0YjA2MmQzOTE3YTAzMyIsImtleV90eXBlIjoicmVmcmVzaCIsImlzcyI6ImJvb2tpdGUuYXV0aC5zZXJ2aWNlIn0.G6NxB9LGGszVoUXNpnZGadrBMbbhjRsAFGcTI5TINnDErTbfmsC-bqGuD2yvE7sr0NLtj4si5gtg8TfUxYekX5A_Te334p-Q4NyrWOArS_i48-CHKiA9G76gRVu82J0XpeMULr0crUYHBAtK2L1mYbQiQh1aXmnYw_KfYcA8dr5C6UJiI-aJLLycJWmzIUN_aFe3DI_u2ce0P-7fjfb5dNAgKrV3hZkbPLFJur0SVN3G-CGRgBFh9g7CKUvOTJkD13I0L3jvPzgWTEf7O_11LfYE3hIz5ltYc0bCoLd7DmC9lJLgo5gtkUbDbzwrIcDHlOztVWRL550LnKUCf6m5Ig',
+17:     url: "http://194.233.85.132:9000/api/v1/refresh-token"
+18:   };
+19: 
+20:   return config;
+21: }
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "config" is not defined
+- <js>.fn(Unnamed:8)
+
+classpath:features/handler.feature:4
+02:31:05.136 [main] ERROR com.intuit.karate - classpath:features/handler.feature:20
+* def sqlAddPizza = ""
+>> classpath:features/handler.feature:22
+>> karate-config.js failed
+>> ReferenceError: "config" is not defined
+js failed:
+>>>>
+01: function fn() {
+02:   var env = karate.env; 
+03:   karate.log("karate.env system property was:", env);
+04:   if (!env) {
+05:     env = "dev";
+06:   }
+07:   let tokenFetch = Java.type('helpers.TokenFetch');
+08:   let v = tokenFetch.getAccessToken(config.url, config.refreshToken);
+09: 
+10:   config.accessToken = v.data.access_token
+11: 
+12:   karate.log(v.data.access_token)
+13:   let config = {
+14:     env: env,
+15:     myVarName: "someValue",
+16:     refreshToken: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJjdXN0b21fa2V5IjoiZjU0NWJkNmE1OTkwZDg3NjY0MzdhZDUwOWQyMWU2NGRjZTUwOGVkOTA5NTZjMmM3NGE0YjA2MmQzOTE3YTAzMyIsImtleV90eXBlIjoicmVmcmVzaCIsImlzcyI6ImJvb2tpdGUuYXV0aC5zZXJ2aWNlIn0.G6NxB9LGGszVoUXNpnZGadrBMbbhjRsAFGcTI5TINnDErTbfmsC-bqGuD2yvE7sr0NLtj4si5gtg8TfUxYekX5A_Te334p-Q4NyrWOArS_i48-CHKiA9G76gRVu82J0XpeMULr0crUYHBAtK2L1mYbQiQh1aXmnYw_KfYcA8dr5C6UJiI-aJLLycJWmzIUN_aFe3DI_u2ce0P-7fjfb5dNAgKrV3hZkbPLFJur0SVN3G-CGRgBFh9g7CKUvOTJkD13I0L3jvPzgWTEf7O_11LfYE3hIz5ltYc0bCoLd7DmC9lJLgo5gtkUbDbzwrIcDHlOztVWRL550LnKUCf6m5Ig',
+17:     url: "http://194.233.85.132:9000/api/v1/refresh-token"
+18:   };
+19: 
+20:   return config;
+21: }
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "config" is not defined
+- <js>.fn(Unnamed:8)
+
+classpath:features/handler.feature:4
+classpath:features/handler.feature:20
+02:31:05.136 [main] ERROR com.intuit.karate - classpath:features/handler.feature:23
+* def pizzaName = "PizzaTestAGABA"
+>> classpath:features/handler.feature:22
+>> karate-config.js failed
+>> ReferenceError: "config" is not defined
+js failed:
+>>>>
+01: function fn() {
+02:   var env = karate.env; 
+03:   karate.log("karate.env system property was:", env);
+04:   if (!env) {
+05:     env = "dev";
+06:   }
+07:   let tokenFetch = Java.type('helpers.TokenFetch');
+08:   let v = tokenFetch.getAccessToken(config.url, config.refreshToken);
+09: 
+10:   config.accessToken = v.data.access_token
+11: 
+12:   karate.log(v.data.access_token)
+13:   let config = {
+14:     env: env,
+15:     myVarName: "someValue",
+16:     refreshToken: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJjdXN0b21fa2V5IjoiZjU0NWJkNmE1OTkwZDg3NjY0MzdhZDUwOWQyMWU2NGRjZTUwOGVkOTA5NTZjMmM3NGE0YjA2MmQzOTE3YTAzMyIsImtleV90eXBlIjoicmVmcmVzaCIsImlzcyI6ImJvb2tpdGUuYXV0aC5zZXJ2aWNlIn0.G6NxB9LGGszVoUXNpnZGadrBMbbhjRsAFGcTI5TINnDErTbfmsC-bqGuD2yvE7sr0NLtj4si5gtg8TfUxYekX5A_Te334p-Q4NyrWOArS_i48-CHKiA9G76gRVu82J0XpeMULr0crUYHBAtK2L1mYbQiQh1aXmnYw_KfYcA8dr5C6UJiI-aJLLycJWmzIUN_aFe3DI_u2ce0P-7fjfb5dNAgKrV3hZkbPLFJur0SVN3G-CGRgBFh9g7CKUvOTJkD13I0L3jvPzgWTEf7O_11LfYE3hIz5ltYc0bCoLd7DmC9lJLgo5gtkUbDbzwrIcDHlOztVWRL550LnKUCf6m5Ig',
+17:     url: "http://194.233.85.132:9000/api/v1/refresh-token"
+18:   };
+19: 
+20:   return config;
+21: }
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "config" is not defined
+- <js>.fn(Unnamed:8)
+
+classpath:features/handler.feature:4
+classpath:features/handler.feature:20
+classpath:features/handler.feature:23
+02:31:05.137 [main] ERROR com.intuit.karate - classpath:features/handler.feature:24
+* def price = 320
+>> classpath:features/handler.feature:22
+>> karate-config.js failed
+>> ReferenceError: "config" is not defined
+js failed:
+>>>>
+01: function fn() {
+02:   var env = karate.env; 
+03:   karate.log("karate.env system property was:", env);
+04:   if (!env) {
+05:     env = "dev";
+06:   }
+07:   let tokenFetch = Java.type('helpers.TokenFetch');
+08:   let v = tokenFetch.getAccessToken(config.url, config.refreshToken);
+09: 
+10:   config.accessToken = v.data.access_token
+11: 
+12:   karate.log(v.data.access_token)
+13:   let config = {
+14:     env: env,
+15:     myVarName: "someValue",
+16:     refreshToken: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJjdXN0b21fa2V5IjoiZjU0NWJkNmE1OTkwZDg3NjY0MzdhZDUwOWQyMWU2NGRjZTUwOGVkOTA5NTZjMmM3NGE0YjA2MmQzOTE3YTAzMyIsImtleV90eXBlIjoicmVmcmVzaCIsImlzcyI6ImJvb2tpdGUuYXV0aC5zZXJ2aWNlIn0.G6NxB9LGGszVoUXNpnZGadrBMbbhjRsAFGcTI5TINnDErTbfmsC-bqGuD2yvE7sr0NLtj4si5gtg8TfUxYekX5A_Te334p-Q4NyrWOArS_i48-CHKiA9G76gRVu82J0XpeMULr0crUYHBAtK2L1mYbQiQh1aXmnYw_KfYcA8dr5C6UJiI-aJLLycJWmzIUN_aFe3DI_u2ce0P-7fjfb5dNAgKrV3hZkbPLFJur0SVN3G-CGRgBFh9g7CKUvOTJkD13I0L3jvPzgWTEf7O_11LfYE3hIz5ltYc0bCoLd7DmC9lJLgo5gtkUbDbzwrIcDHlOztVWRL550LnKUCf6m5Ig',
+17:     url: "http://194.233.85.132:9000/api/v1/refresh-token"
+18:   };
+19: 
+20:   return config;
+21: }
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "config" is not defined
+- <js>.fn(Unnamed:8)
+
+classpath:features/handler.feature:4
+classpath:features/handler.feature:20
+classpath:features/handler.feature:23
+classpath:features/handler.feature:24
+02:31:05.137 [main] ERROR com.intuit.karate - classpath:features/handler.feature:25
+* eval sqlAddPizza = "INSERT INTO pizzas (name, price) VALUES ('" + pizzaName + "', " + price + ")"
+>> classpath:features/handler.feature:22
+>> karate-config.js failed
+>> ReferenceError: "config" is not defined
+js failed:
+>>>>
+01: function fn() {
+02:   var env = karate.env; 
+03:   karate.log("karate.env system property was:", env);
+04:   if (!env) {
+05:     env = "dev";
+06:   }
+07:   let tokenFetch = Java.type('helpers.TokenFetch');
+08:   let v = tokenFetch.getAccessToken(config.url, config.refreshToken);
+09: 
+10:   config.accessToken = v.data.access_token
+11: 
+12:   karate.log(v.data.access_token)
+13:   let config = {
+14:     env: env,
+15:     myVarName: "someValue",
+16:     refreshToken: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJjdXN0b21fa2V5IjoiZjU0NWJkNmE1OTkwZDg3NjY0MzdhZDUwOWQyMWU2NGRjZTUwOGVkOTA5NTZjMmM3NGE0YjA2MmQzOTE3YTAzMyIsImtleV90eXBlIjoicmVmcmVzaCIsImlzcyI6ImJvb2tpdGUuYXV0aC5zZXJ2aWNlIn0.G6NxB9LGGszVoUXNpnZGadrBMbbhjRsAFGcTI5TINnDErTbfmsC-bqGuD2yvE7sr0NLtj4si5gtg8TfUxYekX5A_Te334p-Q4NyrWOArS_i48-CHKiA9G76gRVu82J0XpeMULr0crUYHBAtK2L1mYbQiQh1aXmnYw_KfYcA8dr5C6UJiI-aJLLycJWmzIUN_aFe3DI_u2ce0P-7fjfb5dNAgKrV3hZkbPLFJur0SVN3G-CGRgBFh9g7CKUvOTJkD13I0L3jvPzgWTEf7O_11LfYE3hIz5ltYc0bCoLd7DmC9lJLgo5gtkUbDbzwrIcDHlOztVWRL550LnKUCf6m5Ig',
+17:     url: "http://194.233.85.132:9000/api/v1/refresh-token"
+18:   };
+19: 
+20:   return config;
+21: }
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "config" is not defined
+- <js>.fn(Unnamed:8)
+
+classpath:features/handler.feature:4
+classpath:features/handler.feature:20
+classpath:features/handler.feature:23
+classpath:features/handler.feature:24
+classpath:features/handler.feature:25
+02:31:05.169 [main] INFO  com.intuit.karate - karate.env system property was: null 
+02:31:05.173 [main] ERROR com.intuit.karate - classpath:features/handler.feature:4
+* def dbHandler = Java.type('helpers.DbHandler')
+>> classpath:features/handler.feature:29
+>> karate-config.js failed
+>> ReferenceError: "config" is not defined
+js failed:
+>>>>
+01: function fn() {
+02:   var env = karate.env; 
+03:   karate.log("karate.env system property was:", env);
+04:   if (!env) {
+05:     env = "dev";
+06:   }
+07:   let tokenFetch = Java.type('helpers.TokenFetch');
+08:   let v = tokenFetch.getAccessToken(config.url, config.refreshToken);
+09: 
+10:   config.accessToken = v.data.access_token
+11: 
+12:   karate.log(v.data.access_token)
+13:   let config = {
+14:     env: env,
+15:     myVarName: "someValue",
+16:     refreshToken: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJjdXN0b21fa2V5IjoiZjU0NWJkNmE1OTkwZDg3NjY0MzdhZDUwOWQyMWU2NGRjZTUwOGVkOTA5NTZjMmM3NGE0YjA2MmQzOTE3YTAzMyIsImtleV90eXBlIjoicmVmcmVzaCIsImlzcyI6ImJvb2tpdGUuYXV0aC5zZXJ2aWNlIn0.G6NxB9LGGszVoUXNpnZGadrBMbbhjRsAFGcTI5TINnDErTbfmsC-bqGuD2yvE7sr0NLtj4si5gtg8TfUxYekX5A_Te334p-Q4NyrWOArS_i48-CHKiA9G76gRVu82J0XpeMULr0crUYHBAtK2L1mYbQiQh1aXmnYw_KfYcA8dr5C6UJiI-aJLLycJWmzIUN_aFe3DI_u2ce0P-7fjfb5dNAgKrV3hZkbPLFJur0SVN3G-CGRgBFh9g7CKUvOTJkD13I0L3jvPzgWTEf7O_11LfYE3hIz5ltYc0bCoLd7DmC9lJLgo5gtkUbDbzwrIcDHlOztVWRL550LnKUCf6m5Ig',
+17:     url: "http://194.233.85.132:9000/api/v1/refresh-token"
+18:   };
+19: 
+20:   return config;
+21: }
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "config" is not defined
+- <js>.fn(Unnamed:8)
+
+classpath:features/handler.feature:4
+02:31:05.174 [main] ERROR com.intuit.karate - classpath:features/handler.feature:20
+* def sqlAddPizza = ""
+>> classpath:features/handler.feature:29
+>> karate-config.js failed
+>> ReferenceError: "config" is not defined
+js failed:
+>>>>
+01: function fn() {
+02:   var env = karate.env; 
+03:   karate.log("karate.env system property was:", env);
+04:   if (!env) {
+05:     env = "dev";
+06:   }
+07:   let tokenFetch = Java.type('helpers.TokenFetch');
+08:   let v = tokenFetch.getAccessToken(config.url, config.refreshToken);
+09: 
+10:   config.accessToken = v.data.access_token
+11: 
+12:   karate.log(v.data.access_token)
+13:   let config = {
+14:     env: env,
+15:     myVarName: "someValue",
+16:     refreshToken: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJjdXN0b21fa2V5IjoiZjU0NWJkNmE1OTkwZDg3NjY0MzdhZDUwOWQyMWU2NGRjZTUwOGVkOTA5NTZjMmM3NGE0YjA2MmQzOTE3YTAzMyIsImtleV90eXBlIjoicmVmcmVzaCIsImlzcyI6ImJvb2tpdGUuYXV0aC5zZXJ2aWNlIn0.G6NxB9LGGszVoUXNpnZGadrBMbbhjRsAFGcTI5TINnDErTbfmsC-bqGuD2yvE7sr0NLtj4si5gtg8TfUxYekX5A_Te334p-Q4NyrWOArS_i48-CHKiA9G76gRVu82J0XpeMULr0crUYHBAtK2L1mYbQiQh1aXmnYw_KfYcA8dr5C6UJiI-aJLLycJWmzIUN_aFe3DI_u2ce0P-7fjfb5dNAgKrV3hZkbPLFJur0SVN3G-CGRgBFh9g7CKUvOTJkD13I0L3jvPzgWTEf7O_11LfYE3hIz5ltYc0bCoLd7DmC9lJLgo5gtkUbDbzwrIcDHlOztVWRL550LnKUCf6m5Ig',
+17:     url: "http://194.233.85.132:9000/api/v1/refresh-token"
+18:   };
+19: 
+20:   return config;
+21: }
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "config" is not defined
+- <js>.fn(Unnamed:8)
+
+classpath:features/handler.feature:4
+classpath:features/handler.feature:20
+02:31:05.175 [main] ERROR com.intuit.karate - classpath:features/handler.feature:31
+* def toppingName = "toppingtestGABA"
+>> classpath:features/handler.feature:29
+>> karate-config.js failed
+>> ReferenceError: "config" is not defined
+js failed:
+>>>>
+01: function fn() {
+02:   var env = karate.env; 
+03:   karate.log("karate.env system property was:", env);
+04:   if (!env) {
+05:     env = "dev";
+06:   }
+07:   let tokenFetch = Java.type('helpers.TokenFetch');
+08:   let v = tokenFetch.getAccessToken(config.url, config.refreshToken);
+09: 
+10:   config.accessToken = v.data.access_token
+11: 
+12:   karate.log(v.data.access_token)
+13:   let config = {
+14:     env: env,
+15:     myVarName: "someValue",
+16:     refreshToken: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJjdXN0b21fa2V5IjoiZjU0NWJkNmE1OTkwZDg3NjY0MzdhZDUwOWQyMWU2NGRjZTUwOGVkOTA5NTZjMmM3NGE0YjA2MmQzOTE3YTAzMyIsImtleV90eXBlIjoicmVmcmVzaCIsImlzcyI6ImJvb2tpdGUuYXV0aC5zZXJ2aWNlIn0.G6NxB9LGGszVoUXNpnZGadrBMbbhjRsAFGcTI5TINnDErTbfmsC-bqGuD2yvE7sr0NLtj4si5gtg8TfUxYekX5A_Te334p-Q4NyrWOArS_i48-CHKiA9G76gRVu82J0XpeMULr0crUYHBAtK2L1mYbQiQh1aXmnYw_KfYcA8dr5C6UJiI-aJLLycJWmzIUN_aFe3DI_u2ce0P-7fjfb5dNAgKrV3hZkbPLFJur0SVN3G-CGRgBFh9g7CKUvOTJkD13I0L3jvPzgWTEf7O_11LfYE3hIz5ltYc0bCoLd7DmC9lJLgo5gtkUbDbzwrIcDHlOztVWRL550LnKUCf6m5Ig',
+17:     url: "http://194.233.85.132:9000/api/v1/refresh-token"
+18:   };
+19: 
+20:   return config;
+21: }
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "config" is not defined
+- <js>.fn(Unnamed:8)
+
+classpath:features/handler.feature:4
+classpath:features/handler.feature:20
+classpath:features/handler.feature:31
+02:31:05.176 [main] ERROR com.intuit.karate - classpath:features/handler.feature:32
+* def price = 400
+>> classpath:features/handler.feature:29
+>> karate-config.js failed
+>> ReferenceError: "config" is not defined
+js failed:
+>>>>
+01: function fn() {
+02:   var env = karate.env; 
+03:   karate.log("karate.env system property was:", env);
+04:   if (!env) {
+05:     env = "dev";
+06:   }
+07:   let tokenFetch = Java.type('helpers.TokenFetch');
+08:   let v = tokenFetch.getAccessToken(config.url, config.refreshToken);
+09: 
+10:   config.accessToken = v.data.access_token
+11: 
+12:   karate.log(v.data.access_token)
+13:   let config = {
+14:     env: env,
+15:     myVarName: "someValue",
+16:     refreshToken: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJjdXN0b21fa2V5IjoiZjU0NWJkNmE1OTkwZDg3NjY0MzdhZDUwOWQyMWU2NGRjZTUwOGVkOTA5NTZjMmM3NGE0YjA2MmQzOTE3YTAzMyIsImtleV90eXBlIjoicmVmcmVzaCIsImlzcyI6ImJvb2tpdGUuYXV0aC5zZXJ2aWNlIn0.G6NxB9LGGszVoUXNpnZGadrBMbbhjRsAFGcTI5TINnDErTbfmsC-bqGuD2yvE7sr0NLtj4si5gtg8TfUxYekX5A_Te334p-Q4NyrWOArS_i48-CHKiA9G76gRVu82J0XpeMULr0crUYHBAtK2L1mYbQiQh1aXmnYw_KfYcA8dr5C6UJiI-aJLLycJWmzIUN_aFe3DI_u2ce0P-7fjfb5dNAgKrV3hZkbPLFJur0SVN3G-CGRgBFh9g7CKUvOTJkD13I0L3jvPzgWTEf7O_11LfYE3hIz5ltYc0bCoLd7DmC9lJLgo5gtkUbDbzwrIcDHlOztVWRL550LnKUCf6m5Ig',
+17:     url: "http://194.233.85.132:9000/api/v1/refresh-token"
+18:   };
+19: 
+20:   return config;
+21: }
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "config" is not defined
+- <js>.fn(Unnamed:8)
+
+classpath:features/handler.feature:4
+classpath:features/handler.feature:20
+classpath:features/handler.feature:31
+classpath:features/handler.feature:32
+02:31:05.176 [main] ERROR com.intuit.karate - classpath:features/handler.feature:33
+* def is_internal = false
+>> classpath:features/handler.feature:29
+>> karate-config.js failed
+>> ReferenceError: "config" is not defined
+js failed:
+>>>>
+01: function fn() {
+02:   var env = karate.env; 
+03:   karate.log("karate.env system property was:", env);
+04:   if (!env) {
+05:     env = "dev";
+06:   }
+07:   let tokenFetch = Java.type('helpers.TokenFetch');
+08:   let v = tokenFetch.getAccessToken(config.url, config.refreshToken);
+09: 
+10:   config.accessToken = v.data.access_token
+11: 
+12:   karate.log(v.data.access_token)
+13:   let config = {
+14:     env: env,
+15:     myVarName: "someValue",
+16:     refreshToken: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJjdXN0b21fa2V5IjoiZjU0NWJkNmE1OTkwZDg3NjY0MzdhZDUwOWQyMWU2NGRjZTUwOGVkOTA5NTZjMmM3NGE0YjA2MmQzOTE3YTAzMyIsImtleV90eXBlIjoicmVmcmVzaCIsImlzcyI6ImJvb2tpdGUuYXV0aC5zZXJ2aWNlIn0.G6NxB9LGGszVoUXNpnZGadrBMbbhjRsAFGcTI5TINnDErTbfmsC-bqGuD2yvE7sr0NLtj4si5gtg8TfUxYekX5A_Te334p-Q4NyrWOArS_i48-CHKiA9G76gRVu82J0XpeMULr0crUYHBAtK2L1mYbQiQh1aXmnYw_KfYcA8dr5C6UJiI-aJLLycJWmzIUN_aFe3DI_u2ce0P-7fjfb5dNAgKrV3hZkbPLFJur0SVN3G-CGRgBFh9g7CKUvOTJkD13I0L3jvPzgWTEf7O_11LfYE3hIz5ltYc0bCoLd7DmC9lJLgo5gtkUbDbzwrIcDHlOztVWRL550LnKUCf6m5Ig',
+17:     url: "http://194.233.85.132:9000/api/v1/refresh-token"
+18:   };
+19: 
+20:   return config;
+21: }
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "config" is not defined
+- <js>.fn(Unnamed:8)
+
+classpath:features/handler.feature:4
+classpath:features/handler.feature:20
+classpath:features/handler.feature:31
+classpath:features/handler.feature:32
+classpath:features/handler.feature:33
+02:31:05.177 [main] ERROR com.intuit.karate - classpath:features/handler.feature:34
+* def sqlAddTopping = "INSERT INTO toppings (name, price, is_internal) VALUES ('" + toppingName + "', " + price + ", " + is_internal + ")"
+>> classpath:features/handler.feature:29
+>> karate-config.js failed
+>> ReferenceError: "config" is not defined
+js failed:
+>>>>
+01: function fn() {
+02:   var env = karate.env; 
+03:   karate.log("karate.env system property was:", env);
+04:   if (!env) {
+05:     env = "dev";
+06:   }
+07:   let tokenFetch = Java.type('helpers.TokenFetch');
+08:   let v = tokenFetch.getAccessToken(config.url, config.refreshToken);
+09: 
+10:   config.accessToken = v.data.access_token
+11: 
+12:   karate.log(v.data.access_token)
+13:   let config = {
+14:     env: env,
+15:     myVarName: "someValue",
+16:     refreshToken: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJjdXN0b21fa2V5IjoiZjU0NWJkNmE1OTkwZDg3NjY0MzdhZDUwOWQyMWU2NGRjZTUwOGVkOTA5NTZjMmM3NGE0YjA2MmQzOTE3YTAzMyIsImtleV90eXBlIjoicmVmcmVzaCIsImlzcyI6ImJvb2tpdGUuYXV0aC5zZXJ2aWNlIn0.G6NxB9LGGszVoUXNpnZGadrBMbbhjRsAFGcTI5TINnDErTbfmsC-bqGuD2yvE7sr0NLtj4si5gtg8TfUxYekX5A_Te334p-Q4NyrWOArS_i48-CHKiA9G76gRVu82J0XpeMULr0crUYHBAtK2L1mYbQiQh1aXmnYw_KfYcA8dr5C6UJiI-aJLLycJWmzIUN_aFe3DI_u2ce0P-7fjfb5dNAgKrV3hZkbPLFJur0SVN3G-CGRgBFh9g7CKUvOTJkD13I0L3jvPzgWTEf7O_11LfYE3hIz5ltYc0bCoLd7DmC9lJLgo5gtkUbDbzwrIcDHlOztVWRL550LnKUCf6m5Ig',
+17:     url: "http://194.233.85.132:9000/api/v1/refresh-token"
+18:   };
+19: 
+20:   return config;
+21: }
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "config" is not defined
+- <js>.fn(Unnamed:8)
+
+classpath:features/handler.feature:4
+classpath:features/handler.feature:20
+classpath:features/handler.feature:31
+classpath:features/handler.feature:32
+classpath:features/handler.feature:33
+classpath:features/handler.feature:34
+02:31:05.203 [main] INFO  com.intuit.karate - karate.env system property was: null 
+02:31:05.210 [main] ERROR com.intuit.karate - classpath:features/handler.feature:4
+* def dbHandler = Java.type('helpers.DbHandler')
+>> classpath:features/handler.feature:38
+>> karate-config.js failed
+>> ReferenceError: "config" is not defined
+js failed:
+>>>>
+01: function fn() {
+02:   var env = karate.env; 
+03:   karate.log("karate.env system property was:", env);
+04:   if (!env) {
+05:     env = "dev";
+06:   }
+07:   let tokenFetch = Java.type('helpers.TokenFetch');
+08:   let v = tokenFetch.getAccessToken(config.url, config.refreshToken);
+09: 
+10:   config.accessToken = v.data.access_token
+11: 
+12:   karate.log(v.data.access_token)
+13:   let config = {
+14:     env: env,
+15:     myVarName: "someValue",
+16:     refreshToken: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJjdXN0b21fa2V5IjoiZjU0NWJkNmE1OTkwZDg3NjY0MzdhZDUwOWQyMWU2NGRjZTUwOGVkOTA5NTZjMmM3NGE0YjA2MmQzOTE3YTAzMyIsImtleV90eXBlIjoicmVmcmVzaCIsImlzcyI6ImJvb2tpdGUuYXV0aC5zZXJ2aWNlIn0.G6NxB9LGGszVoUXNpnZGadrBMbbhjRsAFGcTI5TINnDErTbfmsC-bqGuD2yvE7sr0NLtj4si5gtg8TfUxYekX5A_Te334p-Q4NyrWOArS_i48-CHKiA9G76gRVu82J0XpeMULr0crUYHBAtK2L1mYbQiQh1aXmnYw_KfYcA8dr5C6UJiI-aJLLycJWmzIUN_aFe3DI_u2ce0P-7fjfb5dNAgKrV3hZkbPLFJur0SVN3G-CGRgBFh9g7CKUvOTJkD13I0L3jvPzgWTEf7O_11LfYE3hIz5ltYc0bCoLd7DmC9lJLgo5gtkUbDbzwrIcDHlOztVWRL550LnKUCf6m5Ig',
+17:     url: "http://194.233.85.132:9000/api/v1/refresh-token"
+18:   };
+19: 
+20:   return config;
+21: }
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "config" is not defined
+- <js>.fn(Unnamed:8)
+
+classpath:features/handler.feature:4
+02:31:05.210 [main] ERROR com.intuit.karate - classpath:features/handler.feature:20
+* def sqlAddPizza = ""
+>> classpath:features/handler.feature:38
+>> karate-config.js failed
+>> ReferenceError: "config" is not defined
+js failed:
+>>>>
+01: function fn() {
+02:   var env = karate.env; 
+03:   karate.log("karate.env system property was:", env);
+04:   if (!env) {
+05:     env = "dev";
+06:   }
+07:   let tokenFetch = Java.type('helpers.TokenFetch');
+08:   let v = tokenFetch.getAccessToken(config.url, config.refreshToken);
+09: 
+10:   config.accessToken = v.data.access_token
+11: 
+12:   karate.log(v.data.access_token)
+13:   let config = {
+14:     env: env,
+15:     myVarName: "someValue",
+16:     refreshToken: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJjdXN0b21fa2V5IjoiZjU0NWJkNmE1OTkwZDg3NjY0MzdhZDUwOWQyMWU2NGRjZTUwOGVkOTA5NTZjMmM3NGE0YjA2MmQzOTE3YTAzMyIsImtleV90eXBlIjoicmVmcmVzaCIsImlzcyI6ImJvb2tpdGUuYXV0aC5zZXJ2aWNlIn0.G6NxB9LGGszVoUXNpnZGadrBMbbhjRsAFGcTI5TINnDErTbfmsC-bqGuD2yvE7sr0NLtj4si5gtg8TfUxYekX5A_Te334p-Q4NyrWOArS_i48-CHKiA9G76gRVu82J0XpeMULr0crUYHBAtK2L1mYbQiQh1aXmnYw_KfYcA8dr5C6UJiI-aJLLycJWmzIUN_aFe3DI_u2ce0P-7fjfb5dNAgKrV3hZkbPLFJur0SVN3G-CGRgBFh9g7CKUvOTJkD13I0L3jvPzgWTEf7O_11LfYE3hIz5ltYc0bCoLd7DmC9lJLgo5gtkUbDbzwrIcDHlOztVWRL550LnKUCf6m5Ig',
+17:     url: "http://194.233.85.132:9000/api/v1/refresh-token"
+18:   };
+19: 
+20:   return config;
+21: }
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "config" is not defined
+- <js>.fn(Unnamed:8)
+
+classpath:features/handler.feature:4
+classpath:features/handler.feature:20
+02:31:05.211 [main] ERROR com.intuit.karate - classpath:features/handler.feature:39
+* def level = dbHandler.getPizzasById(1)
+>> classpath:features/handler.feature:38
+>> karate-config.js failed
+>> ReferenceError: "config" is not defined
+js failed:
+>>>>
+01: function fn() {
+02:   var env = karate.env; 
+03:   karate.log("karate.env system property was:", env);
+04:   if (!env) {
+05:     env = "dev";
+06:   }
+07:   let tokenFetch = Java.type('helpers.TokenFetch');
+08:   let v = tokenFetch.getAccessToken(config.url, config.refreshToken);
+09: 
+10:   config.accessToken = v.data.access_token
+11: 
+12:   karate.log(v.data.access_token)
+13:   let config = {
+14:     env: env,
+15:     myVarName: "someValue",
+16:     refreshToken: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJjdXN0b21fa2V5IjoiZjU0NWJkNmE1OTkwZDg3NjY0MzdhZDUwOWQyMWU2NGRjZTUwOGVkOTA5NTZjMmM3NGE0YjA2MmQzOTE3YTAzMyIsImtleV90eXBlIjoicmVmcmVzaCIsImlzcyI6ImJvb2tpdGUuYXV0aC5zZXJ2aWNlIn0.G6NxB9LGGszVoUXNpnZGadrBMbbhjRsAFGcTI5TINnDErTbfmsC-bqGuD2yvE7sr0NLtj4si5gtg8TfUxYekX5A_Te334p-Q4NyrWOArS_i48-CHKiA9G76gRVu82J0XpeMULr0crUYHBAtK2L1mYbQiQh1aXmnYw_KfYcA8dr5C6UJiI-aJLLycJWmzIUN_aFe3DI_u2ce0P-7fjfb5dNAgKrV3hZkbPLFJur0SVN3G-CGRgBFh9g7CKUvOTJkD13I0L3jvPzgWTEf7O_11LfYE3hIz5ltYc0bCoLd7DmC9lJLgo5gtkUbDbzwrIcDHlOztVWRL550LnKUCf6m5Ig',
+17:     url: "http://194.233.85.132:9000/api/v1/refresh-token"
+18:   };
+19: 
+20:   return config;
+21: }
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "config" is not defined
+- <js>.fn(Unnamed:8)
+
+classpath:features/handler.feature:4
+classpath:features/handler.feature:20
+classpath:features/handler.feature:39
+02:31:06.251 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) classpath:features/handler.feature
+02:31:35.763 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+02:31:35.770 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1694034095766
+02:31:37.163 [main] INFO  com.intuit.karate - karate.env system property was: null 
+02:31:37.859 [main] INFO  com.intuit.karate - eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJncm91cCI6ImFkbWluIiwia2V5X3R5cGUiOiJhY2Nlc3MiLCJleHAiOjE2OTQwMDA4MDEsImlzcyI6ImJvb2tpdGUuYXV0aC5zZXJ2aWNlIn0.nMnfcVfdcT6XdSBR2cDzP1mk1nPN0PyULekObU1tNhzBncMMabRRVJuN2Poi16TAujiv4C-PMxiucMn8j7T5uqv4RZnAiHZUqmV21Eui1vv_MPEVroT8BvvUVbLq6WO3NPfoUD2EYM7JEQvPhPCzoxE61fRWlpFSS6oBjmEwyY3te5GIJr_s6zR4swfhxKK1zpI4HpnuSMn-iPMjGKYyIqsrp4au3X-43ZW31QaA_8-c3qWaN_L9QYvEnCSkfOwzCT6JRJKwJpi9lthNpmxNih29HX0SWVUv00jAN3eISkNkYWXNcx8m1OpuyL8d3ttAk5NUTZOxJzgvrMcjKmIy5A 
+02:31:37.931 [main] INFO  com.intuit.karate - karate.env system property was: null 
+02:31:38.155 [main] INFO  com.intuit.karate - eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJncm91cCI6ImFkbWluIiwia2V5X3R5cGUiOiJhY2Nlc3MiLCJleHAiOjE2OTQwMDA4MDEsImlzcyI6ImJvb2tpdGUuYXV0aC5zZXJ2aWNlIn0.nMnfcVfdcT6XdSBR2cDzP1mk1nPN0PyULekObU1tNhzBncMMabRRVJuN2Poi16TAujiv4C-PMxiucMn8j7T5uqv4RZnAiHZUqmV21Eui1vv_MPEVroT8BvvUVbLq6WO3NPfoUD2EYM7JEQvPhPCzoxE61fRWlpFSS6oBjmEwyY3te5GIJr_s6zR4swfhxKK1zpI4HpnuSMn-iPMjGKYyIqsrp4au3X-43ZW31QaA_8-c3qWaN_L9QYvEnCSkfOwzCT6JRJKwJpi9lthNpmxNih29HX0SWVUv00jAN3eISkNkYWXNcx8m1OpuyL8d3ttAk5NUTZOxJzgvrMcjKmIy5A 
+02:31:38.199 [main] INFO  com.intuit.karate - karate.env system property was: null 
+02:31:38.415 [main] INFO  com.intuit.karate - eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJncm91cCI6ImFkbWluIiwia2V5X3R5cGUiOiJhY2Nlc3MiLCJleHAiOjE2OTQwMDA4MDEsImlzcyI6ImJvb2tpdGUuYXV0aC5zZXJ2aWNlIn0.nMnfcVfdcT6XdSBR2cDzP1mk1nPN0PyULekObU1tNhzBncMMabRRVJuN2Poi16TAujiv4C-PMxiucMn8j7T5uqv4RZnAiHZUqmV21Eui1vv_MPEVroT8BvvUVbLq6WO3NPfoUD2EYM7JEQvPhPCzoxE61fRWlpFSS6oBjmEwyY3te5GIJr_s6zR4swfhxKK1zpI4HpnuSMn-iPMjGKYyIqsrp4au3X-43ZW31QaA_8-c3qWaN_L9QYvEnCSkfOwzCT6JRJKwJpi9lthNpmxNih29HX0SWVUv00jAN3eISkNkYWXNcx8m1OpuyL8d3ttAk5NUTZOxJzgvrMcjKmIy5A 
+02:31:39.662 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:features/handler.feature
+02:32:41.014 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+02:32:41.024 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1694034161019
+02:32:42.298 [main] INFO  com.intuit.karate - karate.env system property was: null 
+02:32:43.042 [main] INFO  com.intuit.karate - [print] eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJncm91cCI6ImFkbWluIiwia2V5X3R5cGUiOiJhY2Nlc3MiLCJleHAiOjE2OTQwMDA4NjYsImlzcyI6ImJvb2tpdGUuYXV0aC5zZXJ2aWNlIn0.nROqrINk1_4fse5TKGAalRvxFEM-S0DwHQsoegeb7A9blPfFQt_6_kqOPBPuG20wZvAFJ0nX-sR0Iyb_UQ4_-zsFEg5h_MM8yodclXYRPXCoAvOz3UG7Hg1tse7lBf7iXJDlRVnhXIUyU5y8wgqakxxBkRZXwf-Ud5ffennIEuuYbW1XhQm1OnyrOWv9NdMTLOHD9OUsfpSqK__ObM4E7sFbxBIWjdRBarv3ygq9gcYJ7UiUTnWaqKYjl9Q6JnvtzofeRiSEohjcg841IBlTU1hulN3oxuok3T5Yg9hI7xOM8OVVN2viUFbjI63AUD75VA-TZvSED_GYu2jBuwwvMg 
+02:32:43.061 [main] INFO  com.intuit.karate - karate.env system property was: null 
+02:32:43.326 [main] INFO  com.intuit.karate - [print] eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJncm91cCI6ImFkbWluIiwia2V5X3R5cGUiOiJhY2Nlc3MiLCJleHAiOjE2OTQwMDA4NjYsImlzcyI6ImJvb2tpdGUuYXV0aC5zZXJ2aWNlIn0.nROqrINk1_4fse5TKGAalRvxFEM-S0DwHQsoegeb7A9blPfFQt_6_kqOPBPuG20wZvAFJ0nX-sR0Iyb_UQ4_-zsFEg5h_MM8yodclXYRPXCoAvOz3UG7Hg1tse7lBf7iXJDlRVnhXIUyU5y8wgqakxxBkRZXwf-Ud5ffennIEuuYbW1XhQm1OnyrOWv9NdMTLOHD9OUsfpSqK__ObM4E7sFbxBIWjdRBarv3ygq9gcYJ7UiUTnWaqKYjl9Q6JnvtzofeRiSEohjcg841IBlTU1hulN3oxuok3T5Yg9hI7xOM8OVVN2viUFbjI63AUD75VA-TZvSED_GYu2jBuwwvMg 
+02:32:43.336 [main] INFO  com.intuit.karate - karate.env system property was: null 
+02:32:43.804 [main] INFO  com.intuit.karate - [print] eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJncm91cCI6ImFkbWluIiwia2V5X3R5cGUiOiJhY2Nlc3MiLCJleHAiOjE2OTQwMDA4NjcsImlzcyI6ImJvb2tpdGUuYXV0aC5zZXJ2aWNlIn0.EPjZHpXjMs_PwZe6P1vWF_T_8Tc7T1i9owYVIbBCZ8uCv_I7WA6u4FEetYmQ2x1KKkEs_b4YP8N7K0wu9iwaG2aWTBnkQgZxwIWwHCF1t2aNNDnhSVY7E42vP7kNA5FADuZAhgoxhL2Jrm49FC9dHJTL9Y_4JbLHakEmxk5t4ypS-4K31XJzO_AGU_aI3mmVuCJI309rMQ4d8UCVgRRjko9SBff3yOHKFvDH3_njJrGZiWxTtopZ7j01MOgRmtsqwt_jrR2E7ighatO330GmnkqIKDMzeh3gce1dIeC1j9S2pxc8q-jcASnVcTCM4UOCLG3dKBDvKX55Z4jfWKw6sg 
+02:32:44.794 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:features/handler.feature

@@ -1,0 +1,2994 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <script type="text/javascript" src="res/Resemble.js"></script>
+    <script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
+  api_host:'https://app.posthog.com',
+  persistence:'localStorage',
+  autocapture:false,
+  capture_pageview:false,
+  api_transport:'sendBeacon',
+  loaded: function(posthog) { 
+    posthog.capture("report_feature",{distinct_id:"810f26e4-c59f-4c44-ae94-48eac08b597b",karate_version:"1.4.0",karate_meta:null});
+  }
+});
+</script>
+
+    <title>features.handler</title>
+  </head>
+  <body>
+    <div id="root-container">
+      <div id="leftnav">
+        
+        <div>
+  <div class="nav-logo">
+    <a href="https://karatelabs.io">
+      <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">0</div>
+      <div id="nav-fail" class="bg-danger">4</div>
+    </div>
+  </div>
+  <div id="nav-env">
+    <div></div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>
+  <div id="nav-date">
+    <div>2023-09-07 12:58:47 am</div>
+  </div>
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item failed">
+            <a href="#[1:20]"><span>[1:20]</span> <span>Create a pizza</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[2:27]"><span>[2:27]</span> <span>Create a Topping</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[3:36]"><span>[3:36]</span> <span>Get a Pizza by Ids</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[4:43]"><span>[4:43]</span> <span>calling two api request</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">features/handler.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">work with DB again</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:20]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">smoke</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:20]</span>
+                <span class="scenario-name">Create a pizza</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>0</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1:20]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1:20]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell failed">
+        <span>*</span>&nbsp;<span>def dbHandler = Java.type(&#39;helpers.DbHandler&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4">00:58:47.573 karate.env system property was: null 
+00:58:47.637 classpath:features/handler.feature:4
+* def dbHandler = Java.type(&#39;helpers.DbHandler&#39;)
+&gt;&gt; classpath:features/handler.feature:20
+&gt;&gt; karate-config.js failed
+&gt;&gt; ReferenceError: &quot;v&quot; is not defined
+js failed:
+&gt;&gt;&gt;&gt;
+01: function fn() {
+02:   var env = karate.env; 
+03:   karate.log(&quot;karate.env system property was:&quot;, env);
+04:   if (!env) {
+05:     env = &quot;dev&quot;;
+06:   }
+07: 
+08:   var config = {
+09:     env: env,
+10:     myVarName: &quot;someValue&quot;,
+11:     accessToken: v,
+12:   };
+13: 
+14:   return config;
+15: }
+16: 
+17: // karate.configure(&quot;afterFeature&quot;, function () {
+18: //   karate.log(&quot;Hey this is after feature....running after every feature.&quot;);
+19: // });
+20: 
+21: // karate.configure(&#39;beforeScenario&#39;, function () {
+22: 
+23: //   karate.log(&quot;Inside before scenarios&quot;)
+24: //     // Make a POST request to obtain an access token
+25: //     // var accessTokenRequest = {
+26: //     //     method: &#39;GET&#39;,
+27: //     //     url: &#39;http://194.233.85.132:9000/api/v1/refresh-token&#39;
+28: //     // };
+29: 
+30: //     // var response = karate.call(accessTokenRequest);
+31: 
+32: //     // // Check if the access token was successfully obtained
+33: //     // if (response.status == 200) {
+34: //     //     // var accessToken = response.body.access_token; // Assuming the access token is in the response body
+35: //     //     // karate.configure(&#39;headers&#39;, { &#39;Authorization&#39;: &#39;Bearer &#39; + accessToken });
+36: 
+37: //     //     karate.log(response)
+38: //     // } else {
+39: //     //     karate.log(&#39;Failed to obtain access token&#39;);
+40: //     // }
+41: // })
+&lt;&lt;&lt;&lt;
+org.graalvm.polyglot.PolyglotException: ReferenceError: &quot;v&quot; is not defined
+- &lt;js&gt;.fn(Unnamed:11)
+
+classpath:features/handler.feature:4
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:20]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell failed">
+        <span>*</span>&nbsp;<span>url &#39;http://localhost:3000&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.5">00:58:47.638 classpath:features/handler.feature:5
+* url &#39;http://localhost:3000&#39;
+&gt;&gt; classpath:features/handler.feature:20
+&gt;&gt; karate-config.js failed
+&gt;&gt; ReferenceError: &quot;v&quot; is not defined
+js failed:
+&gt;&gt;&gt;&gt;
+01: function fn() {
+02:   var env = karate.env; 
+03:   karate.log(&quot;karate.env system property was:&quot;, env);
+04:   if (!env) {
+05:     env = &quot;dev&quot;;
+06:   }
+07: 
+08:   var config = {
+09:     env: env,
+10:     myVarName: &quot;someValue&quot;,
+11:     accessToken: v,
+12:   };
+13: 
+14:   return config;
+15: }
+16: 
+17: // karate.configure(&quot;afterFeature&quot;, function () {
+18: //   karate.log(&quot;Hey this is after feature....running after every feature.&quot;);
+19: // });
+20: 
+21: // karate.configure(&#39;beforeScenario&#39;, function () {
+22: 
+23: //   karate.log(&quot;Inside before scenarios&quot;)
+24: //     // Make a POST request to obtain an access token
+25: //     // var accessTokenRequest = {
+26: //     //     method: &#39;GET&#39;,
+27: //     //     url: &#39;http://194.233.85.132:9000/api/v1/refresh-token&#39;
+28: //     // };
+29: 
+30: //     // var response = karate.call(accessTokenRequest);
+31: 
+32: //     // // Check if the access token was successfully obtained
+33: //     // if (response.status == 200) {
+34: //     //     // var accessToken = response.body.access_token; // Assuming the access token is in the response body
+35: //     //     // karate.configure(&#39;headers&#39;, { &#39;Authorization&#39;: &#39;Bearer &#39; + accessToken });
+36: 
+37: //     //     karate.log(response)
+38: //     // } else {
+39: //     //     karate.log(&#39;Failed to obtain access token&#39;);
+40: //     // }
+41: // })
+&lt;&lt;&lt;&lt;
+org.graalvm.polyglot.PolyglotException: ReferenceError: &quot;v&quot; is not defined
+- &lt;js&gt;.fn(Unnamed:11)
+
+classpath:features/handler.feature:4
+classpath:features/handler.feature:5
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:20]bg"><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment"># * configure afterScenario =</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#   &quot;&quot;&quot;</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#   function(){</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#   karate.log(&#39;after scenario:&#39;, karate.scenario.name);</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#   }</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#   &quot;&quot;&quot;</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment"># * configure afterFeature =</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#   &quot;&quot;&quot;</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#   function(){</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#   karate.log(&#39;after feature:&#39;, karate.feature.name);</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#   }</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#   &quot;&quot;&quot;</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.18">
+      <div class="step-ref bg-step">18</div>
+      
+      <div class="step-cell failed">
+        <span>*</span>&nbsp;<span>def sqlAddPizza = &quot;&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.18">00:58:47.639 classpath:features/handler.feature:18
+* def sqlAddPizza = &quot;&quot;
+&gt;&gt; classpath:features/handler.feature:20
+&gt;&gt; karate-config.js failed
+&gt;&gt; ReferenceError: &quot;v&quot; is not defined
+js failed:
+&gt;&gt;&gt;&gt;
+01: function fn() {
+02:   var env = karate.env; 
+03:   karate.log(&quot;karate.env system property was:&quot;, env);
+04:   if (!env) {
+05:     env = &quot;dev&quot;;
+06:   }
+07: 
+08:   var config = {
+09:     env: env,
+10:     myVarName: &quot;someValue&quot;,
+11:     accessToken: v,
+12:   };
+13: 
+14:   return config;
+15: }
+16: 
+17: // karate.configure(&quot;afterFeature&quot;, function () {
+18: //   karate.log(&quot;Hey this is after feature....running after every feature.&quot;);
+19: // });
+20: 
+21: // karate.configure(&#39;beforeScenario&#39;, function () {
+22: 
+23: //   karate.log(&quot;Inside before scenarios&quot;)
+24: //     // Make a POST request to obtain an access token
+25: //     // var accessTokenRequest = {
+26: //     //     method: &#39;GET&#39;,
+27: //     //     url: &#39;http://194.233.85.132:9000/api/v1/refresh-token&#39;
+28: //     // };
+29: 
+30: //     // var response = karate.call(accessTokenRequest);
+31: 
+32: //     // // Check if the access token was successfully obtained
+33: //     // if (response.status == 200) {
+34: //     //     // var accessToken = response.body.access_token; // Assuming the access token is in the response body
+35: //     //     // karate.configure(&#39;headers&#39;, { &#39;Authorization&#39;: &#39;Bearer &#39; + accessToken });
+36: 
+37: //     //     karate.log(response)
+38: //     // } else {
+39: //     //     karate.log(&#39;Failed to obtain access token&#39;);
+40: //     // }
+41: // })
+&lt;&lt;&lt;&lt;
+org.graalvm.polyglot.PolyglotException: ReferenceError: &quot;v&quot; is not defined
+- &lt;js&gt;.fn(Unnamed:11)
+
+classpath:features/handler.feature:4
+classpath:features/handler.feature:5
+classpath:features/handler.feature:18
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.21">
+      <div class="step-ref failed">21</div>
+      
+      <div class="step-cell failed">
+        <span>*</span>&nbsp;<span>def pizzaName = &quot;PizzaTestAGABA&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.21">00:58:47.639 classpath:features/handler.feature:21
+* def pizzaName = &quot;PizzaTestAGABA&quot;
+&gt;&gt; classpath:features/handler.feature:20
+&gt;&gt; karate-config.js failed
+&gt;&gt; ReferenceError: &quot;v&quot; is not defined
+js failed:
+&gt;&gt;&gt;&gt;
+01: function fn() {
+02:   var env = karate.env; 
+03:   karate.log(&quot;karate.env system property was:&quot;, env);
+04:   if (!env) {
+05:     env = &quot;dev&quot;;
+06:   }
+07: 
+08:   var config = {
+09:     env: env,
+10:     myVarName: &quot;someValue&quot;,
+11:     accessToken: v,
+12:   };
+13: 
+14:   return config;
+15: }
+16: 
+17: // karate.configure(&quot;afterFeature&quot;, function () {
+18: //   karate.log(&quot;Hey this is after feature....running after every feature.&quot;);
+19: // });
+20: 
+21: // karate.configure(&#39;beforeScenario&#39;, function () {
+22: 
+23: //   karate.log(&quot;Inside before scenarios&quot;)
+24: //     // Make a POST request to obtain an access token
+25: //     // var accessTokenRequest = {
+26: //     //     method: &#39;GET&#39;,
+27: //     //     url: &#39;http://194.233.85.132:9000/api/v1/refresh-token&#39;
+28: //     // };
+29: 
+30: //     // var response = karate.call(accessTokenRequest);
+31: 
+32: //     // // Check if the access token was successfully obtained
+33: //     // if (response.status == 200) {
+34: //     //     // var accessToken = response.body.access_token; // Assuming the access token is in the response body
+35: //     //     // karate.configure(&#39;headers&#39;, { &#39;Authorization&#39;: &#39;Bearer &#39; + accessToken });
+36: 
+37: //     //     karate.log(response)
+38: //     // } else {
+39: //     //     karate.log(&#39;Failed to obtain access token&#39;);
+40: //     // }
+41: // })
+&lt;&lt;&lt;&lt;
+org.graalvm.polyglot.PolyglotException: ReferenceError: &quot;v&quot; is not defined
+- &lt;js&gt;.fn(Unnamed:11)
+
+classpath:features/handler.feature:4
+classpath:features/handler.feature:5
+classpath:features/handler.feature:18
+classpath:features/handler.feature:21
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.22">
+      <div class="step-ref failed">22</div>
+      
+      <div class="step-cell failed">
+        <span>*</span>&nbsp;<span>def price = 320</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.22">00:58:47.640 classpath:features/handler.feature:22
+* def price = 320
+&gt;&gt; classpath:features/handler.feature:20
+&gt;&gt; karate-config.js failed
+&gt;&gt; ReferenceError: &quot;v&quot; is not defined
+js failed:
+&gt;&gt;&gt;&gt;
+01: function fn() {
+02:   var env = karate.env; 
+03:   karate.log(&quot;karate.env system property was:&quot;, env);
+04:   if (!env) {
+05:     env = &quot;dev&quot;;
+06:   }
+07: 
+08:   var config = {
+09:     env: env,
+10:     myVarName: &quot;someValue&quot;,
+11:     accessToken: v,
+12:   };
+13: 
+14:   return config;
+15: }
+16: 
+17: // karate.configure(&quot;afterFeature&quot;, function () {
+18: //   karate.log(&quot;Hey this is after feature....running after every feature.&quot;);
+19: // });
+20: 
+21: // karate.configure(&#39;beforeScenario&#39;, function () {
+22: 
+23: //   karate.log(&quot;Inside before scenarios&quot;)
+24: //     // Make a POST request to obtain an access token
+25: //     // var accessTokenRequest = {
+26: //     //     method: &#39;GET&#39;,
+27: //     //     url: &#39;http://194.233.85.132:9000/api/v1/refresh-token&#39;
+28: //     // };
+29: 
+30: //     // var response = karate.call(accessTokenRequest);
+31: 
+32: //     // // Check if the access token was successfully obtained
+33: //     // if (response.status == 200) {
+34: //     //     // var accessToken = response.body.access_token; // Assuming the access token is in the response body
+35: //     //     // karate.configure(&#39;headers&#39;, { &#39;Authorization&#39;: &#39;Bearer &#39; + accessToken });
+36: 
+37: //     //     karate.log(response)
+38: //     // } else {
+39: //     //     karate.log(&#39;Failed to obtain access token&#39;);
+40: //     // }
+41: // })
+&lt;&lt;&lt;&lt;
+org.graalvm.polyglot.PolyglotException: ReferenceError: &quot;v&quot; is not defined
+- &lt;js&gt;.fn(Unnamed:11)
+
+classpath:features/handler.feature:4
+classpath:features/handler.feature:5
+classpath:features/handler.feature:18
+classpath:features/handler.feature:21
+classpath:features/handler.feature:22
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.23">
+      <div class="step-ref failed">23</div>
+      
+      <div class="step-cell failed">
+        <span>*</span>&nbsp;<span>eval sqlAddPizza = &quot;INSERT INTO pizzas (name, price) VALUES (&#39;&quot; + pizzaName + &quot;&#39;, &quot; + price + &quot;)&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.23">00:58:47.640 classpath:features/handler.feature:23
+* eval sqlAddPizza = &quot;INSERT INTO pizzas (name, price) VALUES (&#39;&quot; + pizzaName + &quot;&#39;, &quot; + price + &quot;)&quot;
+&gt;&gt; classpath:features/handler.feature:20
+&gt;&gt; karate-config.js failed
+&gt;&gt; ReferenceError: &quot;v&quot; is not defined
+js failed:
+&gt;&gt;&gt;&gt;
+01: function fn() {
+02:   var env = karate.env; 
+03:   karate.log(&quot;karate.env system property was:&quot;, env);
+04:   if (!env) {
+05:     env = &quot;dev&quot;;
+06:   }
+07: 
+08:   var config = {
+09:     env: env,
+10:     myVarName: &quot;someValue&quot;,
+11:     accessToken: v,
+12:   };
+13: 
+14:   return config;
+15: }
+16: 
+17: // karate.configure(&quot;afterFeature&quot;, function () {
+18: //   karate.log(&quot;Hey this is after feature....running after every feature.&quot;);
+19: // });
+20: 
+21: // karate.configure(&#39;beforeScenario&#39;, function () {
+22: 
+23: //   karate.log(&quot;Inside before scenarios&quot;)
+24: //     // Make a POST request to obtain an access token
+25: //     // var accessTokenRequest = {
+26: //     //     method: &#39;GET&#39;,
+27: //     //     url: &#39;http://194.233.85.132:9000/api/v1/refresh-token&#39;
+28: //     // };
+29: 
+30: //     // var response = karate.call(accessTokenRequest);
+31: 
+32: //     // // Check if the access token was successfully obtained
+33: //     // if (response.status == 200) {
+34: //     //     // var accessToken = response.body.access_token; // Assuming the access token is in the response body
+35: //     //     // karate.configure(&#39;headers&#39;, { &#39;Authorization&#39;: &#39;Bearer &#39; + accessToken });
+36: 
+37: //     //     karate.log(response)
+38: //     // } else {
+39: //     //     karate.log(&#39;Failed to obtain access token&#39;);
+40: //     // }
+41: // })
+&lt;&lt;&lt;&lt;
+org.graalvm.polyglot.PolyglotException: ReferenceError: &quot;v&quot; is not defined
+- &lt;js&gt;.fn(Unnamed:11)
+
+classpath:features/handler.feature:4
+classpath:features/handler.feature:5
+classpath:features/handler.feature:18
+classpath:features/handler.feature:21
+classpath:features/handler.feature:22
+classpath:features/handler.feature:23
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[2:27]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[2:27]</span>
+                <span class="scenario-name">Create a Topping</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>0</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[2:27]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[2:27]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell failed">
+        <span>*</span>&nbsp;<span>def dbHandler = Java.type(&#39;helpers.DbHandler&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4">00:58:47.687 karate.env system property was: null 
+00:58:47.700 classpath:features/handler.feature:4
+* def dbHandler = Java.type(&#39;helpers.DbHandler&#39;)
+&gt;&gt; classpath:features/handler.feature:27
+&gt;&gt; karate-config.js failed
+&gt;&gt; ReferenceError: &quot;v&quot; is not defined
+js failed:
+&gt;&gt;&gt;&gt;
+01: function fn() {
+02:   var env = karate.env; 
+03:   karate.log(&quot;karate.env system property was:&quot;, env);
+04:   if (!env) {
+05:     env = &quot;dev&quot;;
+06:   }
+07: 
+08:   var config = {
+09:     env: env,
+10:     myVarName: &quot;someValue&quot;,
+11:     accessToken: v,
+12:   };
+13: 
+14:   return config;
+15: }
+16: 
+17: // karate.configure(&quot;afterFeature&quot;, function () {
+18: //   karate.log(&quot;Hey this is after feature....running after every feature.&quot;);
+19: // });
+20: 
+21: // karate.configure(&#39;beforeScenario&#39;, function () {
+22: 
+23: //   karate.log(&quot;Inside before scenarios&quot;)
+24: //     // Make a POST request to obtain an access token
+25: //     // var accessTokenRequest = {
+26: //     //     method: &#39;GET&#39;,
+27: //     //     url: &#39;http://194.233.85.132:9000/api/v1/refresh-token&#39;
+28: //     // };
+29: 
+30: //     // var response = karate.call(accessTokenRequest);
+31: 
+32: //     // // Check if the access token was successfully obtained
+33: //     // if (response.status == 200) {
+34: //     //     // var accessToken = response.body.access_token; // Assuming the access token is in the response body
+35: //     //     // karate.configure(&#39;headers&#39;, { &#39;Authorization&#39;: &#39;Bearer &#39; + accessToken });
+36: 
+37: //     //     karate.log(response)
+38: //     // } else {
+39: //     //     karate.log(&#39;Failed to obtain access token&#39;);
+40: //     // }
+41: // })
+&lt;&lt;&lt;&lt;
+org.graalvm.polyglot.PolyglotException: ReferenceError: &quot;v&quot; is not defined
+- &lt;js&gt;.fn(Unnamed:11)
+
+classpath:features/handler.feature:4
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[2:27]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell failed">
+        <span>*</span>&nbsp;<span>url &#39;http://localhost:3000&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.5">00:58:47.700 classpath:features/handler.feature:5
+* url &#39;http://localhost:3000&#39;
+&gt;&gt; classpath:features/handler.feature:27
+&gt;&gt; karate-config.js failed
+&gt;&gt; ReferenceError: &quot;v&quot; is not defined
+js failed:
+&gt;&gt;&gt;&gt;
+01: function fn() {
+02:   var env = karate.env; 
+03:   karate.log(&quot;karate.env system property was:&quot;, env);
+04:   if (!env) {
+05:     env = &quot;dev&quot;;
+06:   }
+07: 
+08:   var config = {
+09:     env: env,
+10:     myVarName: &quot;someValue&quot;,
+11:     accessToken: v,
+12:   };
+13: 
+14:   return config;
+15: }
+16: 
+17: // karate.configure(&quot;afterFeature&quot;, function () {
+18: //   karate.log(&quot;Hey this is after feature....running after every feature.&quot;);
+19: // });
+20: 
+21: // karate.configure(&#39;beforeScenario&#39;, function () {
+22: 
+23: //   karate.log(&quot;Inside before scenarios&quot;)
+24: //     // Make a POST request to obtain an access token
+25: //     // var accessTokenRequest = {
+26: //     //     method: &#39;GET&#39;,
+27: //     //     url: &#39;http://194.233.85.132:9000/api/v1/refresh-token&#39;
+28: //     // };
+29: 
+30: //     // var response = karate.call(accessTokenRequest);
+31: 
+32: //     // // Check if the access token was successfully obtained
+33: //     // if (response.status == 200) {
+34: //     //     // var accessToken = response.body.access_token; // Assuming the access token is in the response body
+35: //     //     // karate.configure(&#39;headers&#39;, { &#39;Authorization&#39;: &#39;Bearer &#39; + accessToken });
+36: 
+37: //     //     karate.log(response)
+38: //     // } else {
+39: //     //     karate.log(&#39;Failed to obtain access token&#39;);
+40: //     // }
+41: // })
+&lt;&lt;&lt;&lt;
+org.graalvm.polyglot.PolyglotException: ReferenceError: &quot;v&quot; is not defined
+- &lt;js&gt;.fn(Unnamed:11)
+
+classpath:features/handler.feature:4
+classpath:features/handler.feature:5
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[2:27]bg"><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment"># * configure afterScenario =</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#   &quot;&quot;&quot;</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#   function(){</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#   karate.log(&#39;after scenario:&#39;, karate.scenario.name);</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#   }</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#   &quot;&quot;&quot;</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment"># * configure afterFeature =</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#   &quot;&quot;&quot;</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#   function(){</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#   karate.log(&#39;after feature:&#39;, karate.feature.name);</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#   }</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#   &quot;&quot;&quot;</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.18">
+      <div class="step-ref bg-step">18</div>
+      
+      <div class="step-cell failed">
+        <span>*</span>&nbsp;<span>def sqlAddPizza = &quot;&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.18">00:58:47.701 classpath:features/handler.feature:18
+* def sqlAddPizza = &quot;&quot;
+&gt;&gt; classpath:features/handler.feature:27
+&gt;&gt; karate-config.js failed
+&gt;&gt; ReferenceError: &quot;v&quot; is not defined
+js failed:
+&gt;&gt;&gt;&gt;
+01: function fn() {
+02:   var env = karate.env; 
+03:   karate.log(&quot;karate.env system property was:&quot;, env);
+04:   if (!env) {
+05:     env = &quot;dev&quot;;
+06:   }
+07: 
+08:   var config = {
+09:     env: env,
+10:     myVarName: &quot;someValue&quot;,
+11:     accessToken: v,
+12:   };
+13: 
+14:   return config;
+15: }
+16: 
+17: // karate.configure(&quot;afterFeature&quot;, function () {
+18: //   karate.log(&quot;Hey this is after feature....running after every feature.&quot;);
+19: // });
+20: 
+21: // karate.configure(&#39;beforeScenario&#39;, function () {
+22: 
+23: //   karate.log(&quot;Inside before scenarios&quot;)
+24: //     // Make a POST request to obtain an access token
+25: //     // var accessTokenRequest = {
+26: //     //     method: &#39;GET&#39;,
+27: //     //     url: &#39;http://194.233.85.132:9000/api/v1/refresh-token&#39;
+28: //     // };
+29: 
+30: //     // var response = karate.call(accessTokenRequest);
+31: 
+32: //     // // Check if the access token was successfully obtained
+33: //     // if (response.status == 200) {
+34: //     //     // var accessToken = response.body.access_token; // Assuming the access token is in the response body
+35: //     //     // karate.configure(&#39;headers&#39;, { &#39;Authorization&#39;: &#39;Bearer &#39; + accessToken });
+36: 
+37: //     //     karate.log(response)
+38: //     // } else {
+39: //     //     karate.log(&#39;Failed to obtain access token&#39;);
+40: //     // }
+41: // })
+&lt;&lt;&lt;&lt;
+org.graalvm.polyglot.PolyglotException: ReferenceError: &quot;v&quot; is not defined
+- &lt;js&gt;.fn(Unnamed:11)
+
+classpath:features/handler.feature:4
+classpath:features/handler.feature:5
+classpath:features/handler.feature:18
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment"># * print sqlAddPizza</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.29">
+      <div class="step-ref failed">29</div>
+      
+      <div class="step-cell failed">
+        <span>*</span>&nbsp;<span>def toppingName = &quot;toppingtestGABA&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.29">00:58:47.703 classpath:features/handler.feature:29
+* def toppingName = &quot;toppingtestGABA&quot;
+&gt;&gt; classpath:features/handler.feature:27
+&gt;&gt; karate-config.js failed
+&gt;&gt; ReferenceError: &quot;v&quot; is not defined
+js failed:
+&gt;&gt;&gt;&gt;
+01: function fn() {
+02:   var env = karate.env; 
+03:   karate.log(&quot;karate.env system property was:&quot;, env);
+04:   if (!env) {
+05:     env = &quot;dev&quot;;
+06:   }
+07: 
+08:   var config = {
+09:     env: env,
+10:     myVarName: &quot;someValue&quot;,
+11:     accessToken: v,
+12:   };
+13: 
+14:   return config;
+15: }
+16: 
+17: // karate.configure(&quot;afterFeature&quot;, function () {
+18: //   karate.log(&quot;Hey this is after feature....running after every feature.&quot;);
+19: // });
+20: 
+21: // karate.configure(&#39;beforeScenario&#39;, function () {
+22: 
+23: //   karate.log(&quot;Inside before scenarios&quot;)
+24: //     // Make a POST request to obtain an access token
+25: //     // var accessTokenRequest = {
+26: //     //     method: &#39;GET&#39;,
+27: //     //     url: &#39;http://194.233.85.132:9000/api/v1/refresh-token&#39;
+28: //     // };
+29: 
+30: //     // var response = karate.call(accessTokenRequest);
+31: 
+32: //     // // Check if the access token was successfully obtained
+33: //     // if (response.status == 200) {
+34: //     //     // var accessToken = response.body.access_token; // Assuming the access token is in the response body
+35: //     //     // karate.configure(&#39;headers&#39;, { &#39;Authorization&#39;: &#39;Bearer &#39; + accessToken });
+36: 
+37: //     //     karate.log(response)
+38: //     // } else {
+39: //     //     karate.log(&#39;Failed to obtain access token&#39;);
+40: //     // }
+41: // })
+&lt;&lt;&lt;&lt;
+org.graalvm.polyglot.PolyglotException: ReferenceError: &quot;v&quot; is not defined
+- &lt;js&gt;.fn(Unnamed:11)
+
+classpath:features/handler.feature:4
+classpath:features/handler.feature:5
+classpath:features/handler.feature:18
+classpath:features/handler.feature:29
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.30">
+      <div class="step-ref failed">30</div>
+      
+      <div class="step-cell failed">
+        <span>*</span>&nbsp;<span>def price = 400</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.30">00:58:47.704 classpath:features/handler.feature:30
+* def price = 400
+&gt;&gt; classpath:features/handler.feature:27
+&gt;&gt; karate-config.js failed
+&gt;&gt; ReferenceError: &quot;v&quot; is not defined
+js failed:
+&gt;&gt;&gt;&gt;
+01: function fn() {
+02:   var env = karate.env; 
+03:   karate.log(&quot;karate.env system property was:&quot;, env);
+04:   if (!env) {
+05:     env = &quot;dev&quot;;
+06:   }
+07: 
+08:   var config = {
+09:     env: env,
+10:     myVarName: &quot;someValue&quot;,
+11:     accessToken: v,
+12:   };
+13: 
+14:   return config;
+15: }
+16: 
+17: // karate.configure(&quot;afterFeature&quot;, function () {
+18: //   karate.log(&quot;Hey this is after feature....running after every feature.&quot;);
+19: // });
+20: 
+21: // karate.configure(&#39;beforeScenario&#39;, function () {
+22: 
+23: //   karate.log(&quot;Inside before scenarios&quot;)
+24: //     // Make a POST request to obtain an access token
+25: //     // var accessTokenRequest = {
+26: //     //     method: &#39;GET&#39;,
+27: //     //     url: &#39;http://194.233.85.132:9000/api/v1/refresh-token&#39;
+28: //     // };
+29: 
+30: //     // var response = karate.call(accessTokenRequest);
+31: 
+32: //     // // Check if the access token was successfully obtained
+33: //     // if (response.status == 200) {
+34: //     //     // var accessToken = response.body.access_token; // Assuming the access token is in the response body
+35: //     //     // karate.configure(&#39;headers&#39;, { &#39;Authorization&#39;: &#39;Bearer &#39; + accessToken });
+36: 
+37: //     //     karate.log(response)
+38: //     // } else {
+39: //     //     karate.log(&#39;Failed to obtain access token&#39;);
+40: //     // }
+41: // })
+&lt;&lt;&lt;&lt;
+org.graalvm.polyglot.PolyglotException: ReferenceError: &quot;v&quot; is not defined
+- &lt;js&gt;.fn(Unnamed:11)
+
+classpath:features/handler.feature:4
+classpath:features/handler.feature:5
+classpath:features/handler.feature:18
+classpath:features/handler.feature:29
+classpath:features/handler.feature:30
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.31">
+      <div class="step-ref failed">31</div>
+      
+      <div class="step-cell failed">
+        <span>*</span>&nbsp;<span>def is_internal = false</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.31">00:58:47.705 classpath:features/handler.feature:31
+* def is_internal = false
+&gt;&gt; classpath:features/handler.feature:27
+&gt;&gt; karate-config.js failed
+&gt;&gt; ReferenceError: &quot;v&quot; is not defined
+js failed:
+&gt;&gt;&gt;&gt;
+01: function fn() {
+02:   var env = karate.env; 
+03:   karate.log(&quot;karate.env system property was:&quot;, env);
+04:   if (!env) {
+05:     env = &quot;dev&quot;;
+06:   }
+07: 
+08:   var config = {
+09:     env: env,
+10:     myVarName: &quot;someValue&quot;,
+11:     accessToken: v,
+12:   };
+13: 
+14:   return config;
+15: }
+16: 
+17: // karate.configure(&quot;afterFeature&quot;, function () {
+18: //   karate.log(&quot;Hey this is after feature....running after every feature.&quot;);
+19: // });
+20: 
+21: // karate.configure(&#39;beforeScenario&#39;, function () {
+22: 
+23: //   karate.log(&quot;Inside before scenarios&quot;)
+24: //     // Make a POST request to obtain an access token
+25: //     // var accessTokenRequest = {
+26: //     //     method: &#39;GET&#39;,
+27: //     //     url: &#39;http://194.233.85.132:9000/api/v1/refresh-token&#39;
+28: //     // };
+29: 
+30: //     // var response = karate.call(accessTokenRequest);
+31: 
+32: //     // // Check if the access token was successfully obtained
+33: //     // if (response.status == 200) {
+34: //     //     // var accessToken = response.body.access_token; // Assuming the access token is in the response body
+35: //     //     // karate.configure(&#39;headers&#39;, { &#39;Authorization&#39;: &#39;Bearer &#39; + accessToken });
+36: 
+37: //     //     karate.log(response)
+38: //     // } else {
+39: //     //     karate.log(&#39;Failed to obtain access token&#39;);
+40: //     // }
+41: // })
+&lt;&lt;&lt;&lt;
+org.graalvm.polyglot.PolyglotException: ReferenceError: &quot;v&quot; is not defined
+- &lt;js&gt;.fn(Unnamed:11)
+
+classpath:features/handler.feature:4
+classpath:features/handler.feature:5
+classpath:features/handler.feature:18
+classpath:features/handler.feature:29
+classpath:features/handler.feature:30
+classpath:features/handler.feature:31
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.32">
+      <div class="step-ref failed">32</div>
+      
+      <div class="step-cell failed">
+        <span>*</span>&nbsp;<span>def sqlAddTopping = &quot;INSERT INTO toppings (name, price, is_internal) VALUES (&#39;&quot; + toppingName + &quot;&#39;, &quot; + price + &quot;, &quot; + is_internal + &quot;)&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.32">00:58:47.706 classpath:features/handler.feature:32
+* def sqlAddTopping = &quot;INSERT INTO toppings (name, price, is_internal) VALUES (&#39;&quot; + toppingName + &quot;&#39;, &quot; + price + &quot;, &quot; + is_internal + &quot;)&quot;
+&gt;&gt; classpath:features/handler.feature:27
+&gt;&gt; karate-config.js failed
+&gt;&gt; ReferenceError: &quot;v&quot; is not defined
+js failed:
+&gt;&gt;&gt;&gt;
+01: function fn() {
+02:   var env = karate.env; 
+03:   karate.log(&quot;karate.env system property was:&quot;, env);
+04:   if (!env) {
+05:     env = &quot;dev&quot;;
+06:   }
+07: 
+08:   var config = {
+09:     env: env,
+10:     myVarName: &quot;someValue&quot;,
+11:     accessToken: v,
+12:   };
+13: 
+14:   return config;
+15: }
+16: 
+17: // karate.configure(&quot;afterFeature&quot;, function () {
+18: //   karate.log(&quot;Hey this is after feature....running after every feature.&quot;);
+19: // });
+20: 
+21: // karate.configure(&#39;beforeScenario&#39;, function () {
+22: 
+23: //   karate.log(&quot;Inside before scenarios&quot;)
+24: //     // Make a POST request to obtain an access token
+25: //     // var accessTokenRequest = {
+26: //     //     method: &#39;GET&#39;,
+27: //     //     url: &#39;http://194.233.85.132:9000/api/v1/refresh-token&#39;
+28: //     // };
+29: 
+30: //     // var response = karate.call(accessTokenRequest);
+31: 
+32: //     // // Check if the access token was successfully obtained
+33: //     // if (response.status == 200) {
+34: //     //     // var accessToken = response.body.access_token; // Assuming the access token is in the response body
+35: //     //     // karate.configure(&#39;headers&#39;, { &#39;Authorization&#39;: &#39;Bearer &#39; + accessToken });
+36: 
+37: //     //     karate.log(response)
+38: //     // } else {
+39: //     //     karate.log(&#39;Failed to obtain access token&#39;);
+40: //     // }
+41: // })
+&lt;&lt;&lt;&lt;
+org.graalvm.polyglot.PolyglotException: ReferenceError: &quot;v&quot; is not defined
+- &lt;js&gt;.fn(Unnamed:11)
+
+classpath:features/handler.feature:4
+classpath:features/handler.feature:5
+classpath:features/handler.feature:18
+classpath:features/handler.feature:29
+classpath:features/handler.feature:30
+classpath:features/handler.feature:31
+classpath:features/handler.feature:32
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[3:36]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">smoke</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[3:36]</span>
+                <span class="scenario-name">Get a Pizza by Ids</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>0</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[3:36]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[3:36]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell failed">
+        <span>*</span>&nbsp;<span>def dbHandler = Java.type(&#39;helpers.DbHandler&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4">00:58:47.720 karate.env system property was: null 
+00:58:47.729 classpath:features/handler.feature:4
+* def dbHandler = Java.type(&#39;helpers.DbHandler&#39;)
+&gt;&gt; classpath:features/handler.feature:36
+&gt;&gt; karate-config.js failed
+&gt;&gt; ReferenceError: &quot;v&quot; is not defined
+js failed:
+&gt;&gt;&gt;&gt;
+01: function fn() {
+02:   var env = karate.env; 
+03:   karate.log(&quot;karate.env system property was:&quot;, env);
+04:   if (!env) {
+05:     env = &quot;dev&quot;;
+06:   }
+07: 
+08:   var config = {
+09:     env: env,
+10:     myVarName: &quot;someValue&quot;,
+11:     accessToken: v,
+12:   };
+13: 
+14:   return config;
+15: }
+16: 
+17: // karate.configure(&quot;afterFeature&quot;, function () {
+18: //   karate.log(&quot;Hey this is after feature....running after every feature.&quot;);
+19: // });
+20: 
+21: // karate.configure(&#39;beforeScenario&#39;, function () {
+22: 
+23: //   karate.log(&quot;Inside before scenarios&quot;)
+24: //     // Make a POST request to obtain an access token
+25: //     // var accessTokenRequest = {
+26: //     //     method: &#39;GET&#39;,
+27: //     //     url: &#39;http://194.233.85.132:9000/api/v1/refresh-token&#39;
+28: //     // };
+29: 
+30: //     // var response = karate.call(accessTokenRequest);
+31: 
+32: //     // // Check if the access token was successfully obtained
+33: //     // if (response.status == 200) {
+34: //     //     // var accessToken = response.body.access_token; // Assuming the access token is in the response body
+35: //     //     // karate.configure(&#39;headers&#39;, { &#39;Authorization&#39;: &#39;Bearer &#39; + accessToken });
+36: 
+37: //     //     karate.log(response)
+38: //     // } else {
+39: //     //     karate.log(&#39;Failed to obtain access token&#39;);
+40: //     // }
+41: // })
+&lt;&lt;&lt;&lt;
+org.graalvm.polyglot.PolyglotException: ReferenceError: &quot;v&quot; is not defined
+- &lt;js&gt;.fn(Unnamed:11)
+
+classpath:features/handler.feature:4
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[3:36]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell failed">
+        <span>*</span>&nbsp;<span>url &#39;http://localhost:3000&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.5">00:58:47.732 classpath:features/handler.feature:5
+* url &#39;http://localhost:3000&#39;
+&gt;&gt; classpath:features/handler.feature:36
+&gt;&gt; karate-config.js failed
+&gt;&gt; ReferenceError: &quot;v&quot; is not defined
+js failed:
+&gt;&gt;&gt;&gt;
+01: function fn() {
+02:   var env = karate.env; 
+03:   karate.log(&quot;karate.env system property was:&quot;, env);
+04:   if (!env) {
+05:     env = &quot;dev&quot;;
+06:   }
+07: 
+08:   var config = {
+09:     env: env,
+10:     myVarName: &quot;someValue&quot;,
+11:     accessToken: v,
+12:   };
+13: 
+14:   return config;
+15: }
+16: 
+17: // karate.configure(&quot;afterFeature&quot;, function () {
+18: //   karate.log(&quot;Hey this is after feature....running after every feature.&quot;);
+19: // });
+20: 
+21: // karate.configure(&#39;beforeScenario&#39;, function () {
+22: 
+23: //   karate.log(&quot;Inside before scenarios&quot;)
+24: //     // Make a POST request to obtain an access token
+25: //     // var accessTokenRequest = {
+26: //     //     method: &#39;GET&#39;,
+27: //     //     url: &#39;http://194.233.85.132:9000/api/v1/refresh-token&#39;
+28: //     // };
+29: 
+30: //     // var response = karate.call(accessTokenRequest);
+31: 
+32: //     // // Check if the access token was successfully obtained
+33: //     // if (response.status == 200) {
+34: //     //     // var accessToken = response.body.access_token; // Assuming the access token is in the response body
+35: //     //     // karate.configure(&#39;headers&#39;, { &#39;Authorization&#39;: &#39;Bearer &#39; + accessToken });
+36: 
+37: //     //     karate.log(response)
+38: //     // } else {
+39: //     //     karate.log(&#39;Failed to obtain access token&#39;);
+40: //     // }
+41: // })
+&lt;&lt;&lt;&lt;
+org.graalvm.polyglot.PolyglotException: ReferenceError: &quot;v&quot; is not defined
+- &lt;js&gt;.fn(Unnamed:11)
+
+classpath:features/handler.feature:4
+classpath:features/handler.feature:5
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[3:36]bg"><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment"># * configure afterScenario =</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#   &quot;&quot;&quot;</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#   function(){</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#   karate.log(&#39;after scenario:&#39;, karate.scenario.name);</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#   }</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#   &quot;&quot;&quot;</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment"># * configure afterFeature =</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#   &quot;&quot;&quot;</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#   function(){</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#   karate.log(&#39;after feature:&#39;, karate.feature.name);</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#   }</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#   &quot;&quot;&quot;</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.18">
+      <div class="step-ref bg-step">18</div>
+      
+      <div class="step-cell failed">
+        <span>*</span>&nbsp;<span>def sqlAddPizza = &quot;&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.18">00:58:47.733 classpath:features/handler.feature:18
+* def sqlAddPizza = &quot;&quot;
+&gt;&gt; classpath:features/handler.feature:36
+&gt;&gt; karate-config.js failed
+&gt;&gt; ReferenceError: &quot;v&quot; is not defined
+js failed:
+&gt;&gt;&gt;&gt;
+01: function fn() {
+02:   var env = karate.env; 
+03:   karate.log(&quot;karate.env system property was:&quot;, env);
+04:   if (!env) {
+05:     env = &quot;dev&quot;;
+06:   }
+07: 
+08:   var config = {
+09:     env: env,
+10:     myVarName: &quot;someValue&quot;,
+11:     accessToken: v,
+12:   };
+13: 
+14:   return config;
+15: }
+16: 
+17: // karate.configure(&quot;afterFeature&quot;, function () {
+18: //   karate.log(&quot;Hey this is after feature....running after every feature.&quot;);
+19: // });
+20: 
+21: // karate.configure(&#39;beforeScenario&#39;, function () {
+22: 
+23: //   karate.log(&quot;Inside before scenarios&quot;)
+24: //     // Make a POST request to obtain an access token
+25: //     // var accessTokenRequest = {
+26: //     //     method: &#39;GET&#39;,
+27: //     //     url: &#39;http://194.233.85.132:9000/api/v1/refresh-token&#39;
+28: //     // };
+29: 
+30: //     // var response = karate.call(accessTokenRequest);
+31: 
+32: //     // // Check if the access token was successfully obtained
+33: //     // if (response.status == 200) {
+34: //     //     // var accessToken = response.body.access_token; // Assuming the access token is in the response body
+35: //     //     // karate.configure(&#39;headers&#39;, { &#39;Authorization&#39;: &#39;Bearer &#39; + accessToken });
+36: 
+37: //     //     karate.log(response)
+38: //     // } else {
+39: //     //     karate.log(&#39;Failed to obtain access token&#39;);
+40: //     // }
+41: // })
+&lt;&lt;&lt;&lt;
+org.graalvm.polyglot.PolyglotException: ReferenceError: &quot;v&quot; is not defined
+- &lt;js&gt;.fn(Unnamed:11)
+
+classpath:features/handler.feature:4
+classpath:features/handler.feature:5
+classpath:features/handler.feature:18
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.37">
+      <div class="step-ref failed">37</div>
+      
+      <div class="step-cell failed">
+        <span>*</span>&nbsp;<span>def level = dbHandler.getPizzasById(1)</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.37">00:58:47.734 classpath:features/handler.feature:37
+* def level = dbHandler.getPizzasById(1)
+&gt;&gt; classpath:features/handler.feature:36
+&gt;&gt; karate-config.js failed
+&gt;&gt; ReferenceError: &quot;v&quot; is not defined
+js failed:
+&gt;&gt;&gt;&gt;
+01: function fn() {
+02:   var env = karate.env; 
+03:   karate.log(&quot;karate.env system property was:&quot;, env);
+04:   if (!env) {
+05:     env = &quot;dev&quot;;
+06:   }
+07: 
+08:   var config = {
+09:     env: env,
+10:     myVarName: &quot;someValue&quot;,
+11:     accessToken: v,
+12:   };
+13: 
+14:   return config;
+15: }
+16: 
+17: // karate.configure(&quot;afterFeature&quot;, function () {
+18: //   karate.log(&quot;Hey this is after feature....running after every feature.&quot;);
+19: // });
+20: 
+21: // karate.configure(&#39;beforeScenario&#39;, function () {
+22: 
+23: //   karate.log(&quot;Inside before scenarios&quot;)
+24: //     // Make a POST request to obtain an access token
+25: //     // var accessTokenRequest = {
+26: //     //     method: &#39;GET&#39;,
+27: //     //     url: &#39;http://194.233.85.132:9000/api/v1/refresh-token&#39;
+28: //     // };
+29: 
+30: //     // var response = karate.call(accessTokenRequest);
+31: 
+32: //     // // Check if the access token was successfully obtained
+33: //     // if (response.status == 200) {
+34: //     //     // var accessToken = response.body.access_token; // Assuming the access token is in the response body
+35: //     //     // karate.configure(&#39;headers&#39;, { &#39;Authorization&#39;: &#39;Bearer &#39; + accessToken });
+36: 
+37: //     //     karate.log(response)
+38: //     // } else {
+39: //     //     karate.log(&#39;Failed to obtain access token&#39;);
+40: //     // }
+41: // })
+&lt;&lt;&lt;&lt;
+org.graalvm.polyglot.PolyglotException: ReferenceError: &quot;v&quot; is not defined
+- &lt;js&gt;.fn(Unnamed:11)
+
+classpath:features/handler.feature:4
+classpath:features/handler.feature:5
+classpath:features/handler.feature:18
+classpath:features/handler.feature:37
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[4:43]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[4:43]</span>
+                <span class="scenario-name">calling two api request</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>0</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[4:43]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[4:43]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell failed">
+        <span>*</span>&nbsp;<span>def dbHandler = Java.type(&#39;helpers.DbHandler&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4">00:58:47.751 karate.env system property was: null 
+00:58:47.802 classpath:features/handler.feature:4
+* def dbHandler = Java.type(&#39;helpers.DbHandler&#39;)
+&gt;&gt; classpath:features/handler.feature:43
+&gt;&gt; karate-config.js failed
+&gt;&gt; ReferenceError: &quot;v&quot; is not defined
+js failed:
+&gt;&gt;&gt;&gt;
+01: function fn() {
+02:   var env = karate.env; 
+03:   karate.log(&quot;karate.env system property was:&quot;, env);
+04:   if (!env) {
+05:     env = &quot;dev&quot;;
+06:   }
+07: 
+08:   var config = {
+09:     env: env,
+10:     myVarName: &quot;someValue&quot;,
+11:     accessToken: v,
+12:   };
+13: 
+14:   return config;
+15: }
+16: 
+17: // karate.configure(&quot;afterFeature&quot;, function () {
+18: //   karate.log(&quot;Hey this is after feature....running after every feature.&quot;);
+19: // });
+20: 
+21: // karate.configure(&#39;beforeScenario&#39;, function () {
+22: 
+23: //   karate.log(&quot;Inside before scenarios&quot;)
+24: //     // Make a POST request to obtain an access token
+25: //     // var accessTokenRequest = {
+26: //     //     method: &#39;GET&#39;,
+27: //     //     url: &#39;http://194.233.85.132:9000/api/v1/refresh-token&#39;
+28: //     // };
+29: 
+30: //     // var response = karate.call(accessTokenRequest);
+31: 
+32: //     // // Check if the access token was successfully obtained
+33: //     // if (response.status == 200) {
+34: //     //     // var accessToken = response.body.access_token; // Assuming the access token is in the response body
+35: //     //     // karate.configure(&#39;headers&#39;, { &#39;Authorization&#39;: &#39;Bearer &#39; + accessToken });
+36: 
+37: //     //     karate.log(response)
+38: //     // } else {
+39: //     //     karate.log(&#39;Failed to obtain access token&#39;);
+40: //     // }
+41: // })
+&lt;&lt;&lt;&lt;
+org.graalvm.polyglot.PolyglotException: ReferenceError: &quot;v&quot; is not defined
+- &lt;js&gt;.fn(Unnamed:11)
+
+classpath:features/handler.feature:4
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[4:43]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell failed">
+        <span>*</span>&nbsp;<span>url &#39;http://localhost:3000&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.5">00:58:47.802 classpath:features/handler.feature:5
+* url &#39;http://localhost:3000&#39;
+&gt;&gt; classpath:features/handler.feature:43
+&gt;&gt; karate-config.js failed
+&gt;&gt; ReferenceError: &quot;v&quot; is not defined
+js failed:
+&gt;&gt;&gt;&gt;
+01: function fn() {
+02:   var env = karate.env; 
+03:   karate.log(&quot;karate.env system property was:&quot;, env);
+04:   if (!env) {
+05:     env = &quot;dev&quot;;
+06:   }
+07: 
+08:   var config = {
+09:     env: env,
+10:     myVarName: &quot;someValue&quot;,
+11:     accessToken: v,
+12:   };
+13: 
+14:   return config;
+15: }
+16: 
+17: // karate.configure(&quot;afterFeature&quot;, function () {
+18: //   karate.log(&quot;Hey this is after feature....running after every feature.&quot;);
+19: // });
+20: 
+21: // karate.configure(&#39;beforeScenario&#39;, function () {
+22: 
+23: //   karate.log(&quot;Inside before scenarios&quot;)
+24: //     // Make a POST request to obtain an access token
+25: //     // var accessTokenRequest = {
+26: //     //     method: &#39;GET&#39;,
+27: //     //     url: &#39;http://194.233.85.132:9000/api/v1/refresh-token&#39;
+28: //     // };
+29: 
+30: //     // var response = karate.call(accessTokenRequest);
+31: 
+32: //     // // Check if the access token was successfully obtained
+33: //     // if (response.status == 200) {
+34: //     //     // var accessToken = response.body.access_token; // Assuming the access token is in the response body
+35: //     //     // karate.configure(&#39;headers&#39;, { &#39;Authorization&#39;: &#39;Bearer &#39; + accessToken });
+36: 
+37: //     //     karate.log(response)
+38: //     // } else {
+39: //     //     karate.log(&#39;Failed to obtain access token&#39;);
+40: //     // }
+41: // })
+&lt;&lt;&lt;&lt;
+org.graalvm.polyglot.PolyglotException: ReferenceError: &quot;v&quot; is not defined
+- &lt;js&gt;.fn(Unnamed:11)
+
+classpath:features/handler.feature:4
+classpath:features/handler.feature:5
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[4:43]bg"><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment"># * configure afterScenario =</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#   &quot;&quot;&quot;</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#   function(){</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#   karate.log(&#39;after scenario:&#39;, karate.scenario.name);</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#   }</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#   &quot;&quot;&quot;</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment"># * configure afterFeature =</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#   &quot;&quot;&quot;</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#   function(){</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#   karate.log(&#39;after feature:&#39;, karate.feature.name);</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#   }</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#   &quot;&quot;&quot;</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.18">
+      <div class="step-ref bg-step">18</div>
+      
+      <div class="step-cell failed">
+        <span>*</span>&nbsp;<span>def sqlAddPizza = &quot;&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.18">00:58:47.804 classpath:features/handler.feature:18
+* def sqlAddPizza = &quot;&quot;
+&gt;&gt; classpath:features/handler.feature:43
+&gt;&gt; karate-config.js failed
+&gt;&gt; ReferenceError: &quot;v&quot; is not defined
+js failed:
+&gt;&gt;&gt;&gt;
+01: function fn() {
+02:   var env = karate.env; 
+03:   karate.log(&quot;karate.env system property was:&quot;, env);
+04:   if (!env) {
+05:     env = &quot;dev&quot;;
+06:   }
+07: 
+08:   var config = {
+09:     env: env,
+10:     myVarName: &quot;someValue&quot;,
+11:     accessToken: v,
+12:   };
+13: 
+14:   return config;
+15: }
+16: 
+17: // karate.configure(&quot;afterFeature&quot;, function () {
+18: //   karate.log(&quot;Hey this is after feature....running after every feature.&quot;);
+19: // });
+20: 
+21: // karate.configure(&#39;beforeScenario&#39;, function () {
+22: 
+23: //   karate.log(&quot;Inside before scenarios&quot;)
+24: //     // Make a POST request to obtain an access token
+25: //     // var accessTokenRequest = {
+26: //     //     method: &#39;GET&#39;,
+27: //     //     url: &#39;http://194.233.85.132:9000/api/v1/refresh-token&#39;
+28: //     // };
+29: 
+30: //     // var response = karate.call(accessTokenRequest);
+31: 
+32: //     // // Check if the access token was successfully obtained
+33: //     // if (response.status == 200) {
+34: //     //     // var accessToken = response.body.access_token; // Assuming the access token is in the response body
+35: //     //     // karate.configure(&#39;headers&#39;, { &#39;Authorization&#39;: &#39;Bearer &#39; + accessToken });
+36: 
+37: //     //     karate.log(response)
+38: //     // } else {
+39: //     //     karate.log(&#39;Failed to obtain access token&#39;);
+40: //     // }
+41: // })
+&lt;&lt;&lt;&lt;
+org.graalvm.polyglot.PolyglotException: ReferenceError: &quot;v&quot; is not defined
+- &lt;js&gt;.fn(Unnamed:11)
+
+classpath:features/handler.feature:4
+classpath:features/handler.feature:5
+classpath:features/handler.feature:18
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment"># First API request with path &#39;/endpoint1&#39;</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.45">
+      <div class="step-ref failed">45</div>
+      
+      <div class="step-cell failed">
+        <span>Given</span>&nbsp;<span>path &#39;/ping&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.45">00:58:47.805 classpath:features/handler.feature:45
+Given path &#39;/ping&#39;
+&gt;&gt; classpath:features/handler.feature:43
+&gt;&gt; karate-config.js failed
+&gt;&gt; ReferenceError: &quot;v&quot; is not defined
+js failed:
+&gt;&gt;&gt;&gt;
+01: function fn() {
+02:   var env = karate.env; 
+03:   karate.log(&quot;karate.env system property was:&quot;, env);
+04:   if (!env) {
+05:     env = &quot;dev&quot;;
+06:   }
+07: 
+08:   var config = {
+09:     env: env,
+10:     myVarName: &quot;someValue&quot;,
+11:     accessToken: v,
+12:   };
+13: 
+14:   return config;
+15: }
+16: 
+17: // karate.configure(&quot;afterFeature&quot;, function () {
+18: //   karate.log(&quot;Hey this is after feature....running after every feature.&quot;);
+19: // });
+20: 
+21: // karate.configure(&#39;beforeScenario&#39;, function () {
+22: 
+23: //   karate.log(&quot;Inside before scenarios&quot;)
+24: //     // Make a POST request to obtain an access token
+25: //     // var accessTokenRequest = {
+26: //     //     method: &#39;GET&#39;,
+27: //     //     url: &#39;http://194.233.85.132:9000/api/v1/refresh-token&#39;
+28: //     // };
+29: 
+30: //     // var response = karate.call(accessTokenRequest);
+31: 
+32: //     // // Check if the access token was successfully obtained
+33: //     // if (response.status == 200) {
+34: //     //     // var accessToken = response.body.access_token; // Assuming the access token is in the response body
+35: //     //     // karate.configure(&#39;headers&#39;, { &#39;Authorization&#39;: &#39;Bearer &#39; + accessToken });
+36: 
+37: //     //     karate.log(response)
+38: //     // } else {
+39: //     //     karate.log(&#39;Failed to obtain access token&#39;);
+40: //     // }
+41: // })
+&lt;&lt;&lt;&lt;
+org.graalvm.polyglot.PolyglotException: ReferenceError: &quot;v&quot; is not defined
+- &lt;js&gt;.fn(Unnamed:11)
+
+classpath:features/handler.feature:4
+classpath:features/handler.feature:5
+classpath:features/handler.feature:18
+classpath:features/handler.feature:45
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.46">
+      <div class="step-ref failed">46</div>
+      
+      <div class="step-cell failed">
+        <span>When</span>&nbsp;<span>method GET</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.46">00:58:47.806 classpath:features/handler.feature:46
+When method GET
+&gt;&gt; classpath:features/handler.feature:43
+&gt;&gt; karate-config.js failed
+&gt;&gt; ReferenceError: &quot;v&quot; is not defined
+js failed:
+&gt;&gt;&gt;&gt;
+01: function fn() {
+02:   var env = karate.env; 
+03:   karate.log(&quot;karate.env system property was:&quot;, env);
+04:   if (!env) {
+05:     env = &quot;dev&quot;;
+06:   }
+07: 
+08:   var config = {
+09:     env: env,
+10:     myVarName: &quot;someValue&quot;,
+11:     accessToken: v,
+12:   };
+13: 
+14:   return config;
+15: }
+16: 
+17: // karate.configure(&quot;afterFeature&quot;, function () {
+18: //   karate.log(&quot;Hey this is after feature....running after every feature.&quot;);
+19: // });
+20: 
+21: // karate.configure(&#39;beforeScenario&#39;, function () {
+22: 
+23: //   karate.log(&quot;Inside before scenarios&quot;)
+24: //     // Make a POST request to obtain an access token
+25: //     // var accessTokenRequest = {
+26: //     //     method: &#39;GET&#39;,
+27: //     //     url: &#39;http://194.233.85.132:9000/api/v1/refresh-token&#39;
+28: //     // };
+29: 
+30: //     // var response = karate.call(accessTokenRequest);
+31: 
+32: //     // // Check if the access token was successfully obtained
+33: //     // if (response.status == 200) {
+34: //     //     // var accessToken = response.body.access_token; // Assuming the access token is in the response body
+35: //     //     // karate.configure(&#39;headers&#39;, { &#39;Authorization&#39;: &#39;Bearer &#39; + accessToken });
+36: 
+37: //     //     karate.log(response)
+38: //     // } else {
+39: //     //     karate.log(&#39;Failed to obtain access token&#39;);
+40: //     // }
+41: // })
+&lt;&lt;&lt;&lt;
+org.graalvm.polyglot.PolyglotException: ReferenceError: &quot;v&quot; is not defined
+- &lt;js&gt;.fn(Unnamed:11)
+
+classpath:features/handler.feature:4
+classpath:features/handler.feature:5
+classpath:features/handler.feature:18
+classpath:features/handler.feature:45
+classpath:features/handler.feature:46
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.47">
+      <div class="step-ref failed">47</div>
+      
+      <div class="step-cell failed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.47">00:58:47.806 classpath:features/handler.feature:47
+Then status 200
+&gt;&gt; classpath:features/handler.feature:43
+&gt;&gt; karate-config.js failed
+&gt;&gt; ReferenceError: &quot;v&quot; is not defined
+js failed:
+&gt;&gt;&gt;&gt;
+01: function fn() {
+02:   var env = karate.env; 
+03:   karate.log(&quot;karate.env system property was:&quot;, env);
+04:   if (!env) {
+05:     env = &quot;dev&quot;;
+06:   }
+07: 
+08:   var config = {
+09:     env: env,
+10:     myVarName: &quot;someValue&quot;,
+11:     accessToken: v,
+12:   };
+13: 
+14:   return config;
+15: }
+16: 
+17: // karate.configure(&quot;afterFeature&quot;, function () {
+18: //   karate.log(&quot;Hey this is after feature....running after every feature.&quot;);
+19: // });
+20: 
+21: // karate.configure(&#39;beforeScenario&#39;, function () {
+22: 
+23: //   karate.log(&quot;Inside before scenarios&quot;)
+24: //     // Make a POST request to obtain an access token
+25: //     // var accessTokenRequest = {
+26: //     //     method: &#39;GET&#39;,
+27: //     //     url: &#39;http://194.233.85.132:9000/api/v1/refresh-token&#39;
+28: //     // };
+29: 
+30: //     // var response = karate.call(accessTokenRequest);
+31: 
+32: //     // // Check if the access token was successfully obtained
+33: //     // if (response.status == 200) {
+34: //     //     // var accessToken = response.body.access_token; // Assuming the access token is in the response body
+35: //     //     // karate.configure(&#39;headers&#39;, { &#39;Authorization&#39;: &#39;Bearer &#39; + accessToken });
+36: 
+37: //     //     karate.log(response)
+38: //     // } else {
+39: //     //     karate.log(&#39;Failed to obtain access token&#39;);
+40: //     // }
+41: // })
+&lt;&lt;&lt;&lt;
+org.graalvm.polyglot.PolyglotException: ReferenceError: &quot;v&quot; is not defined
+- &lt;js&gt;.fn(Unnamed:11)
+
+classpath:features/handler.feature:4
+classpath:features/handler.feature:5
+classpath:features/handler.feature:18
+classpath:features/handler.feature:45
+classpath:features/handler.feature:46
+classpath:features/handler.feature:47
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.48">
+      <div class="step-ref failed">48</div>
+      
+      <div class="step-cell failed">
+        <span>And</span>&nbsp;<span>response.message == &quot;pong&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.48">00:58:47.807 classpath:features/handler.feature:48
+And response.message == &quot;pong&quot;
+&gt;&gt; classpath:features/handler.feature:43
+&gt;&gt; karate-config.js failed
+&gt;&gt; ReferenceError: &quot;v&quot; is not defined
+js failed:
+&gt;&gt;&gt;&gt;
+01: function fn() {
+02:   var env = karate.env; 
+03:   karate.log(&quot;karate.env system property was:&quot;, env);
+04:   if (!env) {
+05:     env = &quot;dev&quot;;
+06:   }
+07: 
+08:   var config = {
+09:     env: env,
+10:     myVarName: &quot;someValue&quot;,
+11:     accessToken: v,
+12:   };
+13: 
+14:   return config;
+15: }
+16: 
+17: // karate.configure(&quot;afterFeature&quot;, function () {
+18: //   karate.log(&quot;Hey this is after feature....running after every feature.&quot;);
+19: // });
+20: 
+21: // karate.configure(&#39;beforeScenario&#39;, function () {
+22: 
+23: //   karate.log(&quot;Inside before scenarios&quot;)
+24: //     // Make a POST request to obtain an access token
+25: //     // var accessTokenRequest = {
+26: //     //     method: &#39;GET&#39;,
+27: //     //     url: &#39;http://194.233.85.132:9000/api/v1/refresh-token&#39;
+28: //     // };
+29: 
+30: //     // var response = karate.call(accessTokenRequest);
+31: 
+32: //     // // Check if the access token was successfully obtained
+33: //     // if (response.status == 200) {
+34: //     //     // var accessToken = response.body.access_token; // Assuming the access token is in the response body
+35: //     //     // karate.configure(&#39;headers&#39;, { &#39;Authorization&#39;: &#39;Bearer &#39; + accessToken });
+36: 
+37: //     //     karate.log(response)
+38: //     // } else {
+39: //     //     karate.log(&#39;Failed to obtain access token&#39;);
+40: //     // }
+41: // })
+&lt;&lt;&lt;&lt;
+org.graalvm.polyglot.PolyglotException: ReferenceError: &quot;v&quot; is not defined
+- &lt;js&gt;.fn(Unnamed:11)
+
+classpath:features/handler.feature:4
+classpath:features/handler.feature:5
+classpath:features/handler.feature:18
+classpath:features/handler.feature:45
+classpath:features/handler.feature:46
+classpath:features/handler.feature:47
+classpath:features/handler.feature:48
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment"># Second API request with path &#39;/endpoint2&#39;</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.51">
+      <div class="step-ref failed">51</div>
+      
+      <div class="step-cell failed">
+        <span>Given</span>&nbsp;<span>path &#39;/piang&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.51">00:58:47.808 classpath:features/handler.feature:51
+Given path &#39;/piang&#39;
+&gt;&gt; classpath:features/handler.feature:43
+&gt;&gt; karate-config.js failed
+&gt;&gt; ReferenceError: &quot;v&quot; is not defined
+js failed:
+&gt;&gt;&gt;&gt;
+01: function fn() {
+02:   var env = karate.env; 
+03:   karate.log(&quot;karate.env system property was:&quot;, env);
+04:   if (!env) {
+05:     env = &quot;dev&quot;;
+06:   }
+07: 
+08:   var config = {
+09:     env: env,
+10:     myVarName: &quot;someValue&quot;,
+11:     accessToken: v,
+12:   };
+13: 
+14:   return config;
+15: }
+16: 
+17: // karate.configure(&quot;afterFeature&quot;, function () {
+18: //   karate.log(&quot;Hey this is after feature....running after every feature.&quot;);
+19: // });
+20: 
+21: // karate.configure(&#39;beforeScenario&#39;, function () {
+22: 
+23: //   karate.log(&quot;Inside before scenarios&quot;)
+24: //     // Make a POST request to obtain an access token
+25: //     // var accessTokenRequest = {
+26: //     //     method: &#39;GET&#39;,
+27: //     //     url: &#39;http://194.233.85.132:9000/api/v1/refresh-token&#39;
+28: //     // };
+29: 
+30: //     // var response = karate.call(accessTokenRequest);
+31: 
+32: //     // // Check if the access token was successfully obtained
+33: //     // if (response.status == 200) {
+34: //     //     // var accessToken = response.body.access_token; // Assuming the access token is in the response body
+35: //     //     // karate.configure(&#39;headers&#39;, { &#39;Authorization&#39;: &#39;Bearer &#39; + accessToken });
+36: 
+37: //     //     karate.log(response)
+38: //     // } else {
+39: //     //     karate.log(&#39;Failed to obtain access token&#39;);
+40: //     // }
+41: // })
+&lt;&lt;&lt;&lt;
+org.graalvm.polyglot.PolyglotException: ReferenceError: &quot;v&quot; is not defined
+- &lt;js&gt;.fn(Unnamed:11)
+
+classpath:features/handler.feature:4
+classpath:features/handler.feature:5
+classpath:features/handler.feature:18
+classpath:features/handler.feature:45
+classpath:features/handler.feature:46
+classpath:features/handler.feature:47
+classpath:features/handler.feature:48
+classpath:features/handler.feature:51
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.52">
+      <div class="step-ref failed">52</div>
+      
+      <div class="step-cell failed">
+        <span>When</span>&nbsp;<span>method GET</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.52">00:58:47.812 classpath:features/handler.feature:52
+When method GET
+&gt;&gt; classpath:features/handler.feature:43
+&gt;&gt; karate-config.js failed
+&gt;&gt; ReferenceError: &quot;v&quot; is not defined
+js failed:
+&gt;&gt;&gt;&gt;
+01: function fn() {
+02:   var env = karate.env; 
+03:   karate.log(&quot;karate.env system property was:&quot;, env);
+04:   if (!env) {
+05:     env = &quot;dev&quot;;
+06:   }
+07: 
+08:   var config = {
+09:     env: env,
+10:     myVarName: &quot;someValue&quot;,
+11:     accessToken: v,
+12:   };
+13: 
+14:   return config;
+15: }
+16: 
+17: // karate.configure(&quot;afterFeature&quot;, function () {
+18: //   karate.log(&quot;Hey this is after feature....running after every feature.&quot;);
+19: // });
+20: 
+21: // karate.configure(&#39;beforeScenario&#39;, function () {
+22: 
+23: //   karate.log(&quot;Inside before scenarios&quot;)
+24: //     // Make a POST request to obtain an access token
+25: //     // var accessTokenRequest = {
+26: //     //     method: &#39;GET&#39;,
+27: //     //     url: &#39;http://194.233.85.132:9000/api/v1/refresh-token&#39;
+28: //     // };
+29: 
+30: //     // var response = karate.call(accessTokenRequest);
+31: 
+32: //     // // Check if the access token was successfully obtained
+33: //     // if (response.status == 200) {
+34: //     //     // var accessToken = response.body.access_token; // Assuming the access token is in the response body
+35: //     //     // karate.configure(&#39;headers&#39;, { &#39;Authorization&#39;: &#39;Bearer &#39; + accessToken });
+36: 
+37: //     //     karate.log(response)
+38: //     // } else {
+39: //     //     karate.log(&#39;Failed to obtain access token&#39;);
+40: //     // }
+41: // })
+&lt;&lt;&lt;&lt;
+org.graalvm.polyglot.PolyglotException: ReferenceError: &quot;v&quot; is not defined
+- &lt;js&gt;.fn(Unnamed:11)
+
+classpath:features/handler.feature:4
+classpath:features/handler.feature:5
+classpath:features/handler.feature:18
+classpath:features/handler.feature:45
+classpath:features/handler.feature:46
+classpath:features/handler.feature:47
+classpath:features/handler.feature:48
+classpath:features/handler.feature:51
+classpath:features/handler.feature:52
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.53">
+      <div class="step-ref failed">53</div>
+      
+      <div class="step-cell failed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.53">00:58:47.815 classpath:features/handler.feature:53
+Then status 200
+&gt;&gt; classpath:features/handler.feature:43
+&gt;&gt; karate-config.js failed
+&gt;&gt; ReferenceError: &quot;v&quot; is not defined
+js failed:
+&gt;&gt;&gt;&gt;
+01: function fn() {
+02:   var env = karate.env; 
+03:   karate.log(&quot;karate.env system property was:&quot;, env);
+04:   if (!env) {
+05:     env = &quot;dev&quot;;
+06:   }
+07: 
+08:   var config = {
+09:     env: env,
+10:     myVarName: &quot;someValue&quot;,
+11:     accessToken: v,
+12:   };
+13: 
+14:   return config;
+15: }
+16: 
+17: // karate.configure(&quot;afterFeature&quot;, function () {
+18: //   karate.log(&quot;Hey this is after feature....running after every feature.&quot;);
+19: // });
+20: 
+21: // karate.configure(&#39;beforeScenario&#39;, function () {
+22: 
+23: //   karate.log(&quot;Inside before scenarios&quot;)
+24: //     // Make a POST request to obtain an access token
+25: //     // var accessTokenRequest = {
+26: //     //     method: &#39;GET&#39;,
+27: //     //     url: &#39;http://194.233.85.132:9000/api/v1/refresh-token&#39;
+28: //     // };
+29: 
+30: //     // var response = karate.call(accessTokenRequest);
+31: 
+32: //     // // Check if the access token was successfully obtained
+33: //     // if (response.status == 200) {
+34: //     //     // var accessToken = response.body.access_token; // Assuming the access token is in the response body
+35: //     //     // karate.configure(&#39;headers&#39;, { &#39;Authorization&#39;: &#39;Bearer &#39; + accessToken });
+36: 
+37: //     //     karate.log(response)
+38: //     // } else {
+39: //     //     karate.log(&#39;Failed to obtain access token&#39;);
+40: //     // }
+41: // })
+&lt;&lt;&lt;&lt;
+org.graalvm.polyglot.PolyglotException: ReferenceError: &quot;v&quot; is not defined
+- &lt;js&gt;.fn(Unnamed:11)
+
+classpath:features/handler.feature:4
+classpath:features/handler.feature:5
+classpath:features/handler.feature:18
+classpath:features/handler.feature:45
+classpath:features/handler.feature:46
+classpath:features/handler.feature:47
+classpath:features/handler.feature:48
+classpath:features/handler.feature:51
+classpath:features/handler.feature:52
+classpath:features/handler.feature:53
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.54">
+      <div class="step-ref failed">54</div>
+      
+      <div class="step-cell failed">
+        <span>And</span>&nbsp;<span>response.message == &quot;poang&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.54">00:58:47.816 classpath:features/handler.feature:54
+And response.message == &quot;poang&quot;
+&gt;&gt; classpath:features/handler.feature:43
+&gt;&gt; karate-config.js failed
+&gt;&gt; ReferenceError: &quot;v&quot; is not defined
+js failed:
+&gt;&gt;&gt;&gt;
+01: function fn() {
+02:   var env = karate.env; 
+03:   karate.log(&quot;karate.env system property was:&quot;, env);
+04:   if (!env) {
+05:     env = &quot;dev&quot;;
+06:   }
+07: 
+08:   var config = {
+09:     env: env,
+10:     myVarName: &quot;someValue&quot;,
+11:     accessToken: v,
+12:   };
+13: 
+14:   return config;
+15: }
+16: 
+17: // karate.configure(&quot;afterFeature&quot;, function () {
+18: //   karate.log(&quot;Hey this is after feature....running after every feature.&quot;);
+19: // });
+20: 
+21: // karate.configure(&#39;beforeScenario&#39;, function () {
+22: 
+23: //   karate.log(&quot;Inside before scenarios&quot;)
+24: //     // Make a POST request to obtain an access token
+25: //     // var accessTokenRequest = {
+26: //     //     method: &#39;GET&#39;,
+27: //     //     url: &#39;http://194.233.85.132:9000/api/v1/refresh-token&#39;
+28: //     // };
+29: 
+30: //     // var response = karate.call(accessTokenRequest);
+31: 
+32: //     // // Check if the access token was successfully obtained
+33: //     // if (response.status == 200) {
+34: //     //     // var accessToken = response.body.access_token; // Assuming the access token is in the response body
+35: //     //     // karate.configure(&#39;headers&#39;, { &#39;Authorization&#39;: &#39;Bearer &#39; + accessToken });
+36: 
+37: //     //     karate.log(response)
+38: //     // } else {
+39: //     //     karate.log(&#39;Failed to obtain access token&#39;);
+40: //     // }
+41: // })
+&lt;&lt;&lt;&lt;
+org.graalvm.polyglot.PolyglotException: ReferenceError: &quot;v&quot; is not defined
+- &lt;js&gt;.fn(Unnamed:11)
+
+classpath:features/handler.feature:4
+classpath:features/handler.feature:5
+classpath:features/handler.feature:18
+classpath:features/handler.feature:45
+classpath:features/handler.feature:46
+classpath:features/handler.feature:47
+classpath:features/handler.feature:48
+classpath:features/handler.feature:51
+classpath:features/handler.feature:52
+classpath:features/handler.feature:53
+classpath:features/handler.feature:54
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

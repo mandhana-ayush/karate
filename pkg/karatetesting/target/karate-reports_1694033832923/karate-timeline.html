@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+      .page-heading { padding: 0.5em; margin-bottom: 0.5em; background-color: lightcyan; border: 1px solid gray; }
+    </style>
+    <script src="res/vis.min.js"></script>
+    <link href="res/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="page-heading">
+      <a href="karate-summary.html">Summary</a>
+    </div>     
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"main","id":1}];
+var items = [{"id":1,"group":1,"content":"features\/handler[1:21]","start":1694033593382,"end":1694033594253,"title":"features\/handler[1:21] 02:23:13.382-02:23:14.253 Create a pizza"},{"id":2,"group":1,"content":"features\/handler[2:28]","start":1694033594268,"end":1694033594558,"title":"features\/handler[2:28] 02:23:14.268-02:23:14.558 Create a Topping"},{"id":3,"group":1,"content":"features\/handler[3:37]","start":1694033594571,"end":1694033595233,"title":"features\/handler[3:37] 02:23:14.571-02:23:15.233 Get a Pizza by Ids"}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>

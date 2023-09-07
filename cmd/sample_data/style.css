@@ -1,0 +1,216 @@
+@font-face {
+  font-family: "Calibri";
+  src: url("./Camphor W01 Regular/Camphor\ W01\ Regular.ttf");
+}
+
+@page {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.container_body {
+  padding-top: 60px;
+  height: 100%;
+}
+
+#prescription-body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+/* patient detail section  */
+
+.patient-detail-container {
+  width: 100%;
+  border-top: 2px solid black;
+  margin-bottom: 10px;
+}
+
+.border-styled-grid {
+  flex: 1;
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+  border-bottom: 2px solid black;
+  text-align: left;
+  background-color: white;
+  margin-bottom: -0.7rem;
+}
+.main-detail-container {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+}
+/* .patient-detail-section-label {
+	width: 30%;
+} */
+.patient-detail-label {
+  margin: 0px;
+  padding: 0px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.patient-detail-label h3 {
+  margin: 0px;
+  padding: 0px;
+}
+/* .patient-detail-label span {
+	margin-left: 8px;
+} */
+
+/* Style for the main container */
+.detail-container {
+  display: flex;
+  align-items: center;
+}
+
+/* Style for the grid container */
+.grid-container {
+  display: grid;
+  grid-template-columns: auto min-content auto;
+  align-items: center;
+  /* gap: 2px; */
+
+  column-gap: 10px;
+}
+
+/* Style for the labels (h3, h5) */
+.grid-container h3,
+.grid-container h5 {
+  margin: 0;
+}
+
+/* Style for the spans (values) */
+.grid-container span {
+  grid-column: 3;
+}
+
+/* Media query for responsiveness */
+@media screen and (max-width: 600px) {
+  .grid-container {
+    grid-template-columns: auto;
+  }
+}
+
+/* styles for vitals  */
+/* Styles for the table and table cells */
+.vital-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1px;
+}
+.vitals-table {
+  width: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.vitals-table td {
+  border-bottom: none;
+  padding: 0;
+}
+.vital-name {
+  margin: 0px;
+  font-weight: 600;
+  font-size: 13px;
+  margin-right: 2px;
+}
+/* Styles for vital signs labels */
+.vital-label {
+  font-weight: 600;
+  font-size: 11px;
+  margin-right: 1px;
+}
+
+/* Styles for vital signs values */
+.vital-value {
+  font-size: 10px;
+}
+
+/* styles for medication  */
+
+/* Add any custom styles to mimic Material-UI styles */
+.medications-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 3px;
+}
+
+.medications-table th,
+.medications-table td {
+  border-bottom: 1px solid #ccc;
+  padding: 3px;
+}
+
+.medications-table th {
+  background-color: #f2f2f2;
+  text-align: left;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.medication-details {
+  font-family: Arial, sans-serif;
+  font-size: 8px;
+}
+
+.medication-name {
+  font-weight: bold;
+  font-size: 11px;
+}
+
+.medication-generic {
+  font-size: 10px;
+  font-style: italic;
+}
+
+.medication-instructions {
+  font-style: italic;
+}
+
+/* custom section  */
+/* Add any custom styles to mimic Material-UI styles */
+.custom-section-container {
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  margin-bottom: 10px;
+}
+
+.field-name {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.field-value {
+  margin-left: 5px;
+}
+.custom-section-list {
+  margin-top: 9px;
+}
+/* billing lab sectoin  */
+.preview-container {
+  font-size: 16px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.field-name {
+  font-weight: bold;
+  text-decoration: underline;
+}
+.separator {
+  font-weight: bold;
+  margin: 0 5px;
+}
+.field-value {
+  font-weight: normal;
+}
+
+/* for print  */
+@media print {
+  /* Adjust page margins for print */
+  @page {
+    size: A4; /* You can set the paper size you prefer */
+  }
+}
+
+.consultation_section{
+  text-align: right;
+}

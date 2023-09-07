@@ -15,7 +15,7 @@
         <karate.version>1.4.0</karate.version>
     </properties>    
 
-    <dependencies>         
+    <dependencies>      
         <dependency>
             <groupId>com.intuit.karate</groupId>
             <artifactId>karate-junit5</artifactId>

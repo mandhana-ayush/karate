@@ -36,22 +36,20 @@ import com.intuit.karate.Results;
 import com.intuit.karate.Runner;
 import com.intuit.karate.junit5.Karate;
 
-import hooks.KarateHooks;
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
+
 public class KarateTestRunner {
-    
     @Test
     public void testFeature1() {  
         String[] tags = {"@smoke"};
 
         System.out.println("testFeature1");
-        Results result = Runner.path("classpath:features").tags(System.getProperty("karateOptions")).parallel(Integer.parseInt(System.getProperty("threadCount", "1")));
+
+        
+        Results result = Runner.path("classpath:features").parallel(Integer.parseInt(System.getProperty("threadCount", "1")));
         assertEquals(0, result.getFailCount(),"Failures found in test run");
     }
 }
-
-

@@ -319,7 +319,6 @@ func FontCacheMiddleware() gin.HandlerFunc {
 		var fileExt = []string{".ttf", ".css"}
 
 		for _, ext := range fileExt {
-			fmt.Println(c.Request.URL.Path[len(c.Request.URL.Path)-len(fileExt):])
 			if len(c.Request.URL.Path) >= len(ext) && c.Request.URL.Path[len(c.Request.URL.Path)-len(fileExt):] == ext {
 
 				c.Header("Cache-Control", "public max-age=31536000")

@@ -1,0 +1,1444 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <script type="text/javascript" src="res/Resemble.js"></script>
+    <script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
+  api_host:'https://app.posthog.com',
+  persistence:'localStorage',
+  autocapture:false,
+  capture_pageview:false,
+  api_transport:'sendBeacon',
+  loaded: function(posthog) { 
+    posthog.capture("report_feature",{distinct_id:"810f26e4-c59f-4c44-ae94-48eac08b597b",karate_version:"1.4.0",karate_meta:null});
+  }
+});
+</script>
+
+    <title>features.handler</title>
+  </head>
+  <body>
+    <div id="root-container">
+      <div id="leftnav">
+        
+        <div>
+  <div class="nav-logo">
+    <a href="https://karatelabs.io">
+      <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">0</div>
+      <div id="nav-fail" class="bg-danger">3</div>
+    </div>
+  </div>
+  <div id="nav-env">
+    <div></div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>
+  <div id="nav-date">
+    <div>2023-09-07 02:31:05 am</div>
+  </div>
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item failed">
+            <a href="#[1:22]"><span>[1:22]</span> <span>Create a pizza</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[2:29]"><span>[2:29]</span> <span>Create a Topping</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[3:38]"><span>[3:38]</span> <span>Get a Pizza by Ids</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">features/handler.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">work with DB again</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:22]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">smoke</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:22]</span>
+                <span class="scenario-name">Create a pizza</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>0</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1:22]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1:22]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell failed">
+        <span>*</span>&nbsp;<span>def dbHandler = Java.type(&#39;helpers.DbHandler&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4">02:31:05.099 karate.env system property was: null 
+02:31:05.135 classpath:features/handler.feature:4
+* def dbHandler = Java.type(&#39;helpers.DbHandler&#39;)
+&gt;&gt; classpath:features/handler.feature:22
+&gt;&gt; karate-config.js failed
+&gt;&gt; ReferenceError: &quot;config&quot; is not defined
+js failed:
+&gt;&gt;&gt;&gt;
+01: function fn() {
+02:   var env = karate.env; 
+03:   karate.log(&quot;karate.env system property was:&quot;, env);
+04:   if (!env) {
+05:     env = &quot;dev&quot;;
+06:   }
+07:   let tokenFetch = Java.type(&#39;helpers.TokenFetch&#39;);
+08:   let v = tokenFetch.getAccessToken(config.url, config.refreshToken);
+09: 
+10:   config.accessToken = v.data.access_token
+11: 
+12:   karate.log(v.data.access_token)
+13:   let config = {
+14:     env: env,
+15:     myVarName: &quot;someValue&quot;,
+16:     refreshToken: &#39;eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJjdXN0b21fa2V5IjoiZjU0NWJkNmE1OTkwZDg3NjY0MzdhZDUwOWQyMWU2NGRjZTUwOGVkOTA5NTZjMmM3NGE0YjA2MmQzOTE3YTAzMyIsImtleV90eXBlIjoicmVmcmVzaCIsImlzcyI6ImJvb2tpdGUuYXV0aC5zZXJ2aWNlIn0.G6NxB9LGGszVoUXNpnZGadrBMbbhjRsAFGcTI5TINnDErTbfmsC-bqGuD2yvE7sr0NLtj4si5gtg8TfUxYekX5A_Te334p-Q4NyrWOArS_i48-CHKiA9G76gRVu82J0XpeMULr0crUYHBAtK2L1mYbQiQh1aXmnYw_KfYcA8dr5C6UJiI-aJLLycJWmzIUN_aFe3DI_u2ce0P-7fjfb5dNAgKrV3hZkbPLFJur0SVN3G-CGRgBFh9g7CKUvOTJkD13I0L3jvPzgWTEf7O_11LfYE3hIz5ltYc0bCoLd7DmC9lJLgo5gtkUbDbzwrIcDHlOztVWRL550LnKUCf6m5Ig&#39;,
+17:     url: &quot;http://194.233.85.132:9000/api/v1/refresh-token&quot;
+18:   };
+19: 
+20:   return config;
+21: }
+&lt;&lt;&lt;&lt;
+org.graalvm.polyglot.PolyglotException: ReferenceError: &quot;config&quot; is not defined
+- &lt;js&gt;.fn(Unnamed:8)
+
+classpath:features/handler.feature:4
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:22]bg"><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment"># * def tokenFetch = Java.type(&#39;helpers.TokenFetch&#39;)</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment"># * def v = tokenFetch.getAccessToken(url, refreshToken)</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment"># * print v.data.access_token</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment"># * configure afterScenario =</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#   &quot;&quot;&quot;</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#   function(){</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#   karate.log(&#39;after scenario:&#39;, karate.scenario.name);</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#   }</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#   &quot;&quot;&quot;</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment"># * configure afterFeature =</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#   &quot;&quot;&quot;</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#   function(){</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#   karate.log(&#39;after feature:&#39;, karate.feature.name);</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#   }</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#   &quot;&quot;&quot;</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.20">
+      <div class="step-ref bg-step">20</div>
+      
+      <div class="step-cell failed">
+        <span>*</span>&nbsp;<span>def sqlAddPizza = &quot;&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.20">02:31:05.136 classpath:features/handler.feature:20
+* def sqlAddPizza = &quot;&quot;
+&gt;&gt; classpath:features/handler.feature:22
+&gt;&gt; karate-config.js failed
+&gt;&gt; ReferenceError: &quot;config&quot; is not defined
+js failed:
+&gt;&gt;&gt;&gt;
+01: function fn() {
+02:   var env = karate.env; 
+03:   karate.log(&quot;karate.env system property was:&quot;, env);
+04:   if (!env) {
+05:     env = &quot;dev&quot;;
+06:   }
+07:   let tokenFetch = Java.type(&#39;helpers.TokenFetch&#39;);
+08:   let v = tokenFetch.getAccessToken(config.url, config.refreshToken);
+09: 
+10:   config.accessToken = v.data.access_token
+11: 
+12:   karate.log(v.data.access_token)
+13:   let config = {
+14:     env: env,
+15:     myVarName: &quot;someValue&quot;,
+16:     refreshToken: &#39;eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJjdXN0b21fa2V5IjoiZjU0NWJkNmE1OTkwZDg3NjY0MzdhZDUwOWQyMWU2NGRjZTUwOGVkOTA5NTZjMmM3NGE0YjA2MmQzOTE3YTAzMyIsImtleV90eXBlIjoicmVmcmVzaCIsImlzcyI6ImJvb2tpdGUuYXV0aC5zZXJ2aWNlIn0.G6NxB9LGGszVoUXNpnZGadrBMbbhjRsAFGcTI5TINnDErTbfmsC-bqGuD2yvE7sr0NLtj4si5gtg8TfUxYekX5A_Te334p-Q4NyrWOArS_i48-CHKiA9G76gRVu82J0XpeMULr0crUYHBAtK2L1mYbQiQh1aXmnYw_KfYcA8dr5C6UJiI-aJLLycJWmzIUN_aFe3DI_u2ce0P-7fjfb5dNAgKrV3hZkbPLFJur0SVN3G-CGRgBFh9g7CKUvOTJkD13I0L3jvPzgWTEf7O_11LfYE3hIz5ltYc0bCoLd7DmC9lJLgo5gtkUbDbzwrIcDHlOztVWRL550LnKUCf6m5Ig&#39;,
+17:     url: &quot;http://194.233.85.132:9000/api/v1/refresh-token&quot;
+18:   };
+19: 
+20:   return config;
+21: }
+&lt;&lt;&lt;&lt;
+org.graalvm.polyglot.PolyglotException: ReferenceError: &quot;config&quot; is not defined
+- &lt;js&gt;.fn(Unnamed:8)
+
+classpath:features/handler.feature:4
+classpath:features/handler.feature:20
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.23">
+      <div class="step-ref failed">23</div>
+      
+      <div class="step-cell failed">
+        <span>*</span>&nbsp;<span>def pizzaName = &quot;PizzaTestAGABA&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.23">02:31:05.136 classpath:features/handler.feature:23
+* def pizzaName = &quot;PizzaTestAGABA&quot;
+&gt;&gt; classpath:features/handler.feature:22
+&gt;&gt; karate-config.js failed
+&gt;&gt; ReferenceError: &quot;config&quot; is not defined
+js failed:
+&gt;&gt;&gt;&gt;
+01: function fn() {
+02:   var env = karate.env; 
+03:   karate.log(&quot;karate.env system property was:&quot;, env);
+04:   if (!env) {
+05:     env = &quot;dev&quot;;
+06:   }
+07:   let tokenFetch = Java.type(&#39;helpers.TokenFetch&#39;);
+08:   let v = tokenFetch.getAccessToken(config.url, config.refreshToken);
+09: 
+10:   config.accessToken = v.data.access_token
+11: 
+12:   karate.log(v.data.access_token)
+13:   let config = {
+14:     env: env,
+15:     myVarName: &quot;someValue&quot;,
+16:     refreshToken: &#39;eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJjdXN0b21fa2V5IjoiZjU0NWJkNmE1OTkwZDg3NjY0MzdhZDUwOWQyMWU2NGRjZTUwOGVkOTA5NTZjMmM3NGE0YjA2MmQzOTE3YTAzMyIsImtleV90eXBlIjoicmVmcmVzaCIsImlzcyI6ImJvb2tpdGUuYXV0aC5zZXJ2aWNlIn0.G6NxB9LGGszVoUXNpnZGadrBMbbhjRsAFGcTI5TINnDErTbfmsC-bqGuD2yvE7sr0NLtj4si5gtg8TfUxYekX5A_Te334p-Q4NyrWOArS_i48-CHKiA9G76gRVu82J0XpeMULr0crUYHBAtK2L1mYbQiQh1aXmnYw_KfYcA8dr5C6UJiI-aJLLycJWmzIUN_aFe3DI_u2ce0P-7fjfb5dNAgKrV3hZkbPLFJur0SVN3G-CGRgBFh9g7CKUvOTJkD13I0L3jvPzgWTEf7O_11LfYE3hIz5ltYc0bCoLd7DmC9lJLgo5gtkUbDbzwrIcDHlOztVWRL550LnKUCf6m5Ig&#39;,
+17:     url: &quot;http://194.233.85.132:9000/api/v1/refresh-token&quot;
+18:   };
+19: 
+20:   return config;
+21: }
+&lt;&lt;&lt;&lt;
+org.graalvm.polyglot.PolyglotException: ReferenceError: &quot;config&quot; is not defined
+- &lt;js&gt;.fn(Unnamed:8)
+
+classpath:features/handler.feature:4
+classpath:features/handler.feature:20
+classpath:features/handler.feature:23
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.24">
+      <div class="step-ref failed">24</div>
+      
+      <div class="step-cell failed">
+        <span>*</span>&nbsp;<span>def price = 320</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.24">02:31:05.137 classpath:features/handler.feature:24
+* def price = 320
+&gt;&gt; classpath:features/handler.feature:22
+&gt;&gt; karate-config.js failed
+&gt;&gt; ReferenceError: &quot;config&quot; is not defined
+js failed:
+&gt;&gt;&gt;&gt;
+01: function fn() {
+02:   var env = karate.env; 
+03:   karate.log(&quot;karate.env system property was:&quot;, env);
+04:   if (!env) {
+05:     env = &quot;dev&quot;;
+06:   }
+07:   let tokenFetch = Java.type(&#39;helpers.TokenFetch&#39;);
+08:   let v = tokenFetch.getAccessToken(config.url, config.refreshToken);
+09: 
+10:   config.accessToken = v.data.access_token
+11: 
+12:   karate.log(v.data.access_token)
+13:   let config = {
+14:     env: env,
+15:     myVarName: &quot;someValue&quot;,
+16:     refreshToken: &#39;eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJjdXN0b21fa2V5IjoiZjU0NWJkNmE1OTkwZDg3NjY0MzdhZDUwOWQyMWU2NGRjZTUwOGVkOTA5NTZjMmM3NGE0YjA2MmQzOTE3YTAzMyIsImtleV90eXBlIjoicmVmcmVzaCIsImlzcyI6ImJvb2tpdGUuYXV0aC5zZXJ2aWNlIn0.G6NxB9LGGszVoUXNpnZGadrBMbbhjRsAFGcTI5TINnDErTbfmsC-bqGuD2yvE7sr0NLtj4si5gtg8TfUxYekX5A_Te334p-Q4NyrWOArS_i48-CHKiA9G76gRVu82J0XpeMULr0crUYHBAtK2L1mYbQiQh1aXmnYw_KfYcA8dr5C6UJiI-aJLLycJWmzIUN_aFe3DI_u2ce0P-7fjfb5dNAgKrV3hZkbPLFJur0SVN3G-CGRgBFh9g7CKUvOTJkD13I0L3jvPzgWTEf7O_11LfYE3hIz5ltYc0bCoLd7DmC9lJLgo5gtkUbDbzwrIcDHlOztVWRL550LnKUCf6m5Ig&#39;,
+17:     url: &quot;http://194.233.85.132:9000/api/v1/refresh-token&quot;
+18:   };
+19: 
+20:   return config;
+21: }
+&lt;&lt;&lt;&lt;
+org.graalvm.polyglot.PolyglotException: ReferenceError: &quot;config&quot; is not defined
+- &lt;js&gt;.fn(Unnamed:8)
+
+classpath:features/handler.feature:4
+classpath:features/handler.feature:20
+classpath:features/handler.feature:23
+classpath:features/handler.feature:24
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.25">
+      <div class="step-ref failed">25</div>
+      
+      <div class="step-cell failed">
+        <span>*</span>&nbsp;<span>eval sqlAddPizza = &quot;INSERT INTO pizzas (name, price) VALUES (&#39;&quot; + pizzaName + &quot;&#39;, &quot; + price + &quot;)&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.25">02:31:05.138 classpath:features/handler.feature:25
+* eval sqlAddPizza = &quot;INSERT INTO pizzas (name, price) VALUES (&#39;&quot; + pizzaName + &quot;&#39;, &quot; + price + &quot;)&quot;
+&gt;&gt; classpath:features/handler.feature:22
+&gt;&gt; karate-config.js failed
+&gt;&gt; ReferenceError: &quot;config&quot; is not defined
+js failed:
+&gt;&gt;&gt;&gt;
+01: function fn() {
+02:   var env = karate.env; 
+03:   karate.log(&quot;karate.env system property was:&quot;, env);
+04:   if (!env) {
+05:     env = &quot;dev&quot;;
+06:   }
+07:   let tokenFetch = Java.type(&#39;helpers.TokenFetch&#39;);
+08:   let v = tokenFetch.getAccessToken(config.url, config.refreshToken);
+09: 
+10:   config.accessToken = v.data.access_token
+11: 
+12:   karate.log(v.data.access_token)
+13:   let config = {
+14:     env: env,
+15:     myVarName: &quot;someValue&quot;,
+16:     refreshToken: &#39;eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJjdXN0b21fa2V5IjoiZjU0NWJkNmE1OTkwZDg3NjY0MzdhZDUwOWQyMWU2NGRjZTUwOGVkOTA5NTZjMmM3NGE0YjA2MmQzOTE3YTAzMyIsImtleV90eXBlIjoicmVmcmVzaCIsImlzcyI6ImJvb2tpdGUuYXV0aC5zZXJ2aWNlIn0.G6NxB9LGGszVoUXNpnZGadrBMbbhjRsAFGcTI5TINnDErTbfmsC-bqGuD2yvE7sr0NLtj4si5gtg8TfUxYekX5A_Te334p-Q4NyrWOArS_i48-CHKiA9G76gRVu82J0XpeMULr0crUYHBAtK2L1mYbQiQh1aXmnYw_KfYcA8dr5C6UJiI-aJLLycJWmzIUN_aFe3DI_u2ce0P-7fjfb5dNAgKrV3hZkbPLFJur0SVN3G-CGRgBFh9g7CKUvOTJkD13I0L3jvPzgWTEf7O_11LfYE3hIz5ltYc0bCoLd7DmC9lJLgo5gtkUbDbzwrIcDHlOztVWRL550LnKUCf6m5Ig&#39;,
+17:     url: &quot;http://194.233.85.132:9000/api/v1/refresh-token&quot;
+18:   };
+19: 
+20:   return config;
+21: }
+&lt;&lt;&lt;&lt;
+org.graalvm.polyglot.PolyglotException: ReferenceError: &quot;config&quot; is not defined
+- &lt;js&gt;.fn(Unnamed:8)
+
+classpath:features/handler.feature:4
+classpath:features/handler.feature:20
+classpath:features/handler.feature:23
+classpath:features/handler.feature:24
+classpath:features/handler.feature:25
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[2:29]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[2:29]</span>
+                <span class="scenario-name">Create a Topping</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>0</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[2:29]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[2:29]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell failed">
+        <span>*</span>&nbsp;<span>def dbHandler = Java.type(&#39;helpers.DbHandler&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4">02:31:05.169 karate.env system property was: null 
+02:31:05.174 classpath:features/handler.feature:4
+* def dbHandler = Java.type(&#39;helpers.DbHandler&#39;)
+&gt;&gt; classpath:features/handler.feature:29
+&gt;&gt; karate-config.js failed
+&gt;&gt; ReferenceError: &quot;config&quot; is not defined
+js failed:
+&gt;&gt;&gt;&gt;
+01: function fn() {
+02:   var env = karate.env; 
+03:   karate.log(&quot;karate.env system property was:&quot;, env);
+04:   if (!env) {
+05:     env = &quot;dev&quot;;
+06:   }
+07:   let tokenFetch = Java.type(&#39;helpers.TokenFetch&#39;);
+08:   let v = tokenFetch.getAccessToken(config.url, config.refreshToken);
+09: 
+10:   config.accessToken = v.data.access_token
+11: 
+12:   karate.log(v.data.access_token)
+13:   let config = {
+14:     env: env,
+15:     myVarName: &quot;someValue&quot;,
+16:     refreshToken: &#39;eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJjdXN0b21fa2V5IjoiZjU0NWJkNmE1OTkwZDg3NjY0MzdhZDUwOWQyMWU2NGRjZTUwOGVkOTA5NTZjMmM3NGE0YjA2MmQzOTE3YTAzMyIsImtleV90eXBlIjoicmVmcmVzaCIsImlzcyI6ImJvb2tpdGUuYXV0aC5zZXJ2aWNlIn0.G6NxB9LGGszVoUXNpnZGadrBMbbhjRsAFGcTI5TINnDErTbfmsC-bqGuD2yvE7sr0NLtj4si5gtg8TfUxYekX5A_Te334p-Q4NyrWOArS_i48-CHKiA9G76gRVu82J0XpeMULr0crUYHBAtK2L1mYbQiQh1aXmnYw_KfYcA8dr5C6UJiI-aJLLycJWmzIUN_aFe3DI_u2ce0P-7fjfb5dNAgKrV3hZkbPLFJur0SVN3G-CGRgBFh9g7CKUvOTJkD13I0L3jvPzgWTEf7O_11LfYE3hIz5ltYc0bCoLd7DmC9lJLgo5gtkUbDbzwrIcDHlOztVWRL550LnKUCf6m5Ig&#39;,
+17:     url: &quot;http://194.233.85.132:9000/api/v1/refresh-token&quot;
+18:   };
+19: 
+20:   return config;
+21: }
+&lt;&lt;&lt;&lt;
+org.graalvm.polyglot.PolyglotException: ReferenceError: &quot;config&quot; is not defined
+- &lt;js&gt;.fn(Unnamed:8)
+
+classpath:features/handler.feature:4
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[2:29]bg"><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment"># * def tokenFetch = Java.type(&#39;helpers.TokenFetch&#39;)</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment"># * def v = tokenFetch.getAccessToken(url, refreshToken)</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment"># * print v.data.access_token</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment"># * configure afterScenario =</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#   &quot;&quot;&quot;</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#   function(){</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#   karate.log(&#39;after scenario:&#39;, karate.scenario.name);</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#   }</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#   &quot;&quot;&quot;</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment"># * configure afterFeature =</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#   &quot;&quot;&quot;</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#   function(){</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#   karate.log(&#39;after feature:&#39;, karate.feature.name);</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#   }</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#   &quot;&quot;&quot;</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.20">
+      <div class="step-ref bg-step">20</div>
+      
+      <div class="step-cell failed">
+        <span>*</span>&nbsp;<span>def sqlAddPizza = &quot;&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.20">02:31:05.174 classpath:features/handler.feature:20
+* def sqlAddPizza = &quot;&quot;
+&gt;&gt; classpath:features/handler.feature:29
+&gt;&gt; karate-config.js failed
+&gt;&gt; ReferenceError: &quot;config&quot; is not defined
+js failed:
+&gt;&gt;&gt;&gt;
+01: function fn() {
+02:   var env = karate.env; 
+03:   karate.log(&quot;karate.env system property was:&quot;, env);
+04:   if (!env) {
+05:     env = &quot;dev&quot;;
+06:   }
+07:   let tokenFetch = Java.type(&#39;helpers.TokenFetch&#39;);
+08:   let v = tokenFetch.getAccessToken(config.url, config.refreshToken);
+09: 
+10:   config.accessToken = v.data.access_token
+11: 
+12:   karate.log(v.data.access_token)
+13:   let config = {
+14:     env: env,
+15:     myVarName: &quot;someValue&quot;,
+16:     refreshToken: &#39;eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJjdXN0b21fa2V5IjoiZjU0NWJkNmE1OTkwZDg3NjY0MzdhZDUwOWQyMWU2NGRjZTUwOGVkOTA5NTZjMmM3NGE0YjA2MmQzOTE3YTAzMyIsImtleV90eXBlIjoicmVmcmVzaCIsImlzcyI6ImJvb2tpdGUuYXV0aC5zZXJ2aWNlIn0.G6NxB9LGGszVoUXNpnZGadrBMbbhjRsAFGcTI5TINnDErTbfmsC-bqGuD2yvE7sr0NLtj4si5gtg8TfUxYekX5A_Te334p-Q4NyrWOArS_i48-CHKiA9G76gRVu82J0XpeMULr0crUYHBAtK2L1mYbQiQh1aXmnYw_KfYcA8dr5C6UJiI-aJLLycJWmzIUN_aFe3DI_u2ce0P-7fjfb5dNAgKrV3hZkbPLFJur0SVN3G-CGRgBFh9g7CKUvOTJkD13I0L3jvPzgWTEf7O_11LfYE3hIz5ltYc0bCoLd7DmC9lJLgo5gtkUbDbzwrIcDHlOztVWRL550LnKUCf6m5Ig&#39;,
+17:     url: &quot;http://194.233.85.132:9000/api/v1/refresh-token&quot;
+18:   };
+19: 
+20:   return config;
+21: }
+&lt;&lt;&lt;&lt;
+org.graalvm.polyglot.PolyglotException: ReferenceError: &quot;config&quot; is not defined
+- &lt;js&gt;.fn(Unnamed:8)
+
+classpath:features/handler.feature:4
+classpath:features/handler.feature:20
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment"># * print sqlAddPizza</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.31">
+      <div class="step-ref failed">31</div>
+      
+      <div class="step-cell failed">
+        <span>*</span>&nbsp;<span>def toppingName = &quot;toppingtestGABA&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.31">02:31:05.175 classpath:features/handler.feature:31
+* def toppingName = &quot;toppingtestGABA&quot;
+&gt;&gt; classpath:features/handler.feature:29
+&gt;&gt; karate-config.js failed
+&gt;&gt; ReferenceError: &quot;config&quot; is not defined
+js failed:
+&gt;&gt;&gt;&gt;
+01: function fn() {
+02:   var env = karate.env; 
+03:   karate.log(&quot;karate.env system property was:&quot;, env);
+04:   if (!env) {
+05:     env = &quot;dev&quot;;
+06:   }
+07:   let tokenFetch = Java.type(&#39;helpers.TokenFetch&#39;);
+08:   let v = tokenFetch.getAccessToken(config.url, config.refreshToken);
+09: 
+10:   config.accessToken = v.data.access_token
+11: 
+12:   karate.log(v.data.access_token)
+13:   let config = {
+14:     env: env,
+15:     myVarName: &quot;someValue&quot;,
+16:     refreshToken: &#39;eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJjdXN0b21fa2V5IjoiZjU0NWJkNmE1OTkwZDg3NjY0MzdhZDUwOWQyMWU2NGRjZTUwOGVkOTA5NTZjMmM3NGE0YjA2MmQzOTE3YTAzMyIsImtleV90eXBlIjoicmVmcmVzaCIsImlzcyI6ImJvb2tpdGUuYXV0aC5zZXJ2aWNlIn0.G6NxB9LGGszVoUXNpnZGadrBMbbhjRsAFGcTI5TINnDErTbfmsC-bqGuD2yvE7sr0NLtj4si5gtg8TfUxYekX5A_Te334p-Q4NyrWOArS_i48-CHKiA9G76gRVu82J0XpeMULr0crUYHBAtK2L1mYbQiQh1aXmnYw_KfYcA8dr5C6UJiI-aJLLycJWmzIUN_aFe3DI_u2ce0P-7fjfb5dNAgKrV3hZkbPLFJur0SVN3G-CGRgBFh9g7CKUvOTJkD13I0L3jvPzgWTEf7O_11LfYE3hIz5ltYc0bCoLd7DmC9lJLgo5gtkUbDbzwrIcDHlOztVWRL550LnKUCf6m5Ig&#39;,
+17:     url: &quot;http://194.233.85.132:9000/api/v1/refresh-token&quot;
+18:   };
+19: 
+20:   return config;
+21: }
+&lt;&lt;&lt;&lt;
+org.graalvm.polyglot.PolyglotException: ReferenceError: &quot;config&quot; is not defined
+- &lt;js&gt;.fn(Unnamed:8)
+
+classpath:features/handler.feature:4
+classpath:features/handler.feature:20
+classpath:features/handler.feature:31
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.32">
+      <div class="step-ref failed">32</div>
+      
+      <div class="step-cell failed">
+        <span>*</span>&nbsp;<span>def price = 400</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.32">02:31:05.176 classpath:features/handler.feature:32
+* def price = 400
+&gt;&gt; classpath:features/handler.feature:29
+&gt;&gt; karate-config.js failed
+&gt;&gt; ReferenceError: &quot;config&quot; is not defined
+js failed:
+&gt;&gt;&gt;&gt;
+01: function fn() {
+02:   var env = karate.env; 
+03:   karate.log(&quot;karate.env system property was:&quot;, env);
+04:   if (!env) {
+05:     env = &quot;dev&quot;;
+06:   }
+07:   let tokenFetch = Java.type(&#39;helpers.TokenFetch&#39;);
+08:   let v = tokenFetch.getAccessToken(config.url, config.refreshToken);
+09: 
+10:   config.accessToken = v.data.access_token
+11: 
+12:   karate.log(v.data.access_token)
+13:   let config = {
+14:     env: env,
+15:     myVarName: &quot;someValue&quot;,
+16:     refreshToken: &#39;eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJjdXN0b21fa2V5IjoiZjU0NWJkNmE1OTkwZDg3NjY0MzdhZDUwOWQyMWU2NGRjZTUwOGVkOTA5NTZjMmM3NGE0YjA2MmQzOTE3YTAzMyIsImtleV90eXBlIjoicmVmcmVzaCIsImlzcyI6ImJvb2tpdGUuYXV0aC5zZXJ2aWNlIn0.G6NxB9LGGszVoUXNpnZGadrBMbbhjRsAFGcTI5TINnDErTbfmsC-bqGuD2yvE7sr0NLtj4si5gtg8TfUxYekX5A_Te334p-Q4NyrWOArS_i48-CHKiA9G76gRVu82J0XpeMULr0crUYHBAtK2L1mYbQiQh1aXmnYw_KfYcA8dr5C6UJiI-aJLLycJWmzIUN_aFe3DI_u2ce0P-7fjfb5dNAgKrV3hZkbPLFJur0SVN3G-CGRgBFh9g7CKUvOTJkD13I0L3jvPzgWTEf7O_11LfYE3hIz5ltYc0bCoLd7DmC9lJLgo5gtkUbDbzwrIcDHlOztVWRL550LnKUCf6m5Ig&#39;,
+17:     url: &quot;http://194.233.85.132:9000/api/v1/refresh-token&quot;
+18:   };
+19: 
+20:   return config;
+21: }
+&lt;&lt;&lt;&lt;
+org.graalvm.polyglot.PolyglotException: ReferenceError: &quot;config&quot; is not defined
+- &lt;js&gt;.fn(Unnamed:8)
+
+classpath:features/handler.feature:4
+classpath:features/handler.feature:20
+classpath:features/handler.feature:31
+classpath:features/handler.feature:32
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.33">
+      <div class="step-ref failed">33</div>
+      
+      <div class="step-cell failed">
+        <span>*</span>&nbsp;<span>def is_internal = false</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.33">02:31:05.177 classpath:features/handler.feature:33
+* def is_internal = false
+&gt;&gt; classpath:features/handler.feature:29
+&gt;&gt; karate-config.js failed
+&gt;&gt; ReferenceError: &quot;config&quot; is not defined
+js failed:
+&gt;&gt;&gt;&gt;
+01: function fn() {
+02:   var env = karate.env; 
+03:   karate.log(&quot;karate.env system property was:&quot;, env);
+04:   if (!env) {
+05:     env = &quot;dev&quot;;
+06:   }
+07:   let tokenFetch = Java.type(&#39;helpers.TokenFetch&#39;);
+08:   let v = tokenFetch.getAccessToken(config.url, config.refreshToken);
+09: 
+10:   config.accessToken = v.data.access_token
+11: 
+12:   karate.log(v.data.access_token)
+13:   let config = {
+14:     env: env,
+15:     myVarName: &quot;someValue&quot;,
+16:     refreshToken: &#39;eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJjdXN0b21fa2V5IjoiZjU0NWJkNmE1OTkwZDg3NjY0MzdhZDUwOWQyMWU2NGRjZTUwOGVkOTA5NTZjMmM3NGE0YjA2MmQzOTE3YTAzMyIsImtleV90eXBlIjoicmVmcmVzaCIsImlzcyI6ImJvb2tpdGUuYXV0aC5zZXJ2aWNlIn0.G6NxB9LGGszVoUXNpnZGadrBMbbhjRsAFGcTI5TINnDErTbfmsC-bqGuD2yvE7sr0NLtj4si5gtg8TfUxYekX5A_Te334p-Q4NyrWOArS_i48-CHKiA9G76gRVu82J0XpeMULr0crUYHBAtK2L1mYbQiQh1aXmnYw_KfYcA8dr5C6UJiI-aJLLycJWmzIUN_aFe3DI_u2ce0P-7fjfb5dNAgKrV3hZkbPLFJur0SVN3G-CGRgBFh9g7CKUvOTJkD13I0L3jvPzgWTEf7O_11LfYE3hIz5ltYc0bCoLd7DmC9lJLgo5gtkUbDbzwrIcDHlOztVWRL550LnKUCf6m5Ig&#39;,
+17:     url: &quot;http://194.233.85.132:9000/api/v1/refresh-token&quot;
+18:   };
+19: 
+20:   return config;
+21: }
+&lt;&lt;&lt;&lt;
+org.graalvm.polyglot.PolyglotException: ReferenceError: &quot;config&quot; is not defined
+- &lt;js&gt;.fn(Unnamed:8)
+
+classpath:features/handler.feature:4
+classpath:features/handler.feature:20
+classpath:features/handler.feature:31
+classpath:features/handler.feature:32
+classpath:features/handler.feature:33
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.34">
+      <div class="step-ref failed">34</div>
+      
+      <div class="step-cell failed">
+        <span>*</span>&nbsp;<span>def sqlAddTopping = &quot;INSERT INTO toppings (name, price, is_internal) VALUES (&#39;&quot; + toppingName + &quot;&#39;, &quot; + price + &quot;, &quot; + is_internal + &quot;)&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.34">02:31:05.177 classpath:features/handler.feature:34
+* def sqlAddTopping = &quot;INSERT INTO toppings (name, price, is_internal) VALUES (&#39;&quot; + toppingName + &quot;&#39;, &quot; + price + &quot;, &quot; + is_internal + &quot;)&quot;
+&gt;&gt; classpath:features/handler.feature:29
+&gt;&gt; karate-config.js failed
+&gt;&gt; ReferenceError: &quot;config&quot; is not defined
+js failed:
+&gt;&gt;&gt;&gt;
+01: function fn() {
+02:   var env = karate.env; 
+03:   karate.log(&quot;karate.env system property was:&quot;, env);
+04:   if (!env) {
+05:     env = &quot;dev&quot;;
+06:   }
+07:   let tokenFetch = Java.type(&#39;helpers.TokenFetch&#39;);
+08:   let v = tokenFetch.getAccessToken(config.url, config.refreshToken);
+09: 
+10:   config.accessToken = v.data.access_token
+11: 
+12:   karate.log(v.data.access_token)
+13:   let config = {
+14:     env: env,
+15:     myVarName: &quot;someValue&quot;,
+16:     refreshToken: &#39;eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJjdXN0b21fa2V5IjoiZjU0NWJkNmE1OTkwZDg3NjY0MzdhZDUwOWQyMWU2NGRjZTUwOGVkOTA5NTZjMmM3NGE0YjA2MmQzOTE3YTAzMyIsImtleV90eXBlIjoicmVmcmVzaCIsImlzcyI6ImJvb2tpdGUuYXV0aC5zZXJ2aWNlIn0.G6NxB9LGGszVoUXNpnZGadrBMbbhjRsAFGcTI5TINnDErTbfmsC-bqGuD2yvE7sr0NLtj4si5gtg8TfUxYekX5A_Te334p-Q4NyrWOArS_i48-CHKiA9G76gRVu82J0XpeMULr0crUYHBAtK2L1mYbQiQh1aXmnYw_KfYcA8dr5C6UJiI-aJLLycJWmzIUN_aFe3DI_u2ce0P-7fjfb5dNAgKrV3hZkbPLFJur0SVN3G-CGRgBFh9g7CKUvOTJkD13I0L3jvPzgWTEf7O_11LfYE3hIz5ltYc0bCoLd7DmC9lJLgo5gtkUbDbzwrIcDHlOztVWRL550LnKUCf6m5Ig&#39;,
+17:     url: &quot;http://194.233.85.132:9000/api/v1/refresh-token&quot;
+18:   };
+19: 
+20:   return config;
+21: }
+&lt;&lt;&lt;&lt;
+org.graalvm.polyglot.PolyglotException: ReferenceError: &quot;config&quot; is not defined
+- &lt;js&gt;.fn(Unnamed:8)
+
+classpath:features/handler.feature:4
+classpath:features/handler.feature:20
+classpath:features/handler.feature:31
+classpath:features/handler.feature:32
+classpath:features/handler.feature:33
+classpath:features/handler.feature:34
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[3:38]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">smoke</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[3:38]</span>
+                <span class="scenario-name">Get a Pizza by Ids</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>0</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[3:38]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[3:38]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell failed">
+        <span>*</span>&nbsp;<span>def dbHandler = Java.type(&#39;helpers.DbHandler&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4">02:31:05.204 karate.env system property was: null 
+02:31:05.210 classpath:features/handler.feature:4
+* def dbHandler = Java.type(&#39;helpers.DbHandler&#39;)
+&gt;&gt; classpath:features/handler.feature:38
+&gt;&gt; karate-config.js failed
+&gt;&gt; ReferenceError: &quot;config&quot; is not defined
+js failed:
+&gt;&gt;&gt;&gt;
+01: function fn() {
+02:   var env = karate.env; 
+03:   karate.log(&quot;karate.env system property was:&quot;, env);
+04:   if (!env) {
+05:     env = &quot;dev&quot;;
+06:   }
+07:   let tokenFetch = Java.type(&#39;helpers.TokenFetch&#39;);
+08:   let v = tokenFetch.getAccessToken(config.url, config.refreshToken);
+09: 
+10:   config.accessToken = v.data.access_token
+11: 
+12:   karate.log(v.data.access_token)
+13:   let config = {
+14:     env: env,
+15:     myVarName: &quot;someValue&quot;,
+16:     refreshToken: &#39;eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJjdXN0b21fa2V5IjoiZjU0NWJkNmE1OTkwZDg3NjY0MzdhZDUwOWQyMWU2NGRjZTUwOGVkOTA5NTZjMmM3NGE0YjA2MmQzOTE3YTAzMyIsImtleV90eXBlIjoicmVmcmVzaCIsImlzcyI6ImJvb2tpdGUuYXV0aC5zZXJ2aWNlIn0.G6NxB9LGGszVoUXNpnZGadrBMbbhjRsAFGcTI5TINnDErTbfmsC-bqGuD2yvE7sr0NLtj4si5gtg8TfUxYekX5A_Te334p-Q4NyrWOArS_i48-CHKiA9G76gRVu82J0XpeMULr0crUYHBAtK2L1mYbQiQh1aXmnYw_KfYcA8dr5C6UJiI-aJLLycJWmzIUN_aFe3DI_u2ce0P-7fjfb5dNAgKrV3hZkbPLFJur0SVN3G-CGRgBFh9g7CKUvOTJkD13I0L3jvPzgWTEf7O_11LfYE3hIz5ltYc0bCoLd7DmC9lJLgo5gtkUbDbzwrIcDHlOztVWRL550LnKUCf6m5Ig&#39;,
+17:     url: &quot;http://194.233.85.132:9000/api/v1/refresh-token&quot;
+18:   };
+19: 
+20:   return config;
+21: }
+&lt;&lt;&lt;&lt;
+org.graalvm.polyglot.PolyglotException: ReferenceError: &quot;config&quot; is not defined
+- &lt;js&gt;.fn(Unnamed:8)
+
+classpath:features/handler.feature:4
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[3:38]bg"><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment"># * def tokenFetch = Java.type(&#39;helpers.TokenFetch&#39;)</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment"># * def v = tokenFetch.getAccessToken(url, refreshToken)</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment"># * print v.data.access_token</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment"># * configure afterScenario =</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#   &quot;&quot;&quot;</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#   function(){</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#   karate.log(&#39;after scenario:&#39;, karate.scenario.name);</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#   }</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#   &quot;&quot;&quot;</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment"># * configure afterFeature =</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#   &quot;&quot;&quot;</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#   function(){</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#   karate.log(&#39;after feature:&#39;, karate.feature.name);</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#   }</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#   &quot;&quot;&quot;</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.20">
+      <div class="step-ref bg-step">20</div>
+      
+      <div class="step-cell failed">
+        <span>*</span>&nbsp;<span>def sqlAddPizza = &quot;&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.20">02:31:05.211 classpath:features/handler.feature:20
+* def sqlAddPizza = &quot;&quot;
+&gt;&gt; classpath:features/handler.feature:38
+&gt;&gt; karate-config.js failed
+&gt;&gt; ReferenceError: &quot;config&quot; is not defined
+js failed:
+&gt;&gt;&gt;&gt;
+01: function fn() {
+02:   var env = karate.env; 
+03:   karate.log(&quot;karate.env system property was:&quot;, env);
+04:   if (!env) {
+05:     env = &quot;dev&quot;;
+06:   }
+07:   let tokenFetch = Java.type(&#39;helpers.TokenFetch&#39;);
+08:   let v = tokenFetch.getAccessToken(config.url, config.refreshToken);
+09: 
+10:   config.accessToken = v.data.access_token
+11: 
+12:   karate.log(v.data.access_token)
+13:   let config = {
+14:     env: env,
+15:     myVarName: &quot;someValue&quot;,
+16:     refreshToken: &#39;eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJjdXN0b21fa2V5IjoiZjU0NWJkNmE1OTkwZDg3NjY0MzdhZDUwOWQyMWU2NGRjZTUwOGVkOTA5NTZjMmM3NGE0YjA2MmQzOTE3YTAzMyIsImtleV90eXBlIjoicmVmcmVzaCIsImlzcyI6ImJvb2tpdGUuYXV0aC5zZXJ2aWNlIn0.G6NxB9LGGszVoUXNpnZGadrBMbbhjRsAFGcTI5TINnDErTbfmsC-bqGuD2yvE7sr0NLtj4si5gtg8TfUxYekX5A_Te334p-Q4NyrWOArS_i48-CHKiA9G76gRVu82J0XpeMULr0crUYHBAtK2L1mYbQiQh1aXmnYw_KfYcA8dr5C6UJiI-aJLLycJWmzIUN_aFe3DI_u2ce0P-7fjfb5dNAgKrV3hZkbPLFJur0SVN3G-CGRgBFh9g7CKUvOTJkD13I0L3jvPzgWTEf7O_11LfYE3hIz5ltYc0bCoLd7DmC9lJLgo5gtkUbDbzwrIcDHlOztVWRL550LnKUCf6m5Ig&#39;,
+17:     url: &quot;http://194.233.85.132:9000/api/v1/refresh-token&quot;
+18:   };
+19: 
+20:   return config;
+21: }
+&lt;&lt;&lt;&lt;
+org.graalvm.polyglot.PolyglotException: ReferenceError: &quot;config&quot; is not defined
+- &lt;js&gt;.fn(Unnamed:8)
+
+classpath:features/handler.feature:4
+classpath:features/handler.feature:20
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.39">
+      <div class="step-ref failed">39</div>
+      
+      <div class="step-cell failed">
+        <span>*</span>&nbsp;<span>def level = dbHandler.getPizzasById(1)</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.39">02:31:05.211 classpath:features/handler.feature:39
+* def level = dbHandler.getPizzasById(1)
+&gt;&gt; classpath:features/handler.feature:38
+&gt;&gt; karate-config.js failed
+&gt;&gt; ReferenceError: &quot;config&quot; is not defined
+js failed:
+&gt;&gt;&gt;&gt;
+01: function fn() {
+02:   var env = karate.env; 
+03:   karate.log(&quot;karate.env system property was:&quot;, env);
+04:   if (!env) {
+05:     env = &quot;dev&quot;;
+06:   }
+07:   let tokenFetch = Java.type(&#39;helpers.TokenFetch&#39;);
+08:   let v = tokenFetch.getAccessToken(config.url, config.refreshToken);
+09: 
+10:   config.accessToken = v.data.access_token
+11: 
+12:   karate.log(v.data.access_token)
+13:   let config = {
+14:     env: env,
+15:     myVarName: &quot;someValue&quot;,
+16:     refreshToken: &#39;eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJjdXN0b21fa2V5IjoiZjU0NWJkNmE1OTkwZDg3NjY0MzdhZDUwOWQyMWU2NGRjZTUwOGVkOTA5NTZjMmM3NGE0YjA2MmQzOTE3YTAzMyIsImtleV90eXBlIjoicmVmcmVzaCIsImlzcyI6ImJvb2tpdGUuYXV0aC5zZXJ2aWNlIn0.G6NxB9LGGszVoUXNpnZGadrBMbbhjRsAFGcTI5TINnDErTbfmsC-bqGuD2yvE7sr0NLtj4si5gtg8TfUxYekX5A_Te334p-Q4NyrWOArS_i48-CHKiA9G76gRVu82J0XpeMULr0crUYHBAtK2L1mYbQiQh1aXmnYw_KfYcA8dr5C6UJiI-aJLLycJWmzIUN_aFe3DI_u2ce0P-7fjfb5dNAgKrV3hZkbPLFJur0SVN3G-CGRgBFh9g7CKUvOTJkD13I0L3jvPzgWTEf7O_11LfYE3hIz5ltYc0bCoLd7DmC9lJLgo5gtkUbDbzwrIcDHlOztVWRL550LnKUCf6m5Ig&#39;,
+17:     url: &quot;http://194.233.85.132:9000/api/v1/refresh-token&quot;
+18:   };
+19: 
+20:   return config;
+21: }
+&lt;&lt;&lt;&lt;
+org.graalvm.polyglot.PolyglotException: ReferenceError: &quot;config&quot; is not defined
+- &lt;js&gt;.fn(Unnamed:8)
+
+classpath:features/handler.feature:4
+classpath:features/handler.feature:20
+classpath:features/handler.feature:39
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
